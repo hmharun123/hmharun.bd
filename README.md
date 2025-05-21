@@ -5,6 +5,11 @@
   <title>Md. Harun Or Rashid</title>
   <style>
     body {
+      <body>
+  <!-- Logo Section -->
+  <div style="margin-top: 20px;">
+    <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
+  </div>
       font-family: Arial, sans-serif;
       background-color: #f5f5f5;
       margin: 0;
