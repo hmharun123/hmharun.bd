@@ -5,10 +5,7 @@
   <title>Md. Harun Or Rashid</title>
   <style>
     body {
-      <body><!-- Google Custom Search Engine -->
-<script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
-<div class="gcse-search"></div>
-      padding: 0;
+ padding: 0;
       text-align: center;
     }
     .container {
@@ -99,11 +96,14 @@
     <!-- Logo Section -->
     <div style="margin-top: 20px;">
       <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
-    </div>
-    <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
+    </div> 
+ <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
       <body>
+        <!-- Google Custom Search Engine -->
+<script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
+<div class="gcse-search"></div>
     <!-- Profile Photo -->
-    <img src="harun.jpg" alt="Harun's Photo" class="profile">
+            <img src="harun.jpg" alt="Harun's Photo" class="profile">
     
 <h1>Md. Harun Or Rashid</h1>
     <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
