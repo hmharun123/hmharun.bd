@@ -108,10 +108,12 @@
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
     </div>
      <div class="certificate-section">
-       }
+       }</div>
       <h2>Certificate of Completion</h2>
-       }
+       }</body>
        <img src="certificate.jpg" alt="Certificate">
+       }</body>
+       <img src="data-antry.png" alt="data-antry Photo" class="image">
        } <working file>
     <img src="312.jpg" alt="Certificate">
        }<working file>
