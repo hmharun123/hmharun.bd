@@ -107,8 +107,9 @@
     </div>
      <div class="certificate-section">
       <h2>Certificate of Completion</h2>
-       <img src="312.jpg" alt="Certificate">
-    <img src="certificate.jpg" alt="Certificate">
+       <img src="certificate.jpg" alt="Certificate">
+    <img src="312.jpg" alt="Certificate">
+       <img src="076ac6.jpg" alt="076a6 Photo" class="image">
      </div><div class="youtube-section" style="margin-top: 40px;">
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
