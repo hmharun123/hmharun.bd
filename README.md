@@ -5,10 +5,9 @@
   <title>Md. Harun Or Rashid</title>
   <style>
     body {
-      <body>
-  font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
+      <body><!-- Google Custom Search Engine -->
+<script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
+<div class="gcse-search"></div>
       padding: 0;
       text-align: center;
     }
