@@ -91,6 +91,7 @@
 
     <!-- Profile Photo -->
     <img src="harun.jpg" alt="Harun's Photo" class="profile">
+<img src="312.jpg" alt="312 Photo" class="image">
 
     <h1>Md. Harun Or Rashid</h1>
     <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
