@@ -6,6 +6,7 @@
   <style>
     body {
       <body>
+      <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
   font-family: Arial, sans-serif;
       background-color: #f5f5f5;
       margin: 0;
