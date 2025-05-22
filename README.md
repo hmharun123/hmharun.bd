@@ -6,7 +6,6 @@
   <style>
     body {
       <body>
-    <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
   font-family: Arial, sans-serif;
       background-color: #f5f5f5;
       margin: 0;
@@ -43,9 +42,7 @@
       color: white;
       text-decoration: none;
       border-radius: 5px;
-      font-weight: bold;
-    }<img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
-    a.button:hover {
+      font-weight: bolda.button:hover {
       background-color: #0056b3;
     }
     a.fiverr {
