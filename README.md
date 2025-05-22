@@ -62,6 +62,9 @@
       border: 2px solid #ccc;
       box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     }
+    <div class="service-image">
+  <img src="images/data-entry.png" alt="Harun's Data Entry Service" style="max-width:100%; height:auto; border-radius:10px; margin-top: 20px;">
+</div>
     .portfolio-section {
       margin-top: 40px;
     }
