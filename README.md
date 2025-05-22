@@ -5,6 +5,7 @@
   <title>Md. Harun Or Rashid</title>
   <style>
     body {
+      <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
       <body>
   font-family: Arial, sans-serif;
       background-color: #f5f5f5;
