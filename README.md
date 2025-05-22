@@ -83,17 +83,14 @@
 </head>
 <body>
   <div class="container">
-
     <!-- Logo Section -->
     <div style="margin-top: 20px;">
       <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
     </div>
-
     <!-- Profile Photo -->
     <img src="harun.jpg" alt="Harun's Photo" class="profile">
-<img src="312.jpg" alt="312 Photo" class="image">
-
-    <h1>Md. Harun Or Rashid</h1>
+    
+<h1>Md. Harun Or Rashid</h1>
     <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
     <p><strong>Email:</strong> hmharun796@gmail.com</p>
     <p><strong>Phone:</strong> +880 1648 131 500</p>
@@ -101,27 +98,23 @@
     <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
     <p><strong>Profession:</strong> Freelancer</p>
     <p><strong>Skills:</strong> Data Entry, E-commerce Data Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-
-    <div class="buttons">
+     <div class="buttons">
       <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
       <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
       <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
       <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
     </div>
-
-    <div class="certificate-section">
+     <div class="certificate-section">
       <h2>Certificate of Completion</h2>
-      <img src="certificate.jpg" alt="Certificate">
-    </div>
-
-    <div class="youtube-section" style="margin-top: 40px;">
+       <img src="312.jpg" alt="Certificate">
+    <img src="certificate.jpg" alt="Certificate">
+     </div><div class="youtube-section" style="margin-top: 40px;">
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
       <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-    </div>
-
-    <div class="portfolio-section">
+     </div
+       ><div class="portfolio-section">
       <h2>My Portfolio</h2>
       <p>Here are some examples of the data entry work I've done:</p>
       <div class="buttons">
@@ -130,8 +123,7 @@
         </a>
       </div>
     </div>
-
-    <div class="contact-section">
+      <div class="contact-section">
       <h2>Contact Me</h2>
       <form action="https://formspree.io/f/mjvnavrw" method="POST">
         <input type="text" name="name" placeholder="Your Name" required><br><br>
@@ -140,8 +132,7 @@
         <button type="submit" class="button">Send Message</button>
       </form>
     </div>
-
-  </div>
+   </div>
 </body>
 </html>
 <form action="https://formspree.io/f/mjvnavrw" method="POST">
