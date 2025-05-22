@@ -106,10 +106,17 @@
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
     </div>
      <div class="certificate-section">
+       }
       <h2>Certificate of Completion</h2>
+       }
        <img src="certificate.jpg" alt="Certificate">
+       }
     <img src="312.jpg" alt="Certificate">
+       }
        <img src="076ac6.jpg" alt="076a6 Photo" class="image">
+       }
+       <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
+       }
      </div><div class="youtube-section" style="margin-top: 40px;">
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
