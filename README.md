@@ -108,7 +108,7 @@
       <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
       <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
       <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
-      <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">fab fa-TikTok</a>
+      <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank"><i class="fab fa-  TikTok</a>
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
     </div>
 
