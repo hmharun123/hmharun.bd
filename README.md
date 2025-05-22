@@ -116,8 +116,6 @@
        }
        <img src="076ac6.jpg" alt="076a6 Photo" class="image">
        }
-       <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
-       }
      </div><div class="youtube-section" style="margin-top: 40px;">
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
