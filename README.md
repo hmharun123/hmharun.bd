@@ -147,3 +147,23 @@
 </body>
 </html>
 <form action="https://formspree.io/f/mjvnavrw" method="POST">
+<div class="buttons">
+  <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">
+    <i class="fab fa-fiverr"></i> Fiverr
+  </a>
+  <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">
+    <i class="fab fa-facebook"></i> Facebook
+  </a>
+  <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+  <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">
+    <i class="fab fa-tiktok"></i> TikTok
+  </a>
+  <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">
+    <i class="fab fa-whatsapp"></i> WhatsApp
+  </a>
+  <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">
+    <i class="fab fa-youtube"></i> YouTube
+  </a>
+</div>
