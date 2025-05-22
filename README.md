@@ -6,13 +6,7 @@
   <style>
     body {
       <body>
-  <!-- Logo Section -->
-  <div style="margin-top: 20px;">
-    <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
-  </div>
-      ![file_0000000096d861f8991b13ee9bf8d68f (2)](https://github.com/user-attachments/assets/f65ed030-b496-4150-aa88-520ad0f3bcac)
-
-      font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
       background-color: #f5f5f5;
       margin: 0;
       padding: 0;
