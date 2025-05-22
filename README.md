@@ -5,7 +5,6 @@
   <title>Md. Harun Or Rashid</title>
   <style>
     body {
-      <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
       <body>
   font-family: Arial, sans-serif;
       background-color: #f5f5f5;
@@ -88,6 +87,8 @@
     <div style="margin-top: 20px;">
       <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
     </div>
+    <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
+      <body>
     <!-- Profile Photo -->
     <img src="harun.jpg" alt="Harun's Photo" class="profile">
     
@@ -111,9 +112,9 @@
       <h2>Certificate of Completion</h2>
        }
        <img src="certificate.jpg" alt="Certificate">
-       }
+       } <working file>
     <img src="312.jpg" alt="Certificate">
-       }
+       }<working file>
        <img src="076ac6.jpg" alt="076a6 Photo" class="image">
        }
      </div><div class="youtube-section" style="margin-top: 40px;">
