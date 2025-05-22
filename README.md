@@ -81,7 +81,21 @@
     }
   </style>
 </head>
-<body>
+</body>
+  <!-- Search Bar -->
+  <div style="background-color: #ffffff; padding: 20px 0;">
+    <form action="#" method="get">
+      <input type="text" placeholder="Search..." name="search"
+        style="padding: 10px; width: 250px; max-width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+      <button type="submit"
+        style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;">Search</button>
+    </form>
+  </div>
+
+  <!-- Logo Section -->
+  <div style="margin-top: 20px;">
+    <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
+  </div>
   <div class="container">
     <!-- Logo Section -->
     <div style="margin-top: 20px;">
