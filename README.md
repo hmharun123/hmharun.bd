@@ -44,7 +44,7 @@
       text-decoration: none;
       border-radius: 5px;
       font-weight: bold;
-    }
+    }<img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
     a.button:hover {
       background-color: #0056b3;
     }
