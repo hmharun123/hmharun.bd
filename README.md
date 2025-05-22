@@ -117,8 +117,8 @@
        } <working file>
     <img src="312.jpg" alt="Certificate">
        }<working file>
-         
-       <img src="data-antry.png" alt="data-antry Photo" class="image">
+         <img src="data-antry.png" alt="data-antry Photo" class="image">
+         }<working file>
        <img src="076ac6.jpg" alt="076a6 Photo" class="image">
        }
      </div><div class="youtube-section" style="margin-top: 40px;">
