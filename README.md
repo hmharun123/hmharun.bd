@@ -14,6 +14,11 @@
 <script>
      AOS.init();
 </script>
+      <script>
+  window.addEventListener('load', () => {
+    document.getElementById('preloader').style.display = 'none';
+  });
+</script>
       }
       <div data-aos="fade-up">
   <!-- content here -->
