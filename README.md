@@ -81,8 +81,8 @@
 </head>
 <body>
   <div class="container">
-<!-- Profile Photo -->
-<img src="file_00000000796c6230b4fc0d1ce0c4bec8.png"class="profile">
+    <!-- Profile Photo -->
+           <img src="file_00000000796c6230b4fc0d1ce0c4bec8.png" alt="class="profile">
            <!-- Logo Section -->
            <div style="margin-top: 20px;">
            <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
