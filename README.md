@@ -116,7 +116,15 @@
       <h2>Certificate of Completion</h2>
       <img src="certificate.jpg" alt="Certificate">
     </div>
-
+<div class="portfolio-section">
+  <h2>My Portfolio</h2>
+  <p>Here are some examples of the data entry work I've done:</p>
+  <div class="buttons">
+    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
+    <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
+    <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
+  </div>
+</div>
     <div class="youtube-section" style="margin-top: 40px;">
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
