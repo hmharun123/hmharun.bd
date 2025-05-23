@@ -2,17 +2,15 @@
 <head>
   <body>
   <div class="container">
-    Harun<h1>Md. Harun Or Rashid</h1>
-    <!-- Logo Section -->
+   <!-- Logo Section -->
     <div style="margin-top: 20px;">
       <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
     </div>
 
     <!-- Profile Photo -->
     <img src="harun.jpg" alt="Harun's Photo" class="profile>  
-   
-    <meta charset="UTF-8">
-  <title>Md. Harun Or Rashid</title>
+   Harun<h1>Md. Harun Or Rashid</h1>
+    <meta charset="UTF-8"><title>Md. Harun Or Rashid</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
