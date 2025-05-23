@@ -18,6 +18,9 @@
       <div data-aos="fade-up">
   <!-- content here -->
 </div>
+      <div id="preloader">
+  <div class="loader"></div>
+</div>
     .container {
       padding: 30px;
     }
