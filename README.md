@@ -9,7 +9,9 @@
     </div>
 
     <!-- Profile Photo -->
-    <img src="harun.jpg" alt="Harun's Photo" class="profile<meta charset="UTF-8">
+    <img src="harun.jpg" alt="Harun's Photo" class="profile>  
+   
+    <meta charset="UTF-8">
   <title>Md. Harun Or Rashid</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
