@@ -80,8 +80,15 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container>
+<!-- Search Bar -->
+    <h2>Search My Website</h2>
+    <div class="gcse-search"></div>
 
+  </div>
+
+  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
+</body>
     <!-- Logo Section -->
     <div style="margin-top: 20px;">
       <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
