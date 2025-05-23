@@ -12,9 +12,12 @@
       text-align: center;
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-      }
-  AOS.init();
+     AOS.init();
 </script>
+      }
+      <div data-aos="fade-up">
+  <!-- content here -->
+</div>
     .container {
       padding: 30px;
     }
