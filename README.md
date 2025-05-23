@@ -10,7 +10,11 @@
       margin: 0;
       padding: 0;
       text-align: center;
-    }
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+      }
+  AOS.init();
+</script>
     .container {
       padding: 30px;
     }
