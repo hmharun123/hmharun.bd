@@ -188,6 +188,11 @@
       width: 200px;
       border-radius: 15px;
     }
+    <head>
+  ...
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  ...
+</head>
     .buttons a {
 <div class="buttons">
   <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">
