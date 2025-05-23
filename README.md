@@ -1,5 +1,89 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Md. Harun Or Rashid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      padding: 30px;
+    }
+    img.profile {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 3px solid #444;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #444;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+    .buttons {
+      margin-top: 25px;
+    }
+    a.button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    a.button:hover {
+      background-color: #0056b3;
+    }
+    a.fiverr {
+      background-color: #28a745;
+    }
+    a.fiverr:hover {
+      background-color: #218838;
+    }
+    .certificate-section {
+      margin-top: 40px;
+    }
+    .certificate-section img {
+      max-width: 90%;
+      border: 2px solid #ccc;
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    }
+    .portfolio-section {
+      margin-top: 40px;
+    }
+    .contact-section {
+      margin-top: 50px;
+    }
+    input, textarea {
+      width: 80%;
+      max-width: 400px;
+      padding: 10px;
+      margin: 5px auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
 
+    <!-- Logo Section -->
+    <div style="margin-top: 20px;">
       <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
     </div> 
  <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
