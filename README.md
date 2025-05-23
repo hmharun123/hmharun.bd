@@ -86,7 +86,16 @@
     <button type="submit" class="button">Send Message</button>
   </form>
 </div>
-
+<div class="gallery-section">
+  <h2>My Gallery</h2>
+  <div class="gallery">
+    <img src="media/photo1.jpg" alt="Photo 1">
+    <img src="media/photo2.jpg" alt="Photo 2">
+    <img src="media/photo3.jpg" alt="Photo 3">
+    <img src="media/photo4.jpg" alt="Photo 4">
+    <!-- ইচ্ছামতো আরও ছবি যুক্ত করতে পারেন -->
+  </div>
+</div>
   </div>
 </body>
 </html>
