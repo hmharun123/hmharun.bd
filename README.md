@@ -1,197 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
   <title>Md. Harun Or Rashid</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    .container {
-      padding: 30px;
-    }
-    img.profile {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border: 3px solid #444;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      font-size: 18px;
-      color: #444;
-      max-width: 600px;
-      margin: 10px auto;
-    }
-    .buttons {
-      margin-top: 25px;
-    }
-    a.button {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 25px;
-      background-color: #007bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    a.button:hover {
-      background-color: #0056b3;
-    }
-    a.fiverr {
-      background-color: #28a745;
-    }
-    a.fiverr:hover {
-      background-color: #218838;
-    }
-    .certificate-section {
-      margin-top: 40px;
-    }
-    .certificate-section img {
-      max-width: 90%;
-      border: 2px solid #ccc;
-      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    }
-    .portfolio-section {
-      margin-top: 40px;
-    }
-    .contact-section {
-      margin-top: 50px;
-    }
-    input, textarea {
-      width: 80%;
-      max-width: 400px;
-      padding: 10px;
-      margin: 5px auto;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      margin-top: 10px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <div class="container">
-    <!-- Profile Photo -->
-           <img src="file_00000000796c6230b4fc0d1ce0c4bec8.png" alt="class="profile">
-           <!-- Logo Section -->
-           <div style="margin-top: 20px;">
-           <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
-            </div> 
-                                <img src="file_00000000758861f884606a82c460dc7a.png" alt="076a6 Photo" class="image">
-            <body>
-        <!-- Google Custom Search Engine -->
+    <img src="file_00000000796c6230b4fc0d1ce0c4bec8.png" alt="Profile" class="profile"><div style="margin-top: 20px;">
+  <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
+</div>
+
 <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
 <div class="gcse-search"></div>
-    <!-- Profile Photo -->
-            <img src="harun.jpg" alt="Harun's Photo" class="profile">
-    
+
 <h1>Md. Harun Or Rashid</h1>
-    <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
-    <p><strong>Email:</strong> hmharun796@gmail.com</p>
-    <p><strong>Phone:</strong> +880 1648 131 500</p>
-    <p><strong>Phone:</strong> +880 1316 888 404</p>
-    <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
-    <p><strong>Profession:</strong> Freelancer</p>
-    <p><strong>Skills:</strong> Data Entry, E-commerce Data Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-     <div class="buttons">
-      <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
-      <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
-      <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
-      <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
-      <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
-    </div>
-     <div class="certificate-section">
-       }</div>
-      <h2>Certificate of Completion</h2>
-       }</body>
-       <img src="certificate.jpg" alt="Certificate">
-       }</body>
-       <div class="media-section" style="margin-top: 50px;">
+<p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
+<p><strong>Email:</strong> hmharun796@gmail.com</p>
+<p><strong>Phone:</strong> +880 1648 131 500</p>
+<p><strong>Phone:</strong> +880 1316 888 404</p>
+<p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
+<p><strong>Profession:</strong> Freelancer</p>
+<p><strong>Skills:</strong> Data Entry, E-commerce Data Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+
+<div class="buttons">
+  <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank"><i class="fab fa-fiverr"></i> Fiverr</a>
+  <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+  <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+  <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+  <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+  <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+</div>
+
+<div class="certificate-section">
+  <h2>Certificate of Completion</h2>
+  <img src="certificate.jpg" alt="Certificate">
+</div>
+
+<div class="media-section">
   <h2>My Photo & Video</h2>
-  
-  <!-- My Photo -->
   <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"><br><br>
-  
-  <!-- My Video -->
   <video controls width="400">
     <source src="media/myvideo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
-<img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
-<img src="data-antry.png" alt="data-antry Photo" class="image">
-<img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
- <img src="data-antry.png" alt="data-antry Photo" class="image">
-       } <working file>
-    <img src="312.jpg" alt="Certificate">
-       }<working file>
-         <img src="data-antry.png" alt="data-antry Photo" class="image">
-         }<working file>
-       <img src="076ac6.jpg" alt="076a6 Photo" class="image">
-        <img src="data-antry.png" alt="data-antry Photo" class="image">
-        <img src="SAMPLE.jpeg" alt="Certificate">
-         }<img src="data-antry.png" alt="data-antry Photo" class="image">
-         <img src="data.jpg" alt="Certificate">
-     </div><div class="youtube-section" style="margin-top: 40px;">
-      <h2>My YouTube Channel</h2>
-      <p>Subscribe to my channel for tutorials, tips, and more!</p>
-      <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-     </div
-       ><div class="portfolio-section">
-      <h2>My Portfolio</h2>
-      <p>Here are some examples of the data entry work I've done:</p>
-      <div class="buttons">
-        <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">
-          View Sample Data Entry Work
-        </a>
-      </div>
-    </div>
-      <div class="contact-section">
-      <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/mjvnavrw" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required><br><br>
-        <input type="email" name="email" placeholder="Your Email" required><br><br>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
-        <button type="submit" class="button">Send Message</button>
-      </form>
-    </div>
-   </div>
+
+<div class="image-row">
+  <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
+  <img src="data-antry.png" alt="Data Entry">
+  <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
+  <img src="312.jpg" alt="Certificate">
+  <img src="076ac6.jpg" alt="076ac6">
+  <img src="SAMPLE.jpeg" alt="Sample">
+  <img src="data.jpg" alt="Data">
+</div>
+
+<div class="youtube-section">
+  <h2>My YouTube Channel</h2>
+  <p>Subscribe to my channel for tutorials, tips, and more!</p>
+  <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
+</div>
+
+<div class="portfolio-section">
+  <h2>My Portfolio</h2>
+  <p>Here are some examples of the data entry work I've done:</p>
+  <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">View Sample Data Entry Work</a>
+</div>
+
+<div class="contact-section">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/mjvnavrw" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required><br><br>
+    <input type="email" name="email" placeholder="Your Email" required><br><br>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+    <button type="submit" class="button">Send Message</button>
+  </form>
+</div>
+
+  </div>
 </body>
 </html>
-<form action="https://formspree.io/f/mjvnavrw" method="POST">
-<div class="buttons">
-  <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">
-    <i class="fab fa-fiverr"></i> Fiverr
-  </a>
-  <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">
-    <i class="fab fa-facebook"></i> Facebook
-  </a>
-  <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">
-    <i class="fab fa-instagram"></i> Instagram
-  </a>
-  <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">
-    <i class="fab fa-tiktok"></i> TikTok
-  </a>
-  <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">
-    <i class="fab fa-whatsapp"></i> WhatsApp
-  </a>
-  <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">
-    <i class="fab fa-youtube"></i> YouTube
-  </a>
-</div>
-<head>
-  ...
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  ...
-</head>
