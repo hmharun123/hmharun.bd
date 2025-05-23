@@ -138,7 +138,9 @@
     Your browser does not support the video tag.
   </video>
 </div>
-       <img src="data-antry.png" alt="data-antry Photo" class="image">
+<img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
+
+ <img src="data-antry.png" alt="data-antry Photo" class="image">
        } <working file>
     <img src="312.jpg" alt="Certificate">
        }<working file>
