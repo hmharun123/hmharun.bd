@@ -103,7 +103,8 @@
     <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
     <p><strong>Profession:</strong> Freelancer</p>
     <p><strong>Skills:</strong> Data Entry, E-commerce Data Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-
+<p><strong>Phone:</strong> +880 1648 131 500</p>
+<p><strong>Phone:</strong> +880 1316 888 404</p>
     <div class="buttons">
       <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
       <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
