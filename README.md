@@ -20,6 +20,19 @@
     document.getElementById('preloader').style.display = 'none';
   });
 </script>
+    <script>
+  const btn = document.getElementById('backToTop');
+  window.onscroll = () => {
+    if (window.scrollY > 300) {
+      btn.style.display = 'block';
+    } else {
+      btn.style.display = 'none';
+    }
+  };
+  btn.onclick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
       }
       <div data-aos="fade-up">
   <!-- content here -->
