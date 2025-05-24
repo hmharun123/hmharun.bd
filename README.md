@@ -157,14 +157,13 @@
     <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
     <p><strong>Profession:</strong> Freelancer</p>
     <p><strong>Skills:</strong> Data Entry, E-commerce Data Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-<p><strong>Phone:</strong> +880 1648 131 500</p>
-<p><strong>Phone:</strong> +880 1316 888 404</p>
-<a href="mailto:hmharun123@gmail.com?subject=Hiring Request&body=Hello, I would like to hire you for a project." target="_blank" style="text-decoration: none;">
+    <a href="mailto:hmharun123@gmail.com?subject=Hiring Request&body=Hello, I would like to hire you for a project." target="_blank" style="text-decoration: none;">
   <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
     Order Now
   </button>
-</a>
-    <a href="https://wa.me/8801795815184?text=Hi%20Harun,%20I%20am%20interested%20in%20your%20services." target="_blank" style="text-decoration: none;">
+<p><strong>Phone:</strong> +880 1648 131 500</p>
+<p><strong>Phone:</strong> +880 1316 888 404</p>
+<a href="https://wa.me/8801795815184?text=Hi%20Harun,%20I%20am%20interested%20in%20your%20services." target="_blank" style="text-decoration: none;">
   <button style="background-color: #25D366; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
     Order on WhatsApp
   </button>
@@ -185,15 +184,7 @@
   <h2>My Portfolio</h2>
   <p>Here are some examples of the data entry work I've done:</p>
   <div class="buttons">
-    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)     <a href="mailto:hmharun123@gmail.com?subject=Hiring Request&body=Hello, I would like to hire you for a project." target="_blank" style="text-decoration: none;">
-  <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
-    Order Now
-  </button>
-</a>
-    <a href="https://wa.me/8801795815184?text=Hi%20Harun,%20I%20am%20interested%20in%20your%20services." target="_blank" style="text-decoration: none;">
-  <button style="background-color: #25D366; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
-    Order on WhatsApp
-  </button>
+    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)     
 </a>
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
