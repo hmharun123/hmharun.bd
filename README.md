@@ -53,16 +53,7 @@
     <h2>Search My Website</h2>
     <div class="gcse-search"></div>
 
-  </div>
-
-  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
-</body>
-    <!-- Logo Section -->
-    <div style="margin-top: 20px;">
-      <img src="harun-logo.png" alt="Harun Logo" style="width: 180px; border-radius: 15px;">
-    </div>
-
-    <!-- Profile Photo -->
+ <!-- Profile Photo -->
     <img src="harun.jpg" alt="Harun's Photo" class="profile">
 
     <h1>Md. Harun Or Rashid</h1>
@@ -128,14 +119,9 @@
     </div>
 
     <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)
-
-   </a>
-      </div>
-    </div>
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
-  </div>
-</div>
+  
     <div class="youtube-section" style="margin-top: 40px;">
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
