@@ -11,38 +11,8 @@
       margin: 0;
       padding: 0;
       text-align: center;
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-     AOS.init();
-</script>
-      <script>
-  window.addEventListener('load', () => {
-    document.getElementById('preloader').style.display = 'none';
-  });
-</script>
-    <script>
-  const btn = document.getElementById('backToTop');
-  window.onscroll = () => {
-    if (window.scrollY > 300) {
-      btn.style.display = 'block';
-    } else {
-      btn.style.display = 'none';
-      <h2>I am a <span class="typing"></span></h2>
-    }
-  };
-  btn.onclick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-</script>
-      <script>
-  const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
-  let i = 0, j = 0, currentWord = "", isDeleting = false;
-<!-- Home Section -->
-<section id="home">
-  <h1>Welcome to My Portfolio</h1>
-</section>
-
-<!-- Services Section -->
+      
+      <!-- Services Section -->
 <section id="services">
   <h2>My Services</h2>
   <p>Data Entry, Web Research, Lead Generation...</p>
@@ -273,6 +243,42 @@
   </div>
 </body>
 </html>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+     AOS.init();
+</script>
+      <script>
+  window.addEventListener('load', () => {
+    document.getElementById('preloader').style.display = 'none';
+  });
+</script>
+    <script>
+  const btn = document.getElementById('backToTop');
+  window.onscroll = () => {
+    if (window.scrollY > 300) {
+      btn.style.display = 'block';
+    } else {
+      btn.style.display = 'none';
+      <h2>I am a <span class="typing"></span></h2>
+    }
+  };
+  btn.onclick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
+      <script>
+  const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
+  let i = 0, j = 0, currentWord = "", isDeleting = false;
+<!-- Home Section -->
+<section id="home">
+  <h1>Welcome to My Portfolio</h1>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <h2>My Services</h2>
+  <p>Data Entry, Web Research, Lead Generation...</p>
+</section>
 
 </head>
     .buttons a {
