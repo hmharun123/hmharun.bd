@@ -37,7 +37,22 @@
       <script>
   const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
   let i = 0, j = 0, currentWord = "", isDeleting = false;
+<!-- Home Section -->
+<section id="home">
+  <h1>Welcome to My Portfolio</h1>
+</section>
 
+<!-- Services Section -->
+<section id="services">
+  <h2>My Services</h2>
+  <p>Data Entry, Web Research, Lead Generation...</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <!-- এখানেই Order Now বাটন বসাতে পারেন -->
+</section>
   function type() {
     currentWord = words[i];
     let display = isDeleting ? currentWord.slice(0, j--) : currentWord.slice(0, j++);
