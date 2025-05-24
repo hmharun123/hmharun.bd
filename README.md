@@ -1,49 +1,97 @@
-<html lang="en">
-<head><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!DOCTYPE html><html lang="en">
+<head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Md. Harun Or Rashid</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <style>
-    body <button id="backToTop">↑</button>
-    {
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
       font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
       margin: 0;
       padding: 0;
-      text-align: center;
-        }
- n:hover {
-      background-color: #0056b3;
     }
-    a.fiverr {
-      background-color: #28a745;
+    .navbar {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 999;
     }
-    a.fiverr:hover {
-      background-color: #218838;
+    .navbar h1 {
+      margin: 0;
     }
-    .certificate-section {
-      margin-top: 40px;
+    .container {
+      padding: 20px;
     }
-    .certificate-section img {
-      max-width: 90%;
-      border: 2px solid #ccc;
-      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    .profile {
+      width: 200px;
+      border-radius: 15px;
     }
-    .portfolio-section {
-      margin-top: 40px;
-    }
-    .contact-section {
-      margin-top: 50px;
-    }
-    input, textarea {
-      width: 80%;
-      max-width: 400px;
-      padding: 10px;
-      margin: 5px auto;
-      border: 1px solid #ccc;
+    .buttons a {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 20px;
+      background: #007BFF;
+      color: white;
+      text-decoration: none;
       border-radius: 5px;
     }
-    button {
-      margin-top: 10px;
+    .certificate-section img,
+    .image-row img,
+    .media-section img,
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+    #preloader {
+      background: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .loader {
+      width: 40px;
+      height: 40px;
+      border: 5px solid #007BFF;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      padding: 10px;
+      font-size: 18px;
+      display: none;
+      border: none;
+      background: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 9999;
+    }
+    .typing {
+      border-right: 2px solid #000;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
     }
   </style>
 </head>
