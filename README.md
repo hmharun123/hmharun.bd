@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta charset="UTF-8">
@@ -11,78 +10,8 @@
       margin: 0;
       padding: 0;
       text-align: center;
-      
-      <!-- Services Section -->
-<section id="services">
-  <h2>My Services</h2>
-  <p>Data Entry, Web Research, Lead Generation...</p>
-</section>
-
-<!-- Contact Section -->
-<section id="contact">
-  <h2>Contact Me</h2>
-  <!-- এখানেই Order Now বাটন বসাতে পারেন -->
-</section>
-  function type() {
-    currentWord = words[i];
-    let display = isDeleting ? currentWord.slice(0, j--) : currentWord.slice(0, j++);
-
-    document.querySelector(".typing").textContent = display;
-
-    if (!isDeleting && j === currentWord.length) {
-      isDeleting = true;
-      setTimeout(type, 1000);
-    } else if (isDeleting && j === 0) {
-      isDeleting = false;
-      i = (i + 1) % words.length;
-      setTimeout(type, 300);
-    } else {
-      setTimeout(type, isDeleting ? 60 : 100);
-    }
-  }
-
-  type();
-</script>
-      }
-      <div data-aos="fade-up">
-  <!-- content here -->
-</div>
-      <div id="preloader">
-  <div class="loader"></div>
-</div>
-    .container {
-      padding: 30px;
-    }
-    img.profile {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border: 3px solid #444;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      font-size: 18px;
-      color: #444;
-      max-width: 600px;
-      margin: 10px auto;
-    }
-    .buttons {
-      margin-top: 25px;
-    }
-    a.button {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 25px;
-      background-color: #007bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    a.button:hover {
+        }
+ n:hover {
       background-color: #0056b3;
     }
     a.fiverr {
@@ -119,7 +48,7 @@
   </style>
 </head>
 <body>
-  <div class="container>
+  
 <!-- Search Bar -->
     <h2>Search My Website</h2>
     <div class="gcse-search"></div>
