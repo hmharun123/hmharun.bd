@@ -200,13 +200,7 @@
 
     <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)
 
-   <div class="portfolio-section">
-      <h2>My Portfolio</h2>
-      <p>Here are some examples of the data entry work I've done:</p>
-      <div class="buttons">
-        <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">
-          View Sample Data Entry Work
-        </a>
+   </a>
       </div>
     </div>
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
