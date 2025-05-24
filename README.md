@@ -220,31 +220,6 @@
       <img src="data.jpg" alt="Data">
     </div>
 
-    <!-- YouTube Channel -->
-    <div class="youtube-section">
-      <h2>My YouTube Channel</h2>
-      <p>Subscribe to my channel for tutorials, tips, and more!</p>
-      <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-    </div>
-
-    <!-- Portfolio Section -->
-    <div class="portfolio-section">
-      <h2>My Portfolio</h2>
-      <p>Here are some examples of the data entry work I've done:</p>
-      <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">View Sample Data Entry Work</a>
-    </div>
-
-    <!-- Contact Form -->
-    <div class="contact-section">
-      <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/mjvnavrw" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required><br><br>
-        <input type="email" name="email" placeholder="Your Email" required><br><br>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
-        <button type="submit" class="button">Send Message</button>
-      </form>
-    </div>
-
     <!-- Gallery Section -->
     <div class="gallery-section">
       <h2>My Gallery</h2>
