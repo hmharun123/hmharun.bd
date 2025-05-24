@@ -169,7 +169,10 @@
   <h2>My Portfolio</h2>
   <p>Here are some examples of the data entry work I've done:</p>
   <div class="buttons">
-    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)     <!-- Media Section -->
+    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel) 
+
+      
+      <!-- Media Section -->
     <div class="media-section">
       <h2>My Photo & Video</h2>
       <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"><br><br>
@@ -277,28 +280,4 @@
 <!-- Services Section -->
 <section id="services">
   <h2>My Services</h2>
-  <p>Data Entry, Web Research, Lead Generation...</p>
-</section>
 
-</head>
-    .buttons a {
-<div class="buttons">
-  <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">
-    <i class="fab fa-fiverr"></i> Fiverr
-  </a>
-  <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">
-    <i class="fab fa-facebook"></i> Facebook
-  </a>
-  <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">
-    <i class="fab fa-instagram"></i> Instagram
-  </a>
-  <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">
-    <i class="fab fa-tiktok"></i> TikTok
-  </a>
-  <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">
-    <i class="fab fa-whatsapp"></i> WhatsApp
-  </a>
-  <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">
-    <i class="fab fa-youtube"></i> YouTube
-  </a>
-</div>
