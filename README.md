@@ -165,14 +165,8 @@
       <h2>Certificate of Completion</h2>
       <img src="certificate.jpg" alt="Certificate">
     </div>
-<div class="portfolio-section">
-  <h2>My Portfolio</h2>
-  <p>Here are some examples of the data entry work I've done:</p>
-  <div class="buttons">
-    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel) 
 
-      
-      <!-- Media Section -->
+       <!-- Media Section -->
     <div class="media-section">
       <h2>My Photo & Video</h2>
       <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"><br><br>
@@ -203,7 +197,9 @@
         <img src="media/photo4.jpg" alt="Photo 4">
       </div>
     </div>
-</a>
+
+    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)
+
    <div class="portfolio-section">
       <h2>My Portfolio</h2>
       <p>Here are some examples of the data entry work I've done:</p>
