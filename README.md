@@ -256,6 +256,15 @@
       </div>
     </div>
 </a>
+   <div class="portfolio-section">
+      <h2>My Portfolio</h2>
+      <p>Here are some examples of the data entry work I've done:</p>
+      <div class="buttons">
+        <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">
+          View Sample Data Entry Work
+        </a>
+      </div>
+    </div>
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
@@ -288,44 +297,8 @@
 
   </div>
 </body>
-</html><!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Md. Harun Or Rashid</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .navbar {
-      position: sticky;
-      top: 0;
-      background: #fff;
-      padding: 10px 20px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      z-index: 999;
-    }
-    .navbar h1 {
-      margin: 0;
-    }
-    .container {
-      padding: 20px;
-    }
-    .profile {
-      width: 200px;
-      border-radius: 15px;
-    }
-    <head>
-  ...
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  ...
+</html>
+
 </head>
     .buttons a {
 <div class="buttons">
