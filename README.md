@@ -228,7 +228,31 @@
         </a>
       </div>
     </div>
+    
+<script>
+  const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
+  let i = 0, j = 0, currentWord = "", isDeleting = false;
 
+  function type() {
+    currentWord = words[i];
+    let display = isDeleting ? currentWord.slice(0, j--) : currentWord.slice(0, j++);
+
+    document.querySelector(".typing").textContent = display;
+
+    if (!isDeleting && j === currentWord.length) {
+      isDeleting = true;
+      setTimeout(type, 1000);
+    } else if (isDeleting && j === 0) {
+      isDeleting = false;
+      i = (i + 1) % words.length;
+      setTimeout(type, 300);
+    } else {
+      setTimeout(type, isDeleting ? 60 : 100);
+    }
+  }
+
+  type();
+</script>
     <div class="contact-section">
       <h2>Contact Me</h2>
       <form action="https://formspree.io/f/mjvnavrw" method="POST">
@@ -242,38 +266,4 @@
   </div>
 </body>
 </html>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-     AOS.init();
-</script>
-      <script>
-  window.addEventListener('load', () => {
-    document.getElementById('preloader').style.display = 'none';
-  });
-</script>
-    <script>
-  const btn = document.getElementById('backToTop');
-  window.onscroll = () => {
-    if (window.scrollY > 300) {
-      btn.style.display = 'block';
-    } else {
-      btn.style.display = 'none';
-      <h2>I am a <span class="typing"></span></h2>
-    }
-  };
-  btn.onclick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-</script>
-      <script>
-  const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
-  let i = 0, j = 0, currentWord = "", isDeleting = false;
-<!-- Home Section -->
-<section id="home">
-  <h1>Welcome to My Portfolio</h1>
-</section>
-
-<!-- Services Section -->
-<section id="services">
-  <h2>My Services</h2>
 
