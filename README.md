@@ -164,11 +164,11 @@
         <img src="media/photo4.jpg" alt="Photo 4">
       </div>
     </div>
-
+<div class="buttons">
     <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)
-    
+<div class="buttons">
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
-    
+<div class="buttons">
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   
     <div class="youtube-section" style="margin-top: 40px;">
