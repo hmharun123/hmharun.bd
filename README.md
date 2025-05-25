@@ -173,9 +173,8 @@
       <button style="background-color:<div class="youtube-section" style="margin-top: 40px;">
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
-      <a class=<button style="https://youtube.com/@mdharun-n6j" target=">Visit My YouTube
-      
-      <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;"
+      <a class=<button style="https://youtube.com/@mdharun-n6j" target="
+   <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;"
       >Visit My YouTube>
       
     <div>
