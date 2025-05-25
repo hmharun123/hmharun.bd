@@ -212,7 +212,9 @@
     } else {
       setTimeout(type, isDeleting ? 60 : 100);
     }
-  }
+    </script>
+  </div><button id="backToTop">↑</button>
+  </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
     AOS.init();
   </script>  <script>
@@ -260,7 +262,6 @@
         <button type="submit" class="button">Send Message</button>
       </form>
 
-  </div><button id="backToTop">↑</button>
 
   
   
