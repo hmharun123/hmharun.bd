@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,9 +95,19 @@
     }
   </style>
 </head>
-<body><!-- Search Bar -->
+<body>
+  <body>
+  <div class="container">
+
+    <!-- Search Bar -->
     <h2>Search My Website</h2>
     <div class="gcse-search"></div>
+
+    <!-- আপনার অন্য কনটেন্ট -->
+  </div>
+
+  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
+</body>
  <!-- Profile Photo -->
     <img src="harun.jpg" alt="Harun's Photo" class="profile">
   <h1>Md. Harun Or Rashid</h1>
@@ -105,7 +115,7 @@
     <p><strong>Email:</strong> hmharun796@gmail.com</p>
     <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
     <p><strong>Profession:</strong> Freelancer</p>
-    <p><strong>Skills:</strong> Data Entry, E-commerce Data Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+    <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
     <a href="mailto:hmharun123@gmail.com?subject=Hiring Request&body=Hello, I would like to hire you for a project." target="_blank" style="text-decoration: none;">
   <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
     Order Now
