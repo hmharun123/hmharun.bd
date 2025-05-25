@@ -134,8 +134,11 @@
       <img src="certificate.jpg" alt="Certificate">
     </div>
 
+<img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
+
+
        <!-- Media Section -->
-    <div class="media-section">
+ <div class="media-section">
       <h2>My Photo & Video</h2>
       
         <source src="media/myvideo.mp4" type="video/mp4">
@@ -145,7 +148,6 @@
 
     <!-- Image Gallery -->
     <div class="image-row">
-      <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
       <img src="data-antry.png" alt="Data Entry">
       <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
       <img src="312.jpg" alt="Certificate">
@@ -162,8 +164,7 @@
         <img src="media/photo2.jpg" alt="Photo 2">
         <img src="media/photo3.jpg" alt="Photo 3">
         <img src="media/photo4.jpg" alt="Photo 4">
-      
-    <div class="youtube-section" style="margin-top: 40px;">
+      <button style="background-color:<div class="youtube-section" style="margin-top: 40px;">
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
       <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
