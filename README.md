@@ -168,8 +168,8 @@
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
       <a class=<button style="https://youtube.com/@mdharun-n6j" target="_blank">  
-      <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">  Visit My YouTube
-    
+      <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">  Visit My YouTube>
+    <div>
   <div class="portfolio-section">
       <h2>My Portfolio</h2>
       <p>Here are some examples of the data entry work I've done:</p>
@@ -257,5 +257,4 @@
       }
     }
     type();
-  </script></body>
-</html>
+  
