@@ -170,11 +170,11 @@
         <img src="media/photo2.jpg" alt="Photo 2">
         <img src="media/photo3.jpg" alt="Photo 3">
         <img src="media/photo4.jpg" alt="Photo 4">
-      <button style="background-color:<div class="youtube-section" style="margin-top: 40px;">
-      <h2>My YouTube Channel</h2>
-      <p>Subscribe to my channel for tutorials, tips, and more!</p>
-      <button style="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube
-   </button>
+        <body<div class="youtube-section" style="margin-top: 40px;">
+  <h2>My YouTube Channel</h2>
+  <p>Subscribe to my channel for tutorials, tips, and more!</p>
+  <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
+</div>
       
     <div>
       <div class="portfolio-section">
