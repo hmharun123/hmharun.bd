@@ -168,7 +168,8 @@
       <h2>My YouTube Channel</h2>
       <p>Subscribe to my channel for tutorials, tips, and more!</p>
       <a class=<button style="https://youtube.com/@mdharun-n6j" target="_blank">  
-      <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">  Visit My YouTube>
+      <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;"
+      >Visit My YouTube
     <div>
   <div class="portfolio-section">
       <h2>My Portfolio</h2>
@@ -206,21 +207,7 @@
       setTimeout(type, isDeleting ? 60 : 100);
     }
   }
-
-  type();
-</script>
-    <div class="contact-section">
-      <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/mjvnavrw" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required><br><br>
-        <input type="email" name="email" placeholder="Your Email" required><br><br>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
-        <button type="submit" class="button">Send Message</button>
-      </form>
-
-  </div><button id="backToTop">↑</button>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
     AOS.init();
   </script>  <script>
     window.addEventListener('load', () => {
@@ -254,7 +241,20 @@
         setTimeout(type, 300);
       } else {
         setTimeout(type, isDeleting ? 60 : 100);
-      }
-    }
-    type();
+      
+      type();
+      
+</script>
+    <div class="contact-section">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mjvnavrw" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br><br>
+        <input type="email" name="email" placeholder="Your Email" required><br><br>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
+        <button type="submit" class="button">Send Message</button>
+      </form>
+
+  </div><button id="backToTop">↑</button>
+
+  
   
