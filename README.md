@@ -191,8 +191,8 @@ body.dark-mode .navbar {
 <div class="top-right-menu">
   <button class="dropbtn" onclick="toggleMenu()">⋮</button>
   <div class="dropdown-content" id="dropdownMenu">
-    <a href="#profile">প্রোফাইল</a>
-    <a href="#privacy">প্রাইভেসি পলিসি</a>
+    <a href="#profile">profile</a>
+    <a href="#privacy">privacy policy</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </div>
