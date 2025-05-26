@@ -261,6 +261,7 @@
   </script>
   
   <script>
+    <button class="dropbtn" onclick="toggleMenu()">⋮</button>
     <div id="dropdownMenu" class="dropdown-content">
   <a href="#profile">প্রোফাইল</a>
   <a href="#privacy">প্রাইভেসি পলিসি</a>
