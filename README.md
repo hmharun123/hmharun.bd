@@ -263,28 +263,8 @@ body.dark-mode .navbar {
       </div>
     </div>
     
-<script>
-  const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
-  let i = 0, j = 0, currentWord = "", isDeleting = false;
-
-  function type() {
-    currentWord = words[i];
-    let display = isDeleting ? currentWord.slice(0, j--) : currentWord.slice(0, j++);
-
-    document.querySelector(".typing").textContent = display;
-
-    if (!isDeleting && j === currentWord.length) {
-      isDeleting = true;
-      setTimeout(type, 1000);
-    } else if (isDeleting && j === 0) {
-      isDeleting = false;
-      i = (i + 1) % words.length;
-      setTimeout(type, 300);
-    } else {
-      setTimeout(type, isDeleting ? 60 : 100);
-    }
-  </script>
     </div><button id="backToTop">↑</button>
+    
   </script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
   <script><script>
     AOS.init();
