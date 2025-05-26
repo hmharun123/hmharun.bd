@@ -247,18 +247,14 @@
     } else {
       setTimeout(type, isDeleting ? 60 : 100);
     }
-    </script>
-  </div><button id="backToTop">↑</button>
-  </script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
+    </script></div><button id="backToTop">↑</button>
+  </script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
     AOS.init();
-</script>
-   <script>
+</script><script>
     window.addEventListener('load', () => {
       document.getElementById('preloader').style.display = 'none';
     });
-  </script>
-     <script>
+  </script><script>
     <div id="dropdownMenu" class="dropdown-content">
   <a href="#profile">প্রোফাইল</a>
   <a href="#privacy">প্রাইভেসি পলিসি</a>
@@ -284,8 +280,7 @@
       var menu = document.getElementById("dropdownMenu");
       menu.style.display = menu.style.display === "block" ? "none" : "block";
     }
-
-    window.onclick = function(event) {
+     window.onclick = function(event) {
       if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         for (var i = 0; i < dropdowns.length; i++) {
@@ -294,10 +289,7 @@
       }
     };
   </script>
-
-</body>
-</html>
-  <script>
+    <script>
     const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
     let i = 0, j = 0, currentWord = "", isDeleting = false;
     function type() {
@@ -313,10 +305,9 @@
         setTimeout(type, 300);
       } else {
         setTimeout(type, isDeleting ? 60 : 100);
-      
-      type();
-      
-</script>
+       type();
+        
+      </script>
     <div class="contact-section">
       <h2>Contact Me</h2>
       <form action="https://formspree.io/f/mjvnavrw" method="POST">
