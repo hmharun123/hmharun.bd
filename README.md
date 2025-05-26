@@ -146,6 +146,10 @@ body.dark-mode .navbar {
 </head>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <body>
+  <div id="preloader">
+  <div class="loader"></div>
+</div>
+  <body>
 <div class="top-right-menu">
   <button class="dropbtn" onclick="toggleMenu()">⋮</button>
   <div class="dropdown-content" id="dropdownMenu">
