@@ -247,14 +247,17 @@
     } else {
       setTimeout(type, isDeleting ? 60 : 100);
     }
-    </script></div><button id="backToTop">↑</button>
-  </script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
-    AOS.init();
-</script><script>
+  </script>
+    </div><button id="backToTop">↑</button>
+  </script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  AOS.init();
+</script>
+<script>
     window.addEventListener('load', () => {
       document.getElementById('preloader').style.display = 'none';
     });
-  </script><script>
+  </script>
+  <script>
     <div id="dropdownMenu" class="dropdown-content">
   <a href="#profile">প্রোফাইল</a>
   <a href="#privacy">প্রাইভেসি পলিসি</a>
