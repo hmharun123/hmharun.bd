@@ -253,21 +253,19 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
     AOS.init();
 </script>
-
-<script>
+   <script>
     window.addEventListener('load', () => {
       document.getElementById('preloader').style.display = 'none';
     });
   </script>
-  
-  <script>
-    <button class="dropbtn" onclick="toggleMenu()">⋮</button>
+     <script>
     <div id="dropdownMenu" class="dropdown-content">
   <a href="#profile">প্রোফাইল</a>
   <a href="#privacy">প্রাইভেসি পলিসি</a>
   <a href="#about">About</a>
   <a href="#contact">Contact</a>
 </div>
+   <button class="dropbtn" onclick="toggleMenu()">⋮</button>
     <script>
     const btn = document.getElementById('backToTop');
     window.onscroll = () => {
