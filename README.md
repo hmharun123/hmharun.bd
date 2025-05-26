@@ -96,6 +96,15 @@
   </style>
 </head>
 <body>
+  <div class="top-right-menu">
+  <button class="dropbtn">⋮</button>
+  <div class="dropdown-content">
+    <a href="#profile">প্রোফাইল</a>
+    <a href="#privacy">প্রাইভেসি পলিসি</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
   <body>
   <div class="container">
 
