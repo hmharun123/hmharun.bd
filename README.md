@@ -287,6 +287,12 @@ body.dark-mode .navbar {
     AOS.init();
 </script>
 
+<script>
+  window.addEventListener('load', () => {
+    document.getElementById('preloader').style.display = 'none';
+  });
+</script>
+
   <script>
    <button class="dropbtn" onclick="toggleMenu()">⋮</button>
     <script>
