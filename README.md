@@ -142,6 +142,9 @@
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </div>
+  <div class="navbar">
+  <!-- Your menu items -->
+</div>
 </div>
   <body>
   <div class="container">
