@@ -200,6 +200,25 @@ body.dark-mode .navbar {
 </div>
 </div>
   <body>
+    <script>
+  function toggleMenu() {
+    var menu = document.getElementById("dropdownMenu");
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "block";
+    }
+  }
+
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].style.display = "none";
+      }
+    }
+  };
+</script>
   <div class="container">
 
     <!-- Search Bar -->
@@ -343,21 +362,6 @@ body.dark-mode .navbar {
       } else {
         setTimeout(type, isDeleting ? 60 : 100);
        type();
-    function toggleMenu() {
-      var menu = document.getElementById("dropdownMenu");
-      menu.style.display = menu.style.display === "block" ? "none" : "block";
-    }
-     window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        for (var i = 0; i < dropdowns.length; i++) {
-          dropdowns[i].style.display = "none";
-        }
-      }
-    };
-  </script>
-    <script>
-    
     </script>
     <div class="contact-section">
       <h2>Contact Me</h2>
