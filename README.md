@@ -131,23 +131,13 @@
   </style>
 </head>
 <body>
-<div class="top-right-menu">
-  <button class="dropbtn" onclick="toggleMenu()">⋮</button>
-  <div class="dropdown-content" id="dropdownMenu">
-    <a href="#profile">প্রোফাইল</a>
-    <a href="#privacy">প্রাইভেসি পলিসি</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </div>
-</div>
+
   <body>
   <div class="container">
 
     <!-- Search Bar -->
     <h2>Search My Website</h2>
     <div class="gcse-search"></div>
-
-    <!-- আপনার অন্য কনটেন্ট -->
   </div>
 
   <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
@@ -262,11 +252,22 @@
   </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
     AOS.init();
-  </script>  <script>
+</script>
+
+<script>
     window.addEventListener('load', () => {
       document.getElementById('preloader').style.display = 'none';
     });
-  </script>  <script>
+  </script>
+  
+  <script>
+    <div id="dropdownMenu" class="dropdown-content">
+  <a href="#profile">প্রোফাইল</a>
+  <a href="#privacy">প্রাইভেসি পলিসি</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</div>
+    <script>
     const btn = document.getElementById('backToTop');
     window.onscroll = () => {
       if (window.scrollY > 300) {
