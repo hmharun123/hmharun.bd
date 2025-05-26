@@ -310,21 +310,7 @@ body.dark-mode .navbar {
     };
   </script>  
   <script>
-    function toggleMenu() {
-      var menu = document.getElementById("dropdownMenu");
-      menu.style.display = menu.style.display === "block" ? "none" : "block";
-    }
-     window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        for (var i = 0; i < dropdowns.length; i++) {
-          dropdowns[i].style.display = "none";
-        }
-      }
-    };
-  </script>
-    <script>
-    const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
+  const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
     let i = 0, j = 0, currentWord = "", isDeleting = false;
     function type() {
       currentWord = words[i];
@@ -340,8 +326,22 @@ body.dark-mode .navbar {
       } else {
         setTimeout(type, isDeleting ? 60 : 100);
        type();
-        
-      </script>
+    function toggleMenu() {
+      var menu = document.getElementById("dropdownMenu");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+     window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+          dropdowns[i].style.display = "none";
+        }
+      }
+    };
+  </script>
+    <script>
+    
+    </script>
     <div class="contact-section">
       <h2>Contact Me</h2>
       <form action="https://formspree.io/f/mjvnavrw" method="POST">
