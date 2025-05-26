@@ -278,7 +278,26 @@
     btn.onclick = () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
-  </script>  <script>
+  </script>  
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("dropdownMenu");
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+          dropdowns[i].style.display = "none";
+        }
+      }
+    };
+  </script>
+
+</body>
+</html>
+  <script>
     const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
     let i = 0, j = 0, currentWord = "", isDeleting = false;
     function type() {
