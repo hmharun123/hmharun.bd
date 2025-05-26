@@ -204,7 +204,9 @@ body.dark-mode .navbar {
 
 
        <!-- Media Section -->
- <div class="media-section">
+ <div class="media-section"><div data-aos="fade-up">
+  <!-- content here -->
+</div>
       <h2>My Photo & Video</h2>
       
         <source src="media/myvideo.mp4" type="video/mp4">
