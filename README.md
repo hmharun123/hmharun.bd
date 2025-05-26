@@ -319,10 +319,19 @@ body.dark-mode .navbar {
     
     </div><button id="backToTop">↑</button>
     
-  </script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-  <script><script>
-    AOS.init();
-</script>
+ <script>
+  const btn = document.getElementById('backToTop');
+  window.onscroll = () => {
+    if (window.scrollY > 300) {
+      btn.style.display = 'block';
+    } else {
+      btn.style.display = 'none';
+    }
+  };
+  btn.onclick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+ </script>
 
 <script>
   window.addEventListener('load', () => {
