@@ -150,6 +150,7 @@ body.dark-mode .navbar {
   <div class="loader"></div>
 </div>
   <body>
+    
 <div class="top-right-menu">
   <button class="dropbtn" onclick="toggleMenu()">⋮</button>
   <div class="dropdown-content" id="dropdownMenu">
