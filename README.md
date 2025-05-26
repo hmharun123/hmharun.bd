@@ -176,6 +176,7 @@ body.dark-mode .navbar {
     <img src="harun.jpg" alt="Harun's Photo" class="profile">
   <h1>Md. Harun Or Rashid</h1>
   <div class="navbar">
+    <h2>I am a <span class="typing"></span></h2>
     <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
     <p><strong>Email:</strong> hmharun796@gmail.com</p>
     <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
