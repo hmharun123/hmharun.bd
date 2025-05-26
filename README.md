@@ -96,9 +96,9 @@
   </style>
 </head>
 <body>
-  <div class="top-right-menu">
-  <button class="dropbtn">⋮</button>
-  <div class="dropdown-content">
+<div class="top-right-menu">
+  <button class="dropbtn" onclick="toggleMenu()">⋮</button>
+  <div class="dropdown-content" id="dropdownMenu">
     <a href="#profile">প্রোফাইল</a>
     <a href="#privacy">প্রাইভেসি পলিসি</a>
     <a href="#about">About</a>
