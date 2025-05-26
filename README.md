@@ -144,6 +144,8 @@ body.dark-mode .navbar {
     }
   </style>
 </head>
+<link rel="stylesheet" href="style.css">
+</head>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <body>
   <div id="preloader">
