@@ -144,6 +144,7 @@ body.dark-mode .navbar {
     }
   </style>
 </head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <body>
 <div class="top-right-menu">
   <button class="dropbtn" onclick="toggleMenu()">⋮</button>
@@ -274,8 +275,11 @@ body.dark-mode .navbar {
     }
   </script>
     </div><button id="backToTop">↑</button>
-  </script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"><script><script>AOS.init();
+  </script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  <script><script>
+    AOS.init();
 </script>
+
   <script>
    <button class="dropbtn" onclick="toggleMenu()">⋮</button>
     <script>
