@@ -16,7 +16,7 @@
   z-index: 1000;
 }
 
-.dropbtn {
+   .dropbtn {
   background-color: transparent;
   border: none;
   font-size: 24px;
@@ -52,6 +52,17 @@
       margin: 0;
       padding: 0;
     }
+    .navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 999;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+body.dark-mode .navbar {
+  background: #1a1a1a;
+}
     .navbar {
       position: sticky;
       top: 0;
@@ -142,7 +153,6 @@
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </div>
-  <div class="navbar">
   <!-- Your menu items -->
 </div>
 </div>
@@ -159,6 +169,7 @@
  <!-- Profile Photo -->
     <img src="harun.jpg" alt="Harun's Photo" class="profile">
   <h1>Md. Harun Or Rashid</h1>
+  <div class="navbar">
     <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
     <p><strong>Email:</strong> hmharun796@gmail.com</p>
     <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
