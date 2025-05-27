@@ -15,14 +15,102 @@
   right: 15px;
   z-index: 1000;
 }
-
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.container {
+  padding: 30px;
+}
+img.profile {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #444;
+}
+h1 {
+  color: #333;
+}
+p {
+  font-size: 18px;
+  color: #444;
+  max-width: 600px;
+  margin: 10px auto;
+}
+.buttons {
+  margin-top: 25px;
+}
+a.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+a.button:hover {
+  background-color: #0056b3;
+}
+a.fiverr {
+  background-color: #28a745;
+}
+a.fiverr:hover {
+  background-color: #218838;
+}
+.certificate-section,
+.portfolio-section,
+.youtube-section,
+.contact-section {
+  margin-top: 40px;
+}
+.certificate-section img,
+.portfolio-section img {
+  max-width: 90%;
+  border: 2px solid #ccc;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+input,
+textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.image-row img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
    .dropbtn {
   background-color: transparent;
   border: none;
   font-size: 24px;
   cursor: pointer;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -33,14 +121,12 @@
   border-radius: 5px;
   overflow: hidden;
 }
-
 .dropdown-content a {
   color: #333;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
@@ -48,18 +134,11 @@
       scroll-behavior: smooth;
      0;
     }
-    body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 .tab-bar {
   display: flex;
   background-color: #007bff;
   overflow-x: auto;
 }
-
 .tab {
   flex: 1;
   text-align: center;
@@ -68,11 +147,9 @@
   text-decoration: none;
   font-weight: bold;
 }
-
 .tab:hover {
   background-color: #0056b3;
 }
-
 .container {
   padding: 20px;
 }
@@ -172,14 +249,12 @@ body.dark-mode .navbar {
   right: 15px;
   z-index: 1000;
 }
-
 .dropbtn {
   background-color: transparent;
   border: none;
   font-size: 24px;
   cursor: pointer;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -190,28 +265,16 @@ body.dark-mode .navbar {
   border-radius: 5px;
   overflow: hidden;
 }
-
 .dropdown-content a {
   color: #333;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {
   background-color: #f1f1f1;
-}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Md. Harun Or Rashid</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-    }
-    header {
+ }
+  header {
       background: #333;
       color: white;
       padding: 1rem;
