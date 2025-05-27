@@ -435,7 +435,7 @@ body.dark-mode .navbar {
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
     </div>
 
-    <div class="certificate-section">
+   <div class="certificate-section">
       <h2>Certificate of Completion</h2>
       <img src="certificate.jpg" alt="Certificate">
     </div>
@@ -485,7 +485,7 @@ body.dark-mode .navbar {
       <div class="buttons">
       <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
       <div class="buttons">
-    <a class="button" href="(https://github.com/hmharun123/hmharun.bd/blob/main/076ac6.jpg)"target="_blank">PDF to Excel Conversion</a>
+    <a class="button" href="https://github.com/hmharun123/hmharun.bd/blob/main/076ac6.jpg"target="_blank">PDF to Excel Conversion</a>
         <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">
           View Sample Data Entry Work
         </a>
