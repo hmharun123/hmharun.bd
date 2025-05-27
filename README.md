@@ -331,25 +331,7 @@ body.dark-mode .navbar {
 </script>
 
 </body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Md. Harun Or Rashid</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-  <!-- Tab Navigation -->
-  <nav class="tab-bar">
-    <a href="index.html" class="tab">Home</a>
-    <a href="about.html" class="tab">About</a>
-    <a href="contact.html" class="tab">Contact</a>
-    <a href="services.html" class="tab">Services</a>
-    <a href="portfolio.html" class="tab">Portfolio</a>
-  </nav>
-
-  <!-- Your main content here -->
+<!-- Your main content here -->
   <div class="container">
     <h1>Welcome to My Website</h1>
     <p>This is the Home page</p>
