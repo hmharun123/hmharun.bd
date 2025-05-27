@@ -177,10 +177,7 @@ body.dark-mode .navbar {
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
-</style>
-</head>
-<body>
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -300,35 +297,10 @@ body.dark-mode .navbar {
         }
       }
     };
-  </style>
-</head>
-<link rel="stylesheet" href="style.css">
-</head>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<body>
-  <div id="preloader">
-  <div class="loader"></div>
-</div>
-  <body>
-    <body>
-    <script>
-  function toggleMenu() {
-    var menu = document.getElementById("dropdownMenu");
-    if (menu.style.display === "block") {
-      menu.style.display = "none";
-    } else {
-      menu.style.display = "block";
-    }
-  }
+  </script>
 
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      for (var i = 0; i < dropdowns.length; i++) {
-        dropdowns[i].style.display = "none";
-      }
-    }
-  };
+</body>
+</html>
 </script>
   <div class="container">
 
