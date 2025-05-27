@@ -276,8 +276,7 @@ body.dark-mode .navbar {
     <p><a href="https://www.instagram.com" target="_blank">View My Instagram</a></p>
     <p><a href="https://www.youtube.com" target="_blank">Visit My YouTube</a></p>
   </section>
-
-  <!-- JavaScript for menu toggle -->
+ <!-- JavaScript for menu toggle -->
   <script>
 <button onclick="toggleMenu()">⋮</button>
 <div id="menu" style="display:none;">
