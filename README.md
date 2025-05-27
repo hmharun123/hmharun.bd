@@ -46,12 +46,36 @@
 }
     html {
       scroll-behavior: smooth;
+     0;
     }
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-bar {
+  display: flex;
+  background-color: #007bff;
+  overflow-x: auto;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tab:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  padding: 20px;
+}
     .navbar {
   position: sticky;
   top: 0;
