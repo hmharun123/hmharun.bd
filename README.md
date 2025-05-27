@@ -183,121 +183,104 @@ body.dark-mode .navbar {
   <meta charset="UTF-8">
   <title>Md. Harun Or Rashid</title>
   <style>
-    /* Top-right menu styling */
-    .top-right-menu {
-      position: fixed;
-      top: 15px;
-      right: 15px;
-      z-index: 1000;
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
     }
-
-    .dropbtn {
-      background-color: transparent;
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      position: relative;
+    }
+    .menu-button {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      font-size: 1.5rem;
+      background: none;
       border: none;
-      font-size: 24px;
+      color: white;
       cursor: pointer;
     }
-
-    .dropdown-content {
+    .menu-content {
       display: none;
-      position: absolute;
-      right: 0;
-      background-color: #ffffff;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-      border-radius: 5px;
-      overflow: hidden;
+      position: fixed;
+      top: 60px;
+      right: 20px;
+      background: white;
+      border: 1px solid #ccc;
+      width: 220px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
     }
-
-    .dropdown-content a {
-      color: #333;
-      padding: 12px 16px;
-      text-decoration: none;
+    .menu-content a {
       display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+      border-bottom: 1px solid #eee;
     }
-
-    .dropdown-content a:hover {
-      background-color: #f1f1f1;
+    .menu-content a:hover {
+      background-color: #f0f0f0;
     }
-
-    /* Section styling */
-    section {
+    .section {
+      display: none;
       padding: 20px;
-      margin-top: 20px;
-      border-top: 1px solid #ccc;
     }
   </style>
 </head>
 <body>
 
-  <!-- Top-right menu -->
-  <div class="top-right-menu">
-    <button class="dropbtn" onclick="toggleMenu()">⋮</button>
-    <div class="dropdown-content" id="dropdownMenu">
-      <a href="#profile">Profile</a>
-      <a href="#privacy">Privacy Policy</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
+<header>
+  Md. Harun Or Rashid
+  <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
+</header>
 
-  <!-- Profile Section -->
-  <section id="profile">
-    <h2>My Profile</h2>
-    <p>Name: Md. Harun Or Rashid</p>
-    <p>Address: Manikganj, Dhaka, Bangladesh</p>
-    <p>Email: hmharun796@gmail.com</p>
-    <p>Education: SSC, Lemubari Binoda Sundori High School</p>
-    <p>Profession: Freelancer</p>
-    <p>Skills: Data Entry, E-commerce Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-  </section>
+<div class="menu-content" id="menu">
+  <a href="#" onclick="showSection('profile')">Profile</a>
+  <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
+  <a href="#" onclick="showSection('contact')">Contact</a>
+  <a href="#" onclick="showSection('settings')">Settings</a>
+</div>
 
-  <!-- Privacy Policy Section -->
-  <section id="privacy">
-    <h2>Privacy Policy</h2>
-    <p>Your privacy is important to us. We do not share your personal information with third parties without your consent.</p>
-  </section>
+<div id="profile" class="section">
+  <h2>My Profile</h2>
+  <p>Name: Md. Harun Or Rashid</p>
+  <p>Address: Manikganj, Dhaka</p>
+  <p>Email: hmharun796@gmail.com</p>
+</div>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About</h2>
-    <p>I am a dedicated freelancer specializing in data entry and web research. I have completed various projects with high client satisfaction.</p>
-  </section>
+<div id="privacy" class="section">
+  <h2>Privacy Policy</h2>
+  <p>We do not share your personal information.</p>
+</div>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Phone: +880 1648 131 500</p>
-    <p>Phone: +880 1316 888 404</p>
-    <p>Email: hmharun796@gmail.com</p>
-    <p><a href="https://wa.me/8801648131500" target="_blank">Order on WhatsApp</a></p>
-    <p><a href="https://www.fiverr.com" target="_blank">Visit My Fiverr Profile</a></p>
-    <p><a href="https://www.facebook.com" target="_blank">Visit My Facebook</a></p>
-    <p><a href="https://www.instagram.com" target="_blank">View My Instagram</a></p>
-    <p><a href="https://www.youtube.com" target="_blank">Visit My YouTube</a></p>
-  </section>
+<div id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Phone: +8801648131500</p>
+  <p>Email: hmharun796@gmail.com</p>
+</div>
 
-  <!-- JavaScript for menu toggle -->
-  <script>
-    function toggleMenu() {
-      var menu = document.getElementById("dropdownMenu");
-      if (menu.style.display === "block") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "block";
-      }
-    }
+<div id="settings" class="section">
+  <h2>Settings</h2>
+  <p>Settings coming soon.</p>
+</div>
 
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        for (var i = 0; i < dropdowns.length; i++) {
-          dropdowns[i].style.display = "none";
-        }
-      }
-    };
-  </script>
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
+
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(function(sec) {
+      sec.style.display = 'none';
+    });
+    document.getElementById(id).style.display = 'block';
+    document.getElementById('menu').style.display = 'none';
+  }
+</script>
 
 </body>
 </html>
