@@ -447,14 +447,12 @@ body.dark-mode .navbar {
  <div class="media-section"><div data-aos="fade-up">
   <!-- content here -->
 </div>
-      <h2>My Photo & Video</h2>
-      
-        <source src="media/myvideo.mp4" type="video/mp4">
+  <h2>My Photo & Video</h2>
+      <source src="media/myvideo.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
-
-    <!-- Image Gallery -->
+ <!-- Image Gallery -->
     <div class="image-row">
       <img src="data-antry.png" alt="Data Entry">
       <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
@@ -463,8 +461,7 @@ body.dark-mode .navbar {
       <img src="SAMPLE.jpeg" alt="Sample">
       <img src="data.jpg" alt="Data">
     </div>
-
-    <!-- Gallery Section -->
+ <!-- Gallery Section -->
     <div class="gallery-section">
       <h2>My Gallery</h2>
       <div class="gallery">
@@ -479,7 +476,7 @@ body.dark-mode .navbar {
   <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
 </button>  
 
-    <div>
+  <div>
       <div class="portfolio-section">
       <h2>My Portfolio</h2>
       <p>Here are some examples of the data entry work I've done:</p>
@@ -495,7 +492,7 @@ body.dark-mode .navbar {
       </div>
     </div>
     
-    </div><button id="backToTop">↑</button>
+   </div><button id="backToTop">↑</button>
     
  <script>
   const btn = document.getElementById('backToTop');
@@ -549,8 +546,9 @@ body.dark-mode .navbar {
       } else {
         setTimeout(type, isDeleting ? 60 : 100);
        type();
-    </script>
-    <div class="contact-section">
+        
+  </script>
+   <div class="contact-section">
       <h2>Contact Me</h2>
       <form action="https://formspree.io/f/mjvnavrw" method="POST">
         <input type="text" name="name" placeholder="Your Name" required><br><br>
