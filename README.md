@@ -279,22 +279,22 @@ body.dark-mode .navbar {
 
   <!-- JavaScript for menu toggle -->
   <script>
-    function toggleMenu() {
-      var menu = document.getElementById("dropdownMenu");
-      if (menu.style.display === "block") {
-        menu.style.display = "none";
-      } else {
-        menu.style.display = "block";
-      }
+<button onclick="toggleMenu()">⋮</button>
+<div id="menu" style="display:none;">
+  <a href="#profile">Profile</a>
+  <a href="#privacy">Privacy Policy</a>
+  <a href="#settings">Settings</a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    if (menu.style.display === 'none') {
+      menu.style.display = 'block';
+    } else {
+      menu.style.display = 'none';
     }
-      // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        for (var i = 0; i < dropdowns.length; i++) {
-          dropdowns[i].style.display = "none";
-        }
-      }
+     }
     };
   </script>
 
