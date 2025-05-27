@@ -469,6 +469,18 @@ body.dark-mode .navbar {
  <div class="media-section"><div data-aos="fade-up">
   <!-- content here -->
 </div>
+   <div class="media-section" style="margin-top: 50px;">
+  <h2>My Photo & Video</h2>
+  
+  <!-- My Photo -->
+  <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"><br><br>
+  
+  <!-- My Video -->
+  <video controls width="400">
+    <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4"type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
   <h2>My Photo & Video</h2>
       <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4">
         Your browser does not support the video tag.
