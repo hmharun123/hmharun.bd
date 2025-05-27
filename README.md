@@ -465,7 +465,7 @@ body.dark-mode .navbar {
     <div class="gallery-section">
       <h2>My Gallery</h2>
       <div class="gallery">
-        <img src="media/photo1.jpg" alt="Photo 1">
+        <img src="https://github.com/hmharun123/hmharun.bd/blob/main/076ac6.jpg " alt="Photo 1">
         <img src="media/photo2.jpg" alt="Photo 2">
         <img src="media/photo3.jpg" alt="Photo 3">
         <img src="media/photo4.jpg" alt="Photo 4">
