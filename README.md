@@ -276,6 +276,29 @@ body.dark-mode .navbar {
     <p><a href="https://www.instagram.com" target="_blank">View My Instagram</a></p>
     <p><a href="https://www.youtube.com" target="_blank">Visit My YouTube</a></p>
   </section>
+
+  <!-- JavaScript for menu toggle -->
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("dropdownMenu");
+      if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+          dropdowns[i].style.display = "none";
+        }
+      }
+    };
+  </script>
+
 </body>
 </html>
 </script>
