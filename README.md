@@ -465,7 +465,7 @@ body.dark-mode .navbar {
     <div class="gallery-section">
       <h2>My Gallery</h2>
       <div class="gallery">
-        <img src="https://github.com/hmharun123/hmharun.bd/blob/main/076ac6.jpg " alt="Photo 1">
+        <img src="https://github.com/hmharun123/hmharun.bd/blob/main/076ac6.jpg" alt="Photo 1">
         <img src="media/photo2.jpg" alt="Photo 2">
         <img src="media/photo3.jpg" alt="Photo 3">
         <img src="media/photo4.jpg" alt="Photo 4">
@@ -485,7 +485,7 @@ body.dark-mode .navbar {
       <div class="buttons">
       <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
       <div class="buttons">
-    <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
+    <a class="button" href="(https://github.com/hmharun123/hmharun.bd/blob/main/076ac6.jpg)"target="_blank">PDF to Excel Conversion</a>
         <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">
           View Sample Data Entry Work
         </a>
