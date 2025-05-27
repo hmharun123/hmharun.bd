@@ -337,9 +337,6 @@ body.dark-mode .navbar {
     <p>This is the Home page</p>
   </div>
 
-</body>
-</html>
-
 </script>
   <div class="container">
 
