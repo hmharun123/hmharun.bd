@@ -200,6 +200,28 @@ body.dark-mode .navbar {
       border-radius: 10px;
       margin: 10px 0;
     }
+    .gallery-section {
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
     #preloader {
       background: white;
       position: fixed;
