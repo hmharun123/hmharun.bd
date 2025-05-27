@@ -177,11 +177,6 @@ body.dark-mode .navbar {
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Md. Harun Or Rashid</title>
   <style>
     /* Top-right menu styling */
     .top-right-menu {
@@ -226,10 +221,65 @@ body.dark-mode .navbar {
       margin-top: 20px;
       border-top: 1px solid #ccc;
     }
-  </style>
-</head>
-<body>
-// Close the dropdown if the user clicks outside of it
+  <!-- Top-right menu -->
+  <div class="top-right-menu">
+    <button class="dropbtn" onclick="toggleMenu()">⋮</button>
+    <div class="dropdown-content" id="dropdownMenu">
+      <a href="#profile">Profile</a>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <h2>My Profile</h2>
+    <p>Name: Md. Harun Or Rashid</p>
+    <p>Address: Manikganj, Dhaka, Bangladesh</p>
+    <p>Email: hmharun796@gmail.com</p>
+    <p>Education: SSC, Lemubari Binoda Sundori High School</p>
+    <p>Profession: Freelancer</p>
+    <p>Skills: Data Entry, E-commerce Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+  </section>
+
+  <!-- Privacy Policy Section -->
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>Your privacy is important to us. We do not share your personal information with third parties without your consent.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a dedicated freelancer specializing in data entry and web research. I have completed various projects with high client satisfaction.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Phone: +880 1648 131 500</p>
+    <p>Phone: +880 1316 888 404</p>
+    <p>Email: hmharun796@gmail.com</p>
+    <p><a href="https://wa.me/8801648131500" target="_blank">Order on WhatsApp</a></p>
+    <p><a href="https://www.fiverr.com" target="_blank">Visit My Fiverr Profile</a></p>
+    <p><a href="https://www.facebook.com" target="_blank">Visit My Facebook</a></p>
+    <p><a href="https://www.instagram.com" target="_blank">View My Instagram</a></p>
+    <p><a href="https://www.youtube.com" target="_blank">Visit My YouTube</a></p>
+  </section>
+
+  <!-- JavaScript for menu toggle -->
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("dropdownMenu");
+      if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    }
+
+    // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
       if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -239,7 +289,6 @@ body.dark-mode .navbar {
       }
     };
   </script>
-
 </body>
 </html>
   </style>
