@@ -267,12 +267,12 @@ body.dark-mode .navbar {
   <nav class="tab-bar">
     <a href="index.html" class="tab">Home</a>
     <a href="about.html" class="tab">About</a>
-    <a href="contact.html" class="tab">Contact</a>
-    <h2>Contact</h2>
+    <a href="contact.html" class="tab"<h2>Contact</h2>
   <p>Phone: +8801648131500</p>
   <p>Email: hmharun796@gmail.com</p>
-</div>
-    <a href="services.html" class="tab">Services</a>
+</div> >Contact</a>
+    <h2>Contact</h2>
+ <a href="services.html" class="tab">Services</a>
     <a href="portfolio.html" class="tab">Portfolio</a>
   </nav>
 
