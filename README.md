@@ -481,11 +481,6 @@ body.dark-mode .navbar {
     Your browser does not support the video tag.
   </video>
 </div>
-  <h2>My Photo & Video</h2>
-      <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
     <link rel="stylesheet" href="css/style.css">
 <!-- Image Gallery -->
     <div class="image-row">
