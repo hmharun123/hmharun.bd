@@ -186,61 +186,8 @@ body.dark-mode .navbar {
   <div id="preloader">
   <div class="loader"></div>
 </div>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Md. Harun Or Rashid</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="menu.css" />
-</head>
-<body>
-
-  <!-- Top Navigation Bar with Three Dots -->
-  <div class="topnav">
-    <h2 class="site-title">Md. Harun</h2>
-    <div class="menu-icon" onclick="toggleMenu()">&#8942;</div>
-    <div id="dropdownMenu" class="dropdown-content">
-      <a href="#profile">Profile</a>
-      <a href="#privacy">Privacy</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <a href="#details">Details</a>
-    </div>
-  </div>
-
-  <!-- Sections -->
-  <section id="profile">
-    <h3>Profile</h3>
-    <p>I am Md. Harun Or Rashid, a freelancer specialized in data entry, web research, and e-commerce tasks.</p>
-  </section>
-
-  <section id="privacy">
-    <h3>Privacy</h3>
-    <p>Your personal data is never collected. This website is only for showcasing my freelance skills.</p>
-  </section>
-
-  <section id="about">
-    <h3>About</h3>
-    <p>I completed SSC from Lemubari Binoda Sundori High School. I work remotely from Manikganj, Dhaka.</p>
-  </section>
-
-  <section id="contact">
-    <h3>Contact</h3>
-    <p>Email: hmharun796@gmail.com<br>WhatsApp: +8801648131500</p>
-  </section>
-
-  <section id="details">
-    <h3>Details</h3>
-    <p>Skills include: Data Entry, Web Research, E-commerce Data Entry, Web Scraping, Copy-Paste, and more.</p>
-  </section>
-
-  <script src="menu.js"></script>
-</body>
-</html>
   <body>
-    
-<div class="top-right-menu">
+    <div class="top-right-menu">
   <button class="dropbtn" onclick="toggleMenu()">⋮</button>
   <div class="dropdown-content" id="dropdownMenu">
     <a href="#profile">profile</a>
