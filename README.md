@@ -474,11 +474,14 @@ body.dark-mode .navbar {
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
   <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
   <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-</button>  
+  </button>
 
-<div class="portfolio-section">
+  <div class="portfolio-section">
   <h2>My Portfolio</h2>
   <p>Here are some examples of the data entry work I've done:</p>
+  <div class="buttons">
+    <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">
+      View Sample Data Entry Work
   <div class="buttons">
     <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
