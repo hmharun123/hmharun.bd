@@ -337,6 +337,43 @@ body.dark-mode .navbar {
       display: none;
       padding: 20px;
     }
+    <!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>গ্যালারী</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>আমার ছবি গ্যালারী</h1>
+  <div class="gallery">
+    <img src="images/pic1.jpg" alt="ছবি ১">
+    <img src="images/pic2.jpg" alt="ছবি ২">
+    <img src="images/pic3.jpg" alt="ছবি ৩">
+    <!-- যত খুশি ছবি যোগ করতে পারেন -->
+  </div>
+</body>
+</html>
   </style>
 </head>
 <body>
