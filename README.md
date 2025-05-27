@@ -470,7 +470,7 @@ body.dark-mode .navbar {
   <!-- content here -->
 </div>
   <h2>My Photo & Video</h2>
-      <source src="media/myvideo.mp4" type="video/mp4">
+      <source src="media/https://github.com/hmharun123/hmharun.bd/blob/main/media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
