@@ -274,10 +274,7 @@ body.dark-mode .navbar {
 
   <!-- Your main content here -->
   <div class="container">
-    <h1>Welcome to My Website</h1>
-    <p>This is the Home page</p>
-  </div>
-
+ 
 </body>
   <header>
   Md. Harun Or Rashid
