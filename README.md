@@ -229,6 +229,10 @@ body.dark-mode .navbar {
       margin-top: 20px;
       border-top: 1px solid #ccc;
     }
+  </style>
+</head>
+<body>
+
   <!-- Top-right menu -->
   <div class="top-right-menu">
     <button class="dropbtn" onclick="toggleMenu()">⋮</button>
@@ -296,9 +300,6 @@ body.dark-mode .navbar {
         }
       }
     };
-  </script>
-</body>
-</html>
   </style>
 </head>
 <link rel="stylesheet" href="style.css">
