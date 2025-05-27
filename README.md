@@ -177,6 +177,14 @@ body.dark-mode .navbar {
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
+</style>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Md. Harun Or Rashid</title>
   <style>
     /* Top-right menu styling */
     .top-right-menu {
