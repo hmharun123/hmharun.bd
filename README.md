@@ -267,8 +267,7 @@ body.dark-mode .navbar {
   <nav class="tab-bar">
     <a href="index.html" class="tab">Home</a>
     <a href="about.html" class="tab">About</a>
-    <a href="contact.html" class="tab"</div> >Contact</a>
-    <h2>Contact</h2>
+    <a href="contact.html" class="tab">Contact</a>
  <a href="services.html" class="tab">Services</a>
     <a href="portfolio.html" class="tab">Portfolio</a>
   </nav>
