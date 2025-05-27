@@ -276,27 +276,6 @@ body.dark-mode .navbar {
     <p><a href="https://www.instagram.com" target="_blank">View My Instagram</a></p>
     <p><a href="https://www.youtube.com" target="_blank">Visit My YouTube</a></p>
   </section>
- <!-- JavaScript for menu toggle -->
-  <script>
-<button onclick="toggleMenu()">⋮</button>
-<div id="menu" style="display:none;">
-  <a href="#profile">Profile</a>
-  <a href="#privacy">Privacy Policy</a>
-  <a href="#settings">Settings</a>
-</div>
-
-<script>
-  function toggleMenu() {
-    var menu = document.getElementById('menu');
-    if (menu.style.display === 'none') {
-      menu.style.display = 'block';
-    } else {
-      menu.style.display = 'none';
-    }
-     }
-    };
-  </script>
-
 </body>
 </html>
 </script>
