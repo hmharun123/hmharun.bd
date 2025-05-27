@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Md. Harun Or Rashid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: relative;
+    }
+    .menu-button {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      color: white;
+      cursor: pointer;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 60px;
+      right: 20px;
+      background: white;
+      border: 1px solid #ccc;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .modal a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+      border-bottom: 1px solid #ddd;
+    }
+    .modal a:hover {
+      background: #f0f0f0;
+    }
+    .section {
+      padding: 1rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Md. Harun Or Rashid
+  <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
+</header>
+
+<div class="modal" id="menuModal">
+  <a href="#" onclick="showSection('profile')">My Profile</a>
+  <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
+  <a href="#" onclick="showSection('about')">About</a>
+  <a href="#" onclick="showSection('contact')">Contact Me</a>
+  <a href="#" onclick="showSection('settings')">Settings</a>
+</div>
+
+<div id="profile" class="section">
+  <h2>My Profile</h2>
+  <p>Name: Md. Harun Or Rashid</p>
+  <p>Address: Manikganj, Dhaka, Bangladesh</p>
+  <p>Email: hmharun796@gmail.com</p>
+  <p>Education: SSC, Lembubari Binoda Sundori High School</p>
+  <p>Profession: Freelancer</p>
+  <p>Skills: Data Entry, E-commerce Entry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+</div>
+
+<div id="privacy" class="section">
+  <h2>Privacy Policy</h2>
+  <p>Your privacy is important to us. We do not share your personal information with third parties without your consent.</p>
+</div>
+
+<div id="about" class="section">
+  <h2>About</h2>
+  <p>I am a dedicated freelancer specializing in data entry and web research. I have completed various projects with high client satisfaction.</p>
+</div>
+
+<div id="contact" class="section">
+  <h2>Contact Me</h2>
+  <p>Phone: +880 1648 131 500</p>
+  <p>Phone: +880 1316 888 404</p>
+  <p>Email: hmharun796@gmail.com</p>
+  <a href="https://wa.me/8801648131500" target="_blank">Order on WhatsApp</a>
+  <a href="https://www.fiverr.com/hmharun123" target="_blank">Visit My Fiverr Profile</a>
+  <a href="https://www.facebook.com/hmharun123" target="_blank">Visit My Facebook</a>
+  <a href="https://www.instagram.com/hmharun123" target="_blank">View My Instagram</a>
+  <a href="https://www.youtube.com/@hmharun123" target="_blank">Visit My YouTube</a>
+</div>
+
+<div id="settings" class="section">
+  <h2>Settings</h2>
+  <p>Settings feature is under development.</p>
+</div>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menuModal');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
+
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(s => s.style.display = 'none');
+    document.getElementById(id).style.display = 'block';
+    document.getElementById('menuModal').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
