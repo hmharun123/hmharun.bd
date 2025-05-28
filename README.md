@@ -268,7 +268,29 @@
   <h1>Hi, I'm Harun</h1>
   <h2>I am a <span class="typing-text"></span></h2>
 </section>
-      
+      <script>
+  const text = ["Web Developer", "Designer", "Freelancer"];
+  const typingSpan = document.querySelector(".typing-text");
+  let i = 0, j = 0, isDeleting = false;
+function type() {
+    let current = text[i];
+    if (isDeleting) {
+      typingSpan.textContent = current.substring(0, j--);
+    } else {
+      typingSpan.textContent = current.substring(0, j++);
+    }
+    if (!isDeleting && j === current.length) {
+      isDeleting = true;
+      setTimeout(type, 1000); // pause after complete
+    } else if (isDeleting && j === 0) {
+      isDeleting = false;
+      i = (i + 1) % text.length;
+    }
+   setTimeout(type, isDeleting ? 60 : 120);
+   } 
+        document.addEventListener("DOMContentLoaded", type);
+</script>
+
    </div><button id="backToTop">↑</button>
     
  <script>
