@@ -302,23 +302,9 @@ body.dark-mode .navbar {
     .section {
       display: none;
       padding: 20px;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-    }
-    .gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      transition: transform 0.3s;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-
+      
 <body>
+      
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
