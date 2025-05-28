@@ -451,10 +451,7 @@ body.dark-mode .navbar {
   </video>
 </div>
     <link rel="stylesheet" href="css/style.css">
-<!-- Image Gallery -->
-
-</body>
-</html>
+    <!-- Image Gallery -->
     <div class="image-row">
       <img src="data-antry.png" alt="Data Entry">
       <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
