@@ -1,182 +1,37 @@
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Md. Harun Or Rashid</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-  <style>
-    html {
-  scroll-behavior: smooth;
-}
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-.container {
-  padding: 30px;
-}
-img.profile {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border: 3px solid #444;
-}
-h1 {
-  color: #333;
-}
-p {
-  font-size: 18px;
-  color: #444;
-  max-width: 600px;
-  margin: 10px auto;
-}
-.buttons {
-  margin-top: 25px;
-}
-a.button {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 25px;
-  background-color: #007bff;
+/* Button style */
+.button {
+  padding: 10px 20px;
+  background: #007BFF;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-weight: bold;
 }
-a.button:hover {
-  background-color: #0056b3;
-}
-a.fiverr {
-  background-color: #28a745;
-}
-a.fiverr:hover {
-  background-color: #218838;
-}
-.certificate-section,
-.portfolio-section,
-.youtube-section,
-.contact-section {
-  margin-top: 40px;
-}
+
+/* General image styling */
 .certificate-section img,
-.portfolio-section img {
-  max-width: 90%;
-  border: 2px solid #ccc;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-}
-input,
-textarea {
-  width: 80%;
-  max-width: 400px;
-  padding: 10px;
-  margin: 5px auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-.image-row {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-.image-row img {
-  width: 250px;
+.image-row img,
+.media-section img,
+.gallery img {
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
 }
-    html {
-      scroll-behavior: smooth;
-     0;
-    }
-.tab-bar {
-  display: flex;
-  background-color: #007bff;
-  overflow-x: auto;
-}
-.tab {
-  flex: 1;
-  text-align: center;
-  padding: 14px 16px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-.tab:hover {
-  background-color: #0056b3;
-}
-    .navbar {
-  position: sticky;
-  top: 0;
-  background: white;
-  z-index: 999;
-  padding: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-body.dark-mode .navbar {
-  background: #1a1a1a;
-}
-    .navbar {
-      position: sticky;
-      top: 0;
-      background: #fff;
-      padding: 10px 20px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      z-index: 999;
-    }
-    .navbar h1 {
-      margin: 0;
-    }
-    .container {
-      padding: 20px;
-    }
-    .profile {
-      width: 200px;
-      border-radius: 15px;
-    }
-    .buttons a {
-      display: inline-block;
-      margin: 5px;
-      padding: 10px 20px;
-      background: #007BFF;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .certificate-section img,
-    .image-row img,
-    .media-section img,
-    .gallery img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin: 10px 0;
-    }
-    .gallery-section {
+
+/* Gallery section */
+.gallery-section {
   margin: 50px auto;
   padding: 20px;
   text-align: center;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
 }
+
 .gallery img {
   width: 200px;
   height: 150px;
@@ -185,64 +40,79 @@ body.dark-mode .navbar {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
 }
+
 .gallery img:hover {
   transform: scale(1.05);
 }
-    #preloader {
-      background: white;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 10000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .loader {
-      width: 40px;
-      height: 40px;
-      border: 5px solid #007BFF;
-      border-top-color: transparent;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-    #backToTop {
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-      padding: 10px;
-      font-size: 18px;
-      display: none;
-      border: none;
-      background: #007BFF;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-      z-index: 9999;
-    }
-    .typing {
-      border-right: 2px solid #000;
-      white-space: nowrap;
-      overflow: hidden;
-      display: inline-block;
-    }
-    .top-right-menu {
+
+/* Preloader */
+#preloader {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  border: 5px solid #007BFF;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Back to top button */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px;
+  font-size: 18px;
+  display: none;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* Typing text effect */
+.typing {
+  border-right: 2px solid #000;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* Top right dropdown menu */
+.top-right-menu {
   position: fixed;
   top: 15px;
   right: 15px;
   z-index: 1000;
 }
+
 .dropbtn {
   background-color: transparent;
   border: none;
   font-size: 24px;
   cursor: pointer;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -253,58 +123,69 @@ body.dark-mode .navbar {
   border-radius: 5px;
   overflow: hidden;
 }
+
 .dropdown-content a {
   color: #333;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
+
 .dropdown-content a:hover {
   background-color: #f1f1f1;
- }
-  header {
-      background: #333;
-      color: white;
-      padding: 1rem;
-      position: relative;
-    }
-    .menu-button {
-      position: absolute;
-      right: 1rem;
-      top: 1rem;
-      font-size: 1.5rem;
-      background: none;
-      border: none;
-      color: white;
-      cursor: pointer;
-    }
-    .menu-content {
-      display: none;
-      position: fixed;
-      top: 60px;
-      right: 20px;
-      background: white;
-      border: 1px solid #ccc;
-      width: 220px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      z-index: 1000;
-    }
-    .menu-content a {
-      display: block;
-      padding: 10px;
-      text-decoration: none;
-      color: #333;
-      border-bottom: 1px solid #eee;
-    }
-    .menu-content a:hover {
-      background-color: #f0f0f0;
-    }
-    .section {
-      display: none;
-      padding: 20px;
-      
-<body>
-      
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  position: relative;
+}
+
+/* Mobile menu button */
+.menu-button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile menu content */
+.menu-content {
+  display: none;
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.menu-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-content a:hover {
+  background-color: #f0f0f0;
+}
+/* Hidden sections for tab navigation */
+.section {
+  display: none;
+  padding: 20px;
+}
+    @keyframes spin {
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
