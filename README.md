@@ -49,14 +49,79 @@
       display: none;
       padding: 20px;
     }
-    /* Typing Effect Style */
+    <!-- ======= CSS ======= -->
+<style>
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f0f2f5, #e2eafc);
+    padding: 20px;
+  }
+.hero-content h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+.hero-content h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 25px;
+  }
 .typing-text {
-  color: #007BFF;
-  font-weight: bold;
-  border-right: 2px solid #007BFF;
-  white-space: nowrap;
-  overflow: hidden;
-}
+    color: #007BFF;
+    font-weight: bold;
+    border-right: 2px solid #007BFF;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+ .search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+.search-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 220px;
+  }
+.search-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   }
+.search-form button:hover {
+    background-color: #0056b3;
+  }
+ @media screen and (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 32px;
+    }
+ .hero-content h2 {
+      font-size: 20px;
+    }
+.search-form {
+      flex-direction: column;
+      gap: 10px;
+    }
+ .search-form input,
+    .search-form button {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+</style>
   </style>
 </head>
 <body>
@@ -273,9 +338,6 @@
   };
   btn.onclick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-   
-   </script>
      window.addEventListener('load', () => {
     document.getElementById('preloader').style.display = 'none';
   });
@@ -308,90 +370,6 @@
   </div>
 </section>
 
-<!-- ======= CSS ======= -->
-<style>
-  .hero-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100vh;
-    background: linear-gradient(to right, #f0f2f5, #e2eafc);
-    padding: 20px;
-  }
-
-  .hero-content h1 {
-    font-size: 48px;
-    color: #333;
-    margin-bottom: 15px;
-  }
-
-  .hero-content h2 {
-    font-size: 28px;
-    color: #444;
-    margin-bottom: 25px;
-  }
-
-  .typing-text {
-    color: #007BFF;
-    font-weight: bold;
-    border-right: 2px solid #007BFF;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  .search-form {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-
-  .search-form input {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    width: 220px;
-  }
-
-  .search-form button {
-    padding: 10px 15px;
-    font-size: 16px;
-    border: none;
-    background: #007BFF;
-    color: white;
-    cursor: pointer;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-
-  .search-form button:hover {
-    background-color: #0056b3;
-  }
-
-  @media screen and (max-width: 768px) {
-    .hero-content h1 {
-      font-size: 32px;
-    }
-
-    .hero-content h2 {
-      font-size: 20px;
-    }
-
-    .search-form {
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .search-form input,
-    .search-form button {
-      width: 100%;
-      border-radius: 5px;
-    }
-  }
-</style>
 
 <!-- ======= Typing Script ======= -->
 <script>
