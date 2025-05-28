@@ -53,6 +53,15 @@
 </head>
 <body>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Md. Harun Or Rashid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
 <header>
   Md. Harun Or Rashid
   <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
@@ -62,6 +71,7 @@
   <a href="#" onclick="showSection('profile')">Profile</a>
   <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
   <a href="#" onclick="showSection('contact')">Contact</a>
+  <a href="#" onclick="showSection('About')">About</a>
   <a href="#" onclick="showSection('settings')">Settings</a>
 </div>
 
@@ -69,7 +79,7 @@
   <h2>My Profile</h2>
   <img src="harun.jpg" alt="Harun's Photo" class="profile">
   <p>Name: Md. Harun Or Rashid</p>
-  <p>Address: Manikganj, Dhaka,Bangladesh</p>
+  <p>Address: Manikganj, Dhaka, Bangladesh</p>
   <p>Email: hmharun796@gmail.com</p>
 </div>
 
@@ -77,7 +87,7 @@
   <h2>Privacy Policy</h2>
   <p>We do not share your personal information.</p>
   <p><strong>Profession:</strong> Freelancer</p>
-    <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+  <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
 </div>
 
 <div id="contact" class="section">
@@ -86,23 +96,24 @@
   <p>Phone: +8801316888404</p>
   <p>Email: hmharun796@gmail.com</p>
   <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
-      <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
-      <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
-      <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
-      <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
+  <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
+  <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
+  <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
+  <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
 </div>
 
 <div id="About" class="section">
   <h2>About</h2>
   <p>We do not share your personal information.</p>
   <p><strong>Profession:</strong> Freelancer</p>
-    <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-<\div>
-    
+  <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+</div>
+
 <div id="settings" class="section">
   <h2>Settings</h2>
   <p>Settings coming soon.</p>
 </div>
+
 <script>
   function toggleMenu() {
     var menu = document.getElementById('menu');
