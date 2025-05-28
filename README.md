@@ -67,20 +67,29 @@
 
 <div id="profile" class="section">
   <h2>My Profile</h2>
+  <img src="harun.jpg" alt="Harun's Photo" class="profile">
   <p>Name: Md. Harun Or Rashid</p>
-  <p>Address: Manikganj, Dhaka</p>
+  <p>Address: Manikganj, Dhaka,Bangladesh</p>
   <p>Email: hmharun796@gmail.com</p>
 </div>
 
 <div id="privacy" class="section">
   <h2>Privacy Policy</h2>
   <p>We do not share your personal information.</p>
+  <p><strong>Profession:</strong> Freelancer</p>
+    <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
 </div>
 
 <div id="contact" class="section">
   <h2>Contact</h2>
   <p>Phone: +8801648131500</p>
+  <p>Phone: +8801316888404</p>
   <p>Email: hmharun796@gmail.com</p>
+  <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
+      <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
+      <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
+      <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
+      <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
 </div>
 
 <div id="settings" class="section">
@@ -126,67 +135,7 @@
   <div class="container">
  
 </body>
-  <header>
-  Md. Harun Or Rashid
-  <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
-</header>
-
-<div class="menu-content" id="menu">
-  <a href="#" onclick="showSection('profile')">Profile</a>
-  <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
-  <a href="#" onclick="showSection('contact')">Contact</a>
-  <a href="#" onclick="showSection('settings')">Settings</a>
-</div>
-
-<div id="profile" class="section">
-  <h2>My Profile</h2>
-  <p>Name: Md. Harun Or Rashid</p>
-  <p>Address: Manikganj, Dhaka</p>
-  <p>Email: hmharun796@gmail.com</p>
-</div>
-
-<div id="privacy" class="section">
-  <h2>Privacy Policy</h2>
-  <p>We do not share your personal information.</p>
-</div>
-
-<div id="contact" class="section">
-  <h2>Contact</h2>
-  <p>Phone: +8801648131500</p>
-  <p>Email: hmharun796@gmail.com</p>
-</div>
-
-<div id="settings" class="section">
-  <h2>Settings</h2>
-  <p>Settings coming soon.</p>
-</div>
-
-<script>
-  function toggleMenu() {
-    var menu = document.getElementById('menu');
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-  }
-
-  function showSection(id) {
-    document.querySelectorAll('.section').forEach(function(sec) {
-      sec.style.display = 'none';
-    });
-    document.getElementById(id).style.display = 'block';
-    document.getElementById('menu').style.display = 'none';
-  }
-</script>
-
-</body>
-<!-- Your main content here -->
-  <div class="container">
-    <h1>Welcome to My Website</h1>
-    <p>This is the Home page</p>
-  </div>
-
-</script>
-  <div class="container">
-
-    <!-- Search Bar -->
+  <!-- Search Bar -->
     <h2>Search My Website</h2>
     <div class="gcse-search"></div>
   </div>
