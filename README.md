@@ -247,11 +247,7 @@
   <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
   <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
   </button>
-<!-- ======= Typing Text Section ======= -->
-<section id="home" class="hero-section">
-  <h1>Hi, I'm Harun</h1>
-  <h2>I am a <span class="typing-text"></span></h2>
-</section
+
   <div class="portfolio-section">
   <h2>My Portfolio</h2>
   <p>Here are some examples of the data entry work I've done:</p>
@@ -264,31 +260,7 @@
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
     
-  <body>
-     <script>
-  const text = ["Web Developer", "Designer", "Freelancer"];
-  const typingSpan = document.querySelector(".typing-text");
-  let i = 0, j = 0, isDeleting = false;
-function type() {
-    let current = text[i];
-    if (isDeleting) {
-      typingSpan.textContent = current.substring(0, j--);
-    } else {
-      typingSpan.textContent = current.substring(0, j++);
-    }
-    if (!isDeleting && j === current.length) {
-      isDeleting = true;
-      setTimeout(type, 1000); // pause after complete
-    } else if (isDeleting && j === 0) {
-      isDeleting = false;
-      i = (i + 1) % text.length;
-    }
-   setTimeout(type, isDeleting ? 60 : 120);
-   } 
-        document.addEventListener("DOMContentLoaded", type);
-</script>
-
-   </div><button id="backToTop">↑</button>
+ </div><button id="backToTop">↑</button>
     
  <script>
   const btn = document.getElementById('backToTop');
@@ -323,7 +295,7 @@ function type() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
   
-        
+   
   </script>
    <div class="contact-section">
       <h2>Contact Me</h2>
