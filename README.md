@@ -163,7 +163,6 @@
     <img src="harun.jpg" alt="Harun's Photo" class="profile">
   <h1>Md. Harun Or Rashid</h1>
   <div class="navbar">
-    <h2>I am a <span class="typing"></span></h2>
     <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
     <p><strong>Email:</strong> hmharun796@gmail.com</p>
     <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
@@ -254,6 +253,13 @@
   </div>
 </div>
   <div>
+  
+    <h2>I am a <span class="typing"></span></h2>
+    <!-- ======= Typing Text Section ======= -->
+<section id="home" class="hero-section">
+  <h1>Hi, I'm Harun</h1>
+  <h2>I am a <span class="typing-text"></span></h2>
+</section>
       
    </div><button id="backToTop">↑</button>
     
