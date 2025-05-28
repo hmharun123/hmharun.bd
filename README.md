@@ -49,6 +49,14 @@
       display: none;
       padding: 20px;
     }
+    /* Typing Effect Style */
+.typing-text {
+  color: #007BFF;
+  font-weight: bold;
+  border-right: 2px solid #007BFF;
+  white-space: nowrap;
+  overflow: hidden;
+}
   </style>
 </head>
 <body>
