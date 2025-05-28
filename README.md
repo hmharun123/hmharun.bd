@@ -324,9 +324,6 @@
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
-    
- </div><button id="backToTop">↑</button>
-    
  <script>
   const btn = document.getElementById('backToTop');
   window.onscroll = () => {
