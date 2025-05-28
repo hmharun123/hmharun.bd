@@ -263,7 +263,7 @@
   <div>
     
   <body>
-    <h2>I am a <span class="typing"></span></h2>
+    
      <!-- ======= Typing Text Section ======= -->
 <section id="home" class="hero-section">
   <h1>Hi, I'm Harun</h1>
