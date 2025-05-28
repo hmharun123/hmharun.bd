@@ -92,6 +92,13 @@
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
 </div>
 
+<div id="About" class="section">
+  <h2>About</h2>
+  <p>We do not share your personal information.</p>
+  <p><strong>Profession:</strong> Freelancer</p>
+    <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+  <\div>
+    
 <div id="settings" class="section">
   <h2>Settings</h2>
   <p>Settings coming soon.</p>
