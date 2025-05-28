@@ -261,10 +261,10 @@
   </div>
 </div>
   <div>
-  
-    <h2>I am a <span class="typing"></span></h2>
     
-    <!-- ======= Typing Text Section ======= -->
+  <body>
+    <h2>I am a <span class="typing"></span></h2>
+     <!-- ======= Typing Text Section ======= -->
 <section id="home" class="hero-section">
   <h1>Hi, I'm Harun</h1>
   <h2>I am a <span class="typing-text"></span></h2>
@@ -307,15 +307,13 @@ function type() {
   btn.onclick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
- </script>
-
-<script>
-  window.addEventListener('load', () => {
+   
+   </script>
+     window.addEventListener('load', () => {
     document.getElementById('preloader').style.display = 'none';
   });
-</script>
-
-  <script>
+  
+ <script>
    <button class="dropbtn" onclick="toggleMenu()">⋮</button>
     <script>
     const btn = document.getElementById('backToTop');
@@ -329,24 +327,7 @@ function type() {
     btn.onclick = () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
-  </script>  
-  <script>
-  const words = ["Freelancer", "Data Entry Expert", "Web Researcher"];
-    let i = 0, j = 0, currentWord = "", isDeleting = false;
-    function type() {
-      currentWord = words[i];
-      let display = isDeleting ? currentWord.slice(0, j--) : currentWord.slice(0, j++);
-      document.querySelector(".typing").textContent = display;
-      if (!isDeleting && j === currentWord.length) {
-        isDeleting = true;
-        setTimeout(type, 1000);
-      } else if (isDeleting && j === 0) {
-        isDeleting = false;
-        i = (i + 1) % words.length;
-        setTimeout(type, 300);
-      } else {
-        setTimeout(type, isDeleting ? 60 : 100);
-       type();
+  
         
   </script>
    <div class="contact-section">
