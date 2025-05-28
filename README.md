@@ -342,7 +342,7 @@ body.dark-mode .navbar {
 <html lang="bn">
 <head>
   <meta charset="UTF-8">
-  <title>গ্যালারী</title>
+  <title>gallery</title>
   <style>
     body {
       font-family: sans-serif;
@@ -362,19 +362,7 @@ body.dark-mode .navbar {
     .gallery img:hover {
       transform: scale(1.05);
     }
-  </style>
-</head>
-<body>
-  <h1>আমার ছবি গ্যালারী</h1>
-  <div class="gallery">
-    <img src="images/pic1.jpg" alt="ছবি ১">
-    <img src="images/pic2.jpg" alt="ছবি ২">
-    <img src="images/pic3.jpg" alt="ছবি ৩">
-    <!-- যত খুশি ছবি যোগ করতে পারেন -->
-  </div>
-</body>
-</html>
-  </style>
+  
 </head>
 <body>
 <html lang="en">
