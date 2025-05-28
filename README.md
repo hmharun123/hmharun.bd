@@ -466,26 +466,6 @@ body.dark-mode .navbar {
 </div>
     <link rel="stylesheet" href="css/style.css">
 <!-- Image Gallery -->
-<!-- Navigation -->
-  <nav>
-    <a href="index.html">home</a>
-    <a href="gallery.html">gallery</a>
-    <a href="contact.html">contact</a>
-  </nav>
-
-  <!-- Page Title -->
-  <h1>my gallery</h1>
-
-  <!-- Gallery Section -->
-  <div class="gallery">
-    <a href="images/pic1.jpg" data-lightbox="gallery" data-title="ছবি ১"><img src="images/pic1.jpg" alt="ছবি ১"></a>
-    <a href="images/pic2.jpg" data-lightbox="gallery" data-title="ছবি ২"><img src="images/pic2.jpg" alt="ছবি ২"></a>
-    <a href="images/pic3.jpg" data-lightbox="gallery" data-title="ছবি ৩"><img src="images/pic3.jpg" alt="ছবি ৩"></a>
-    <!-- চাইলে আরও ছবি যুক্ত করতে পারেন -->
-  </div>
-
-  <!-- Lightbox JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
 </body>
 </html>
