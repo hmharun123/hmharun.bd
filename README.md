@@ -1,3 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Md. Harun Or Rashid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      position: relative;
+    }
+    .menu-button {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .menu-content {
+      display: none;
+      position: fixed;
+      top: 60px;
+      right: 20px;
+      background: white;
+      border: 1px solid #ccc;
+      width: 220px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .menu-content a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+      border-bottom: 1px solid #eee;
+    }
+    .menu-content a:hover {
+      background-color: #f0f0f0;
+    }
+    .section {
+      display: none;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Md. Harun Or Rashid
+  <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
+</header>
+
+<div class="menu-content" id="menu">
+  <a href="#" onclick="showSection('profile')">Profile</a>
+  <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
+  <a href="#" onclick="showSection('contact')">Contact</a>
+  <a href="#" onclick="showSection('settings')">Settings</a>
+</div>
+
+<div id="profile" class="section">
+  <h2>My Profile</h2>
+  <p>Name: Md. Harun Or Rashid</p>
+  <p>Address: Manikganj, Dhaka</p>
+  <p>Email: hmharun796@gmail.com</p>
+</div>
+
+<div id="privacy" class="section">
+  <h2>Privacy Policy</h2>
+  <p>We do not share your personal information.</p>
+</div>
+
+<div id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Phone: +8801648131500</p>
+  <p>Email: hmharun796@gmail.com</p>
+</div>
+
+<div id="settings" class="section">
+  <h2>Settings</h2>
+  <p>Settings coming soon.</p>
+</div>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
+
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(function(sec) {
+      sec.style.display = 'none';
+    });
+    document.getElementById(id).style.display = 'block';
+    document.getElementById('menu').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
  <html lang="en">
 <head>
   <meta charset="UTF-8" />
