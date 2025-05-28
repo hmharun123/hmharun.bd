@@ -294,7 +294,132 @@
     btn.onclick = () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     };
-  
+  <!-- ======= Hero Section ======= -->
+<section id="home" class="hero-section">
+  <div class="hero-content">
+    <h1>Hi, I'm Harun</h1>
+    <h2>I am a <span class="typing-text"></span></h2>
+
+    <!-- ======= Search Bar ======= -->
+    <form class="search-form">
+      <input type="text" placeholder="Search here..." />
+      <button type="submit">Search</button>
+    </form>
+  </div>
+</section>
+
+<!-- ======= CSS ======= -->
+<style>
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f0f2f5, #e2eafc);
+    padding: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .hero-content h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 25px;
+  }
+
+  .typing-text {
+    color: #007BFF;
+    font-weight: bold;
+    border-right: 2px solid #007BFF;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .search-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 220px;
+  }
+
+  .search-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .search-form button:hover {
+    background-color: #0056b3;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 32px;
+    }
+
+    .hero-content h2 {
+      font-size: 20px;
+    }
+
+    .search-form {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .search-form input,
+    .search-form button {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+</style>
+
+<!-- ======= Typing Script ======= -->
+<script>
+  const text = ["Web Developer", "Designer", "Freelancer"];
+  const typingSpan = document.querySelector(".typing-text");
+  let i = 0, j = 0, isDeleting = false;
+
+  function type() {
+    let current = text[i];
+    if (isDeleting) {
+      typingSpan.textContent = current.substring(0, j--);
+    } else {
+      typingSpan.textContent = current.substring(0, j++);
+    }
+
+    if (!isDeleting && j === current.length) {
+      isDeleting = true;
+      setTimeout(type, 1000);
+    } else if (isDeleting && j === 0) {
+      isDeleting = false;
+      i = (i + 1) % text.length;
+    }
+
+    setTimeout(type, isDeleting ? 60 : 120);
+  }
+
+  document.addEventListener("DOMContentLoaded", type);
+</script>
    
   </script>
    <div class="contact-section">
