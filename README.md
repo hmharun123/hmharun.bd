@@ -263,12 +263,14 @@
   <div>
   
     <h2>I am a <span class="typing"></span></h2>
+    
     <!-- ======= Typing Text Section ======= -->
 <section id="home" class="hero-section">
   <h1>Hi, I'm Harun</h1>
   <h2>I am a <span class="typing-text"></span></h2>
 </section>
-      <script>
+
+ <script>
   const text = ["Web Developer", "Designer", "Freelancer"];
   const typingSpan = document.querySelector(".typing-text");
   let i = 0, j = 0, isDeleting = false;
