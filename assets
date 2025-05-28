@@ -1,0 +1,30 @@
+<!-- Download CV Section -->
+<section id="cv" class="cv-download">
+  <div class="container text-center">
+    <h2 class="section-title">Download My CV</h2>
+    <a href="assets/Harun_CV.pdf" class="btn-cv" download>Download CV</a>
+  </div>
+</section>
+
+<style>
+.cv-download {
+  padding: 4rem 2rem;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.btn-cv {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cv:hover {
+  background-color: #218838;
+}
+</style>
