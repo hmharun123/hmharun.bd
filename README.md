@@ -97,13 +97,12 @@
   <p>We do not share your personal information.</p>
   <p><strong>Profession:</strong> Freelancer</p>
     <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-  <\div>
+<\div>
     
 <div id="settings" class="section">
   <h2>Settings</h2>
   <p>Settings coming soon.</p>
 </div>
-
 <script>
   function toggleMenu() {
     var menu = document.getElementById('menu');
