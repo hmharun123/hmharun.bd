@@ -337,14 +337,6 @@ body.dark-mode .navbar {
       display: none;
       padding: 20px;
     }
-    <!-- gallery.html -->
-<!DOCTYPE html>
-<html lang="bn">
-<head>
-  <meta charset="UTF-8">
-  <title>gallery</title>
-  <style>
-    body {
       font-family: sans-serif;
       padding: 20px;
     }
@@ -362,8 +354,7 @@ body.dark-mode .navbar {
     .gallery img:hover {
       transform: scale(1.05);
     }
-  
-</head>
+
 <body>
 <html lang="en">
 <head>
@@ -512,12 +503,7 @@ body.dark-mode .navbar {
 </div>
     <link rel="stylesheet" href="css/style.css">
 <!-- Image Gallery -->
-
-  </style>
-</head>
-<body>
-
-  <!-- Navigation -->
+<!-- Navigation -->
   <nav>
     <a href="index.html">home</a>
     <a href="gallery.html">gallery</a>
