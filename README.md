@@ -291,7 +291,25 @@ header {
       width: 100%;
       border-radius: 5px;
     }
-   </style>
+.cv-download {
+  padding: 4rem 2rem;
+  background: #f7f7f7;
+  text-align: center;
+}
+.btn-cv {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn-cv:hover {
+  background-color: #218838;
+}
+</style>
 </head>
 <body>
 
@@ -579,7 +597,16 @@ header {
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
-  </nav>  <section id="hero" class="fade-in">
+
+    <!-- CV Download Section --><section id="cv" class="cv-download">
+  <div class="container text-center">
+    <h2 class="section-title">Download My CV</h2>
+    <a href="assets/Harun_CV.pdf" class="btn-cv" download>Download CV</a>
+  </div>
+</section>
+<style>
+
+</nav>  <section id="hero" class="fade-in">
     <div class="hero-content">
       <h1>Hi, I'm Harun</h1>
       <h2><span class="typed-text"></span><span class="cursor">|</span></h2>
