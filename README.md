@@ -767,6 +767,7 @@ header {
   </script></body>
 </html>
   </script>
+  <body>
     <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact-section">
   <h2>Contact Me</h2>
