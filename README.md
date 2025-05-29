@@ -796,4 +796,35 @@ header {
 <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
   
-  
+  <section id="portfolio" class="portfolio-section">
+  <h2>My Portfolio</h2>
+  <div class="portfolio-filters">
+    <button class="filter" data-filter="all">All</button>
+    <button class="filter" data-filter=".web">Web</button>
+    <button class="filter" data-filter=".design">Design</button>
+    <button class="filter" data-filter=".app">App</button>
+  </div>
+
+  <div class="portfolio-grid" id="portfolio-mix">
+    <div class="portfolio-item mix web">
+      <a href="assets/img/project1.jpg" data-lightbox="portfolio" data-title="Web Project 1">
+        <img src="assets/img/project1.jpg" alt="Project 1" />
+      </a>
+    </div>
+    <div class="portfolio-item mix design">
+      <a href="assets/img/project2.jpg" data-lightbox="portfolio" data-title="Design Project 2">
+        <img src="assets/img/project2.jpg" alt="Project 2" />
+      </a>
+    </div>
+    <div class="portfolio-item mix app">
+      <a href="assets/img/project3.jpg" data-lightbox="portfolio" data-title="App Project 3">
+        <img src="assets/img/project3.jpg" alt="Project 3" />
+      </a>
+    </div>
+    <div class="portfolio-item mix web">
+      <a href="assets/img/project4.jpg" data-lightbox="portfolio" data-title="Web Project 4">
+        <img src="assets/img/project4.jpg" alt="Project 4" />
+      </a>
+    </div>
+  </div>
+</section>
