@@ -954,3 +954,45 @@ header {
     </div>
   </div>
 </div>
+<script>
+  const projects = [
+    {
+      title: "Project 1",
+      img: "assets/img/project1.jpg",
+      desc: "Description for project 1.",
+      link: "https://example.com/project1"
+    },
+    {
+      title: "Project 2",
+      img: "assets/img/project2.jpg",
+      desc: "Description for project 2.",
+      link: "https://example.com/project2"
+    },
+    {
+      title: "Project 3",
+      img: "assets/img/project3.jpg",
+      desc: "Description for project 3.",
+      link: "https://example.com/project3"
+    }
+ let currentIndex = 0;
+function openModal(index) {
+    currentIndex = index;
+    const project = projects[index];
+    document.getElementById("modalImg").src = project.img;
+    document.getElementById("modalTitle").innerText = project.title;
+    document.getElementById("modalDesc").innerText = project.desc;
+    document.getElementById("modalLink").href = project.link;
+    document.getElementById("portfolioModal").style.display = "flex";
+  }
+ function closeModal() {
+    document.getElementById("portfolioModal").style.display = "none";
+  }
+function nextModal() {
+    currentIndex = (currentIndex + 1) % projects.length;
+    openModal(currentIndex);
+  }
+function prevModal() {
+    currentIndex = (currentIndex - 1 + projects.length) % projects.length;
+    openModal(currentIndex);
+  }
+</script>
