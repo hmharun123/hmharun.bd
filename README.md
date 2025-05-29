@@ -8,6 +8,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
     }
+    }
     <!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
