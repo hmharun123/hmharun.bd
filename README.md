@@ -922,3 +922,35 @@ header {
 <script>
   var mixer = mixitup('#portfolio-mix');
 </script>
+<section id="portfolio" class="portfolio-section">
+  <h2>My Portfolio</h2>
+  <div class="portfolio-grid">
+    <div class="portfolio-item" onclick="openModal(0)">
+      <img src="assets/img/project1.jpg" alt="Project 1">
+      <h3>Project 1</h3>
+    </div>
+    <div class="portfolio-item" onclick="openModal(1)">
+      <img src="assets/img/project2.jpg" alt="Project 2">
+      <h3>Project 2</h3>
+    </div>
+    <div class="portfolio-item" onclick="openModal(2)">
+      <img src="assets/img/project3.jpg" alt="Project 3">
+      <h3>Project 3</h3>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div id="portfolioModal" class="portfolio-modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modalImg" src="" alt="Project Image">
+    <h2 id="modalTitle">Title</h2>
+    <p id="modalDesc">Description</p>
+    <a id="modalLink" href="#" target="_blank" class="modal-link">Live Preview</a>
+    <div class="modal-nav">
+      <button onclick="prevModal()">&#8592; Prev</button>
+      <button onclick="nextModal()">Next &#8594;</button>
+    </div>
+  </div>
+</div>
