@@ -868,3 +868,6 @@ header {
     </div>
   </div>
 </section>
+<script>
+  var mixer = mixitup('#portfolio-mix');
+</script>
