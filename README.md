@@ -19,6 +19,57 @@
       padding: 0;
       box-sizing: border-box;
     }
+    .portfolio-modal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: white;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+}
+.modal-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+.modal-link {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.modal-nav button {
+  background: #333;
+  color: white;
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.modal-nav button:hover {
+  background: #555;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
     .portfolio-section {
   padding: 60px 20px;
   text-align: center;
