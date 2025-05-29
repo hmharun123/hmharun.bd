@@ -767,15 +767,26 @@ header {
   </script></body>
 </html>
   </script>
-   <div class="contact-section">
-      <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/mjvnavrw" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required><br><br>
-        <input type="email" name="email" placeholder="Your Email" required><br><br>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br><br>
-        <button type="submit" class="button">Send Message</button>
-      </form>
+    <!-- ======= Contact Section ======= -->
+<section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  <p>Feel free to reach out for any project or just to say hello 👋</p>
 
-   <button id="backToTop" title="Back to Top">↑</button>
+  <div class="contact-container">
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <p><strong>📧 Email:</strong> harunrm900@gmail.com</p>
+      <p><strong>📞 Phone:</strong> +880 1648-131500</p>
+      <p><strong>📍 Location:</strong> Dhaka, Bangladesh</p>
+    </div>
+<!-- Contact Form -->
+    <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
   
   
