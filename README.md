@@ -355,6 +355,41 @@ video {
     display: block;
     margin: 10px 0;
   }
+  <style>
+  .menu-button {
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #333;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+  }
+  .menu-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 998;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  .menu-content a {
+    display: block;
+    padding: 8px 12px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .menu-content a:hover {
+    background-color: #f0f0f0;
+  }
+</style>
  .image-row {
     flex-direction: column;
     align-items: center;
