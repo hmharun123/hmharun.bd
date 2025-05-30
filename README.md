@@ -268,6 +268,39 @@ video {
   margin-right: 10px;
   vertical-align: middle;
 }
+    .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+.links .btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+/* Individual Button Colors */
+.green { background-color: #1dbf73; }
+.blue { background-color: #1877f2; }
+.red { background-color: #ff0000; }
+.darkgreen { background-color: #25d366; }
+.purple { background-color: #c32aa3; }
+.pink { background-color: #ff0050; }
+.links .btn:hover {
+  transform: scale(1.05);
+}
+.links .btn i {
+  font-size: 18px;
+}
     #backToTop {
   position: fixed;
   right: 20px;
@@ -316,7 +349,7 @@ video {
   }
   </style>
 </head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
 <body>
 
 <header>
@@ -453,6 +486,7 @@ video {
   </div>
 
 <head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <meta charset="UTF-8">
   <title>HM Harun Portfolio</title>
   <link rel="stylesheet" href="style.css">
