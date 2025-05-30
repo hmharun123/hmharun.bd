@@ -309,7 +309,7 @@ body {
   </div>
 </div>
   
-<button id="backToTop" onclick="scrollToTop()">↑</button>
+   <button id="backToTop" onclick="scrollToTop()">↑</button>
 <div>
   
 <a href="#home">Home</a>
@@ -338,8 +338,6 @@ body {
     Your browser does not support the video tag.
   </video>
 <div>
-
-
 
 <section class="section">
   <h2>My Gallery</h2>
