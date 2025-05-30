@@ -76,71 +76,45 @@
     .fiverr:hover {
       background: #178e5c;
     }
-  .portfolio-modal {
-  display: none;
-  position: fixed;
-  z-index: 10000;
-  left: 0; top: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  justify-content: center;
-  align-items: center;
-}
-.modal-content {
-  background: white;
-  padding: 20px;
-  width: 90%;
-  max-width: 600px;
-  text-align: center;
-  border-radius: 8px;
-  position: relative;
-}
-.modal-content img {
-  width: 100%;
-  border-radius: 10px;
-}
-.modal-link {
-  display: inline-block;
-  margin: 15px 0;
-  padding: 10px 20px;
-  background: #007bff;
-  color: white;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.modal-nav button {
-  background: #333;
-  color: white;
-  border: none;
-  margin: 10px;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.modal-nav button:hover {
-  background: #555;
-}
-.close {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 24px;
-  cursor: pointer;
-}
-    .portfolio-section {
-  padding: 60px 20px;
-  text-align: center;
-}
-.portfolio-filters {
-  margin-bottom: 20px;
-}
-.filter {
-  background: #007bff;
-  color: white;
-  padding: 8px 16px;
-  margin: 0 5px;
-  border: none;
-  border-radius: 4px;
+    .tab-bar {
+      display: flex;
+      justify-content: center;
+      background: #222;
+      flex-wrap: wrap;
+    }
+    .tab {
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .tab:hover {
+      background: #444;
+    }
+    .button, .btn {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .btn.whatsapp {
+      background: #25D366;
+    }
+    .btn.order {
+      background: #28a745;
+    }
+    .button.fiverr {
+      background: #1dbf73;
+    }
+    .certificate-section img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+r-radius: 4px;
   cursor: pointer;
 }
 .filter:hover {
@@ -596,7 +570,111 @@ header {
     document.getElementById('menu').style.display = 'none';
   }
 </script>
+</style>
+</head>
+<body onload="showSection('profile')">
 
+<header>
+  Md. Harun Or Rashid
+  <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
+</header>
+
+<!-- Top Navigation Tabs -->
+<nav class="tab-bar">
+  <a href="index.html" class="tab">Home</a>
+  <a href="about.html" class="tab">About</a>
+  <a href="contact.html" class="tab">Contact</a>
+  <a href="services.html" class="tab">Services</a>
+  <a href="portfolio.html" class="tab">Portfolio</a>
+</nav>
+
+<!-- Dropdown Menu -->
+<div class="menu-content" id="menu">
+  <a href="#" onclick="showSection('profile')">Profile</a>
+  <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
+  <a href="#" onclick="showSection('contact')">Contact</a>
+  <a href="#" onclick="showSection('about')">About</a>
+  <a href="#" onclick="showSection('settings')">Settings</a>
+</div>
+
+<!-- Sections -->
+<div id="profile" class="section">
+  <h2>My Profile</h2>
+  <img src="harun.jpg" alt="Harun's Photo" class="profile">
+  <p><strong>Name:</strong> Md. Harun Or Rashid</p>
+  <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
+  <p><strong>Email:</strong> hmharun796@gmail.com</p>
+  <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
+  <p><strong>Profession:</strong> Freelancer</p>
+  <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+</div>
+
+<div id="privacy" class="section">
+  <h2>Privacy Policy</h2>
+  <p>We do not share your personal information.</p>
+</div>
+
+<div id="contact" class="section">
+  <h2>Contact</h2>
+  <p><strong>Phone:</strong> +8801648131500</p>
+  <p><strong>Phone:</strong> +8801316888404</p>
+  <p><strong>Email:</strong> hmharun796@gmail.com</p>
+  <a href="mailto:hmharun123@gmail.com?subject=Hiring Request&body=Hello, I would like to hire you for a project." target="_blank">
+    <button class="btn order">Order Now</button>
+  </a>
+  <a href="https://wa.me/8801795815184?text=Hi%20Harun,%20I%20am%20interested%20in%20your%20services." target="_blank">
+    <button class="btn whatsapp">Order on WhatsApp</button>
+  </a>
+  <div class="buttons">
+    <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
+    <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
+    <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
+    <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
+    <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
+  </div>
+</div>
+
+<div id="about" class="section">
+  <h2>About</h2>
+  <p><strong>Profession:</strong> Freelancer</p>
+  <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+</div>
+
+<div id="settings" class="section">
+  <h2>Settings</h2>
+  <p>Settings coming soon.</p>
+</div>
+
+<!-- Search Section -->
+<section class="section">
+  <h2>Search My Website</h2>
+  <div class="gcse-search"></div>
+</section>
+
+<!-- Certificate Section -->
+<section class="section certificate-section">
+  <h2>Certificate of Completion</h2>
+  <img src="certificate.jpg" alt="Certificate 1">
+  <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate 2">
+</section>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
+
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(function(sec) {
+      sec.style.display = 'none';
+    });
+    document.getElementById(id).style.display = 'block';
+    document.getElementById('menu').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>
 </body>
 </html>
 
