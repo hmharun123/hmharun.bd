@@ -170,7 +170,7 @@ body {
   <a href="#" onclick="showSection('settings')">Settings</a>
 </div>
 
-<section class="section" id="home">
+<div class="section" id="home">
   <h2>Hi, I'm Harun</h2>
   <h3>I am a |</h3>
   <form class="search-form">
@@ -415,3 +415,9 @@ body {
 
 </body>
 </html>
+<section class="section" id="home">
+  <h2>Hi, I'm Harun</h2>
+  <h3>I am a |</h3>
+  <form class="search-form">
+    <div class="gcse-search"></div>
+  </form>
