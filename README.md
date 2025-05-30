@@ -48,23 +48,10 @@
  .menu-content a:hover {
     background-color: #f2f2f2;
   }
-    .menu-button {
-      background: none;
-      border: none;
-      color: white;
-      font-size: 24px;
-      cursor: pointer;
-    }
     .menu-content {
       display: none;
       background: #f0f0f0;
       padding: 10px;
-    }
-    .menu-content a {
-      display: block;
-      padding: 8px;
-      text-decoration: none;
-      color: #333;
     }
     .section {
       display: none;
