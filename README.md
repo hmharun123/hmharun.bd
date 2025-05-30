@@ -76,19 +76,6 @@
       margin: 10px 0;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-       #backToTop {
-      display: none;
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #333;
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 50%;
-      font-size: 20px;
-      cursor: pointer;
-    }
       background-color: #333;
       color: white;
       padding: 15px;
