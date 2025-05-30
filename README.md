@@ -273,26 +273,6 @@ body {
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
-</div>
-
-<button id="backToTop" onclick="scrollToTop()">↑</button>
-
-<nav>
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-  <a href="assets/Harun_CV.pdf" class="btn" download>Download CV</a>
-</section>
-
-<section class="section" id="about">
-  <h2>About Me</h2>
-  <p>Your short bio goes here.</p>
-</section>
-
-<section 
   <!-- My Projects Section -->
 <section id="projects" class="section">
   <h2>My Projects</h2>
@@ -311,8 +291,24 @@ body {
     <a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
     <a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
+</div>
+<button id="backToTop" onclick="scrollToTop()">↑</button>
+
+<div>
+<a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+  <a href="assets/Harun_CV.pdf" class="btn" download>Download CV</a>
 </section>
-  
+
+<section class="section" id="about">
+  <h2>About Me</h2>
+  <p>Your short bio goes here.</p>
+</section>
+
 <section class="section">
   <h2>Payoneer Account Creation Tutorial</h2>
 </section>
