@@ -405,108 +405,113 @@ video {
   Md. Harun Or Rashid
   <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
 </header>
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Three Dot Menu Example</title>
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Harun Or Rashid</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
-
     header {
-      padding: 10px;
-      background-color: #f5f5f5;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
       position: relative;
     }
-
     .menu-button {
-      font-size: 24px;
-      cursor: pointer;
+      font-size: 20px;
       background: none;
       border: none;
-      color: #333;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      z-index: 999;
+      cursor: pointer;
+      color: white;
     }
-
     .menu-content {
       display: none;
       position: absolute;
       top: 50px;
-      right: 10px;
-      background-color: #fff;
+      right: 20px;
+      background: #f1f1f1;
       border: 1px solid #ccc;
       padding: 10px;
-      z-index: 998;
-      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
-      border-radius: 8px;
+      z-index: 1000;
     }
-
     .menu-content a {
       display: block;
-      padding: 8px 12px;
-      color: #333;
+      padding: 8px;
+      color: #000;
       text-decoration: none;
-      border-radius: 5px;
     }
-
     .menu-content a:hover {
-      background-color: #f0f0f0;
+      background-color: #ddd;
+    }
+    .section {
+      display: none;
+      padding: 20px;
     }
   </style>
 </head>
-<body>
-
-  <header>
-    Md. Harun Or Rashid
-    <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
-
-    <div class="menu-content" id="menu">
-      <a href="#" onclick="showSection('profile')">Profile</a>
-      <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
-      <a href="#" onclick="showSection('contact')">Contact</a>
-      <a href="#" onclick="showSection('about')">About</a>
-      <a href="#" onclick="showSection('settings')">Settings</a>
-    </div>
-  </header>
-
-  <!-- Dummy Sections -->
-  <div id="profile" class="section"><h2>Profile Section</h2></div>
-  <div id="privacy" class="section"><h2>Privacy Policy</h2></div>
-  <div id="contact" class="section"><h2>Contact</h2></div>
-  <div id="about" class="section"><h2>About</h2></div>
-  <div id="settings" class="section"><h2>Settings</h2></div>
-
-  <script>
-    function toggleMenu() {
-      var menu = document.getElementById("menu");
-      menu.style.display = (menu.style.display === "block") ? "none" : "block";
-    }
-
-    window.onclick = function(event) {
-      if (!event.target.matches('.menu-button')) {
-        var dropdowns = document.getElementsByClassName("menu-content");
-        for (var i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.style.display === "block") {
-            openDropdown.style.display = "none";
-          }
-        }
+<body><header>
+  Md. Harun Or Rashid
+  <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
+</header><div class="menu-content" id="menu">
+  <a href="#" onclick="showSection('profile')">Profile</a>
+  <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
+  <a href="#" onclick="showSection('contact')">Contact</a>
+  <a href="#" onclick="showSection('about')">About</a>
+  <a href="#" onclick="showSection('settings')">Settings</a>
+  <a href="#" onclick="showSection('certificate')">Certificates</a>
+  <a href="#" onclick="showSection('media')">Tutorial</a>
+  <a href="hmharun-cv.pdf" download>Download CV</a>
+  <a href="mailto:hmharun796@gmail.com?subject=Hello&body=I want to connect with you.">Send Email</a>
+</div><div id="profile" class="section">
+  <h2>Profile</h2>
+  <p>This is the profile section.</p>
+</div><div id="privacy" class="section">
+  <h2>Privacy Policy</h2>
+  <p>This is the privacy policy section.</p>
+</div><div id="contact" class="section">
+  <h2>Contact</h2>
+  <p>This is the contact section.</p>
+</div><div id="about" class="section">
+  <h2>About</h2>
+  <p>This is the about section.</p>
+</div><div id="settings" class="section">
+  <h2>Settings</h2>
+  <p>This is the settings section.</p>
+</div><div id="certificate" class="section">
+  <h2>Certificates</h2>
+  <p>This is the certificate section.</p>
+</div><div id="media" class="section">
+  <h2>Tutorial</h2>
+  <p>This is the tutorial section.</p>
+</div><script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.style.display = (menu.style.display === "block") ? "none" : "block";
+  }
+  window.onclick = function(event) {
+    if (!event.target.matches('.menu-button')) {
+      var dropdowns = document.getElementsByClassName("menu-content");
+      for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].style.display = "none";
       }
     }
-
-    function showSection(id) {
+  }
+  function showSection(id) {
+    var sections = document.querySelectorAll(".section");
+    sections.forEach(function(section) {
+      section.style.display = "none";
+    });
+    document.getElementById(id).style.display = "block";
+  }
+   function showSection(id) {
       const sections = document.querySelectorAll(".section");
       sections.forEach(sec => sec.style.display = "none");
       document.getElementById(id).style.display = "block";
