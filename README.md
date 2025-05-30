@@ -270,19 +270,19 @@ video {
   margin-top: 15px;
   border-radius: 10px;
 }
-/* Back to Top Button */
-#backToTop {
+    #backToTop {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: #1abc9c;
-  color: white;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  padding: 10px 12px;
+  background: #1abc9c;
+  color: #fff;
   border: none;
-  padding: 10px 14px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
-  display: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 #backToTop:hover {
   background-color: #16a085;
