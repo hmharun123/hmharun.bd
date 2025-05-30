@@ -274,7 +274,7 @@ body {
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
   <!-- My Projects Section -->
-<section id="projects" class="section">
+<a id="projects" class="section">
   <h2>My Projects</h2>
   <p>Here are some examples of the data entry work I've done:</p>
   <div class="image-row">
@@ -292,9 +292,10 @@ body {
     <a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
 </div>
+  
 <button id="backToTop" onclick="scrollToTop()">↑</button>
-
 <div>
+  
 <a href="#home">Home</a>
   <a href="#about">About</a>
   <a href="#projects">Projects</a>
@@ -302,31 +303,27 @@ body {
 </nav>
 
   <a href="assets/Harun_CV.pdf" class="btn" download>Download CV</a>
-</section>
+</div>
 
-<section class="section" id="about">
+<a class="section" id="about">
   <h2>About Me</h2>
   <p>Your short bio goes here.</p>
-</section>
-
-<section class="section">
+  <div>
+    
+<a class="section">
   <h2>Payoneer Account Creation Tutorial</h2>
-</section>
+<div>
 
-<section class="section">
+<a class="section">
   <h2>My Photo & Video</h2>
   <p>My Photo</p>
   <video controls>
     <source src="video.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</section>
+<div>
 
-<section class="section certificate-section">
-  <h2>Certificate of Completion</h2>
-  <img src="certificate.jpg" alt="Certificate 1">
-  <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate 2">
-</section>
+
 
 <section class="section">
   <h2>My Gallery</h2>
