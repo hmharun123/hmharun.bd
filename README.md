@@ -540,6 +540,27 @@ video {
   </form>
 </section>
 
+<section class="links">
+  <a href="https://www.fiverr.com/s/dDlW3G3" class="btn green" target="_blank">
+    <i class="fa-brands fa-fiverr"></i> Fiverr
+  </a>
+  <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
+    <i class="fa-brands fa-facebook-f"></i> Facebook
+  </a>
+  <a href="https://youtube.com/@mdharun-n6j" class="btn red" target="_blank">
+    <i class="fa-brands fa-youtube"></i> YouTube
+  </a>
+  <a href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" class="btn darkgreen" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+  </a>
+  <a href="https://www.instagram.com/p/DIeAfFXT_oO/" class="btn purple" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+  </a>
+  <a href="https://www.tiktok.com/@user6071584366187" class="btn pink" target="_blank">
+    <i class="fa-brands fa-tiktok"></i> TikTok
+  </a>
+</section>
+
 <!-- Back to Top Button -->
 <button id="backToTop" onclick="scrollToTop()">↑</button>
 
