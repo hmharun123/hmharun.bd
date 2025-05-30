@@ -114,11 +114,6 @@
       margin: 10px;
       border-radius: 8px;
     }
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Media & Portfolio Section</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
@@ -164,8 +159,7 @@
       position: fixed;
       z-index: 9999;
     }
-    
-r-radius: 4px;
+    r-radius: 4px;
   cursor: pointer;
 }
 .filter:hover {
