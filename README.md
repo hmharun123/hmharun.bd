@@ -86,11 +86,27 @@
   <p>Your short bio goes here.</p>
 </section>
 
-<section class="section" id="projects">
+<section 
+  <!-- My Projects Section -->
+<section id="projects" class="section">
   <h2>My Projects</h2>
-  <p>Project samples go here.</p>
+  <p>Here are some examples of the data entry work I've done:</p>
+  <div class="image-row">
+    <img src="data-antry.png" alt="Data Entry">
+    <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
+    <img src="312.jpg" alt="Certificate">
+    <img src="076ac6.jpg" alt="076ac6">
+    <img src="SAMPLE.jpeg" alt="Sample">
+    <img src="data.jpg" alt="Data">
+  </div>
+  <div class="project-links">
+    <a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a>
+    <a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
+    <a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
+    <a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
+  </div>
 </section>
-
+  
 <section class="section">
   <h2>Payoneer Account Creation Tutorial</h2>
 </section>
