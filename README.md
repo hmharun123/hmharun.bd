@@ -884,8 +884,7 @@ h2 {
     var menu = document.getElementById('menu');
     menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
   }
-
-  function showSection(id) {
+ function showSection(id) {
     document.querySelectorAll('.section').forEach(function(sec) {
       sec.style.display = 'none';
     });
