@@ -257,6 +257,11 @@ video {
   margin-top: 15px;
   border-radius: 10px;
 }
+    .links .btn i {
+  margin-right: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+}
     #backToTop {
   position: fixed;
   right: 20px;
