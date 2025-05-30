@@ -546,9 +546,6 @@ video {
 </section>
 
 <section class="links">
-  <a href="https://www.fiverr.com/s/dDlW3G3" class="btn green" target="_blank">
-    <i class="fa-brands fa-fiverr"></i> Fiverr
-  </a>
   <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
     <i class="fa-brands fa-facebook-f"></i> Facebook
   </a>
@@ -564,6 +561,9 @@ video {
   <a href="https://www.tiktok.com/@user6071584366187" class="btn pink" target="_blank">
     <i class="fa-brands fa-tiktok"></i> TikTok
   </a>
+  <a href="https://www.fiverr.com/s/dDlW3G3" class="btn green" target="_blank">
+  <img src="fiverr-logo.png" alt="Fiverr" class="icon"> Fiverr
+</a>
 </section>
 
 <!-- Back to Top Button -->
