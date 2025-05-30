@@ -262,6 +262,12 @@ video {
   font-size: 18px;
   vertical-align: middle;
 }
+    .links .btn .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
     #backToTop {
   position: fixed;
   right: 20px;
