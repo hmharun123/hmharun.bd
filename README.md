@@ -389,7 +389,6 @@ video {
   .menu-content a:hover {
     background-color: #f0f0f0;
   }
-</style>
  .image-row {
     flex-direction: column;
     align-items: center;
@@ -406,36 +405,114 @@ video {
   Md. Harun Or Rashid
   <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
 </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Three Dot Menu Example</title>
 
-<div class="menu-content" id="menu">
-  <a href="#" onclick="showSection('profile')">Profile</a>
-  <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
-  <a href="#" onclick="showSection('contact')">Contact</a>
-  <a href="#" onclick="showSection('about')">About</a>
-  <a href="#" onclick="showSection('settings')">Settings</a>
-</div>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
-<!-- JavaScript -->
-<script>
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-</script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
-<script>
-  function toggleMenu() {
-    var menu = document.getElementById("menu");
-    menu.style.display = (menu.style.display === "block") ? "none" : "block";
-  }
+    header {
+      padding: 10px;
+      background-color: #f5f5f5;
+      position: relative;
+    }
 
-  window.onclick = function(event) {
-    if (!event.target.matches('.menu-button')) {
-      var dropdowns = document.getElementsByClassName("menu-content");
-      for (var i = 0; i < dropdowns.length; i++) {
-        dropdowns[i].style.display = "none";
+    .menu-button {
+      font-size: 24px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: #333;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 999;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      top: 50px;
+      right: 10px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      z-index: 998;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .menu-content a {
+      display: block;
+      padding: 8px 12px;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .menu-content a:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Md. Harun Or Rashid
+    <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
+
+    <div class="menu-content" id="menu">
+      <a href="#" onclick="showSection('profile')">Profile</a>
+      <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
+      <a href="#" onclick="showSection('contact')">Contact</a>
+      <a href="#" onclick="showSection('about')">About</a>
+      <a href="#" onclick="showSection('settings')">Settings</a>
+    </div>
+  </header>
+
+  <!-- Dummy Sections -->
+  <div id="profile" class="section"><h2>Profile Section</h2></div>
+  <div id="privacy" class="section"><h2>Privacy Policy</h2></div>
+  <div id="contact" class="section"><h2>Contact</h2></div>
+  <div id="about" class="section"><h2>About</h2></div>
+  <div id="settings" class="section"><h2>Settings</h2></div>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      menu.style.display = (menu.style.display === "block") ? "none" : "block";
+    }
+
+    window.onclick = function(event) {
+      if (!event.target.matches('.menu-button')) {
+        var dropdowns = document.getElementsByClassName("menu-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.style.display === "block") {
+            openDropdown.style.display = "none";
+          }
+        }
       }
     }
-  }
+
+    function showSection(id) {
+      const sections = document.querySelectorAll(".section");
+      sections.forEach(sec => sec.style.display = "none");
+      document.getElementById(id).style.display = "block";
+    }
+  </script>
+
 <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
 <div class="gcse-search"></div>
 <div id="profile" class="section active">
