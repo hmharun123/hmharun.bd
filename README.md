@@ -1,26 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Md. Harun Or Rashid</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-    }
-    }
-    <!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HM Harun | Portfolio</title>
-  <style>
-    * {
-      margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      text-align: center;
+      background: #f0f0f0;
     }
-    .portfolio-modal {
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      font-size: 24px;
+      position: relative;
+    }
+    .menu-button {
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      font-size: 24px;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .menu-content {
+      display: none;
+      background: #444;
+      padding: 10px;
+    }
+    .menu-content a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 8px;
+    }
+    .menu-content a:hover {
+      background: #666;
+    }
+    .section {
+      display: none;
+      padding: 20px;
+      background: white;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .profile {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 10px 0;
+    }
+    .button {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .button:hover {
+      background: #0056b3;
+    }
+    .fiverr {
+      background: #1dbf73;
+    }
+    .fiverr:hover {
+      background: #178e5c;
+    }
+  .portfolio-modal {
   display: none;
   position: fixed;
   z-index: 10000;
@@ -473,16 +529,7 @@ header {
 }
 </style>
 </head>
-<body>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Md. Harun Or Rashid</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+<body onload="showSection('profile')">
 
 <header>
   Md. Harun Or Rashid
@@ -493,16 +540,16 @@ header {
   <a href="#" onclick="showSection('profile')">Profile</a>
   <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
   <a href="#" onclick="showSection('contact')">Contact</a>
-  <a href="#" onclick="showSection('About')">About</a>
+  <a href="#" onclick="showSection('about')">About</a>
   <a href="#" onclick="showSection('settings')">Settings</a>
 </div>
 
 <div id="profile" class="section">
   <h2>My Profile</h2>
   <img src="harun.jpg" alt="Harun's Photo" class="profile">
-  <p>Name: Md. Harun Or Rashid</p>
-  <p>Address: Manikganj, Dhaka, Bangladesh</p>
-  <p>Email: hmharun796@gmail.com</p>
+  <p><strong>Name:</strong> Md. Harun Or Rashid</p>
+  <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
+  <p><strong>Email:</strong> hmharun796@gmail.com</p>
 </div>
 
 <div id="privacy" class="section">
@@ -517,16 +564,15 @@ header {
   <p>Phone: +8801648131500</p>
   <p>Phone: +8801316888404</p>
   <p>Email: hmharun796@gmail.com</p>
-  <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
-  <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
-  <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
-  <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
+  <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a><br>
+  <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a><br>
+  <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a><br>
+  <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a><br>
   <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
 </div>
 
-<div id="About" class="section">
+<div id="about" class="section">
   <h2>About</h2>
-  <p>We do not share your personal information.</p>
   <p><strong>Profession:</strong> Freelancer</p>
   <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
 </div>
@@ -549,6 +595,11 @@ header {
     document.getElementById(id).style.display = 'block';
     document.getElementById('menu').style.display = 'none';
   }
+</script>
+
+</body>
+</html>
+
 </script>
 
 </body>
