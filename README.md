@@ -551,6 +551,9 @@ video {
   </form>
 </section>
 
+<!-- Back to Top Button -->
+<button id="backToTop" onclick="scrollToTop()">↑</button>
+
 <section class="links">
   <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
     <i class="fa-brands fa-facebook-f"></i> Facebook
@@ -571,10 +574,6 @@ video {
   <img src="fiverr-logo.png" alt="Fiverr" class="icon"> Fiverr
 </a>
 </section>
-
-<!-- Back to Top Button -->
-<button id="backToTop" onclick="scrollToTop()">↑</button>
-
 <!-- Footer -->
 <footer class="footer">
   <p>© 2025 HM Harun. All rights reserved.</p>
