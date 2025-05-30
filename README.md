@@ -170,13 +170,6 @@ body {
   <a href="#" onclick="showSection('settings')">Settings</a>
 </div>
 
-<div class="section" id="home">
-  <h2>Hi, I'm Harun</h2>
-  <h3>I am a |</h3>
-  <form class="search-form">
-    <div class="gcse-search"></div>
-  </form>
-  
 <div id="profile" class="section active">
   <h2>My Profile</h2>
   <img src="harun.jpg" alt="Harun's Photo" class="profile" />
