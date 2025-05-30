@@ -170,6 +170,13 @@ body {
   <a href="#" onclick="showSection('settings')">Settings</a>
 </div>
 
+<section class="section" id="home">
+  <h2>Hi, I'm Harun</h2>
+  <h3>I am a |</h3>
+  <form class="search-form">
+    <div class="gcse-search"></div>
+  </form>
+  
 <div id="profile" class="section active">
   <h2>My Profile</h2>
   <img src="harun.jpg" alt="Harun's Photo" class="profile" />
@@ -301,14 +308,8 @@ body {
 
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-</script>
-</html>
-  </style>
-</head>
-<body>
-
-<header>HM Harun</header>
+  
+    <header>HM Harun</header>
 
 <nav>
   <a href="#home">Home</a>
@@ -317,12 +318,6 @@ body {
   <a href="#contact">Contact</a>
 </nav>
 
-<section class="section" id="home">
-  <h2>Hi, I'm Harun</h2>
-  <h3>I am a |</h3>
-  <form class="search-form">
-    <div class="gcse-search"></div>
-  </form>
   <a href="assets/Harun_CV.pdf" class="btn" download>Download CV</a>
 </section>
 
