@@ -1100,21 +1100,27 @@ header {
   </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HM Harun | Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+</head>
+<body>
 
-      
-    <!-- ======= Contact Section ======= -->
+<!-- ======= Contact Section ======= -->
 <section id="contact" class="contact-section">
   <h2>Contact Me</h2>
-  <p>Feel free to reach out for any project or just to say hello 👋</p>
-
+  <p class="center-text">Feel free to reach out for any project or just to say hello 👋</p>
   <div class="contact-container">
-    <!-- Contact Info -->
     <div class="contact-info">
       <p><strong>📧 Email:</strong> harunrm900@gmail.com</p>
       <p><strong>📞 Phone:</strong> +880 1648-131500</p>
       <p><strong>📍 Location:</strong> Dhaka, Bangladesh</p>
     </div>
-<!-- Contact Form -->
     <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
@@ -1123,15 +1129,11 @@ header {
     </form>
   </div>
 </section>
-<!-- MixItUp JS -->
-<script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
 
-<!-- Lightbox2 CSS + JS -->
-<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
-  
-  <section id="portfolio" class="portfolio-section">
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio-section">
   <h2>My Portfolio</h2>
+
   <div class="portfolio-filters">
     <button class="filter" data-filter="all">All</button>
     <button class="filter" data-filter=".web">Web</button>
@@ -1140,50 +1142,28 @@ header {
   </div>
 
   <div class="portfolio-grid" id="portfolio-mix">
-    <div class="portfolio-item mix web">
+    <div class="portfolio-item mix web" onclick="openModal(0)">
       <a href="assets/img/project1.jpg" data-lightbox="portfolio" data-title="Web Project 1">
         <img src="assets/img/project1.jpg" alt="Project 1" />
       </a>
+      <h3>Project 1</h3>
     </div>
-    <div class="portfolio-item mix design">
+    <div class="portfolio-item mix design" onclick="openModal(1)">
       <a href="assets/img/project2.jpg" data-lightbox="portfolio" data-title="Design Project 2">
         <img src="assets/img/project2.jpg" alt="Project 2" />
       </a>
+      <h3>Project 2</h3>
     </div>
-    <div class="portfolio-item mix app">
+    <div class="portfolio-item mix app" onclick="openModal(2)">
       <a href="assets/img/project3.jpg" data-lightbox="portfolio" data-title="App Project 3">
         <img src="assets/img/project3.jpg" alt="Project 3" />
       </a>
-    </div>
-    <div class="portfolio-item mix web">
-      <a href="assets/img/project4.jpg" data-lightbox="portfolio" data-title="Web Project 4">
-        <img src="assets/img/project4.jpg" alt="Project 4" />
-      </a>
-    </div>
-  </div>
-</section>
-<script>
-  var mixer = mixitup('#portfolio-mix');
-</script>
-<section id="portfolio" class="portfolio-section">
-  <h2>My Portfolio</h2>
-  <div class="portfolio-grid">
-    <div class="portfolio-item" onclick="openModal(0)">
-      <img src="assets/img/project1.jpg" alt="Project 1">
-      <h3>Project 1</h3>
-    </div>
-    <div class="portfolio-item" onclick="openModal(1)">
-      <img src="assets/img/project2.jpg" alt="Project 2">
-      <h3>Project 2</h3>
-    </div>
-    <div class="portfolio-item" onclick="openModal(2)">
-      <img src="assets/img/project3.jpg" alt="Project 3">
       <h3>Project 3</h3>
     </div>
   </div>
 </section>
 
-<!-- Modal -->
+<!-- Modal Popup -->
 <div id="portfolioModal" class="portfolio-modal">
   <div class="modal-content">
     <span class="close" onclick="closeModal()">&times;</span>
@@ -1192,12 +1172,18 @@ header {
     <p id="modalDesc">Description</p>
     <a id="modalLink" href="#" target="_blank" class="modal-link">Live Preview</a>
     <div class="modal-nav">
-      <button onclick="prevModal()">&#8592; Prev</button>
-      <button onclick="nextModal()">Next &#8594;</button>
+      <button onclick="prevModal()">← Prev</button>
+      <button onclick="nextModal()">Next →</button>
     </div>
   </div>
 </div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 <script>
+  var mixer = mixitup('#portfolio-mix');
+
   const projects = [
     {
       title: "Project 1",
@@ -1217,8 +1203,11 @@ header {
       desc: "Description for project 3.",
       link: "https://example.com/project3"
     }
- let currentIndex = 0;
-function openModal(index) {
+  ];
+
+  let currentIndex = 0;
+
+  function openModal(index) {
     currentIndex = index;
     const project = projects[index];
     document.getElementById("modalImg").src = project.img;
@@ -1227,15 +1216,24 @@ function openModal(index) {
     document.getElementById("modalLink").href = project.link;
     document.getElementById("portfolioModal").style.display = "flex";
   }
- function closeModal() {
+
+  function closeModal() {
     document.getElementById("portfolioModal").style.display = "none";
   }
-function nextModal() {
+
+  function nextModal() {
     currentIndex = (currentIndex + 1) % projects.length;
     openModal(currentIndex);
   }
-function prevModal() {
+
+  function prevModal() {
     currentIndex = (currentIndex - 1 + projects.length) % projects.length;
     openModal(currentIndex);
   }
 </script>
+</body>
+</html>
+      
+    
+
+  
