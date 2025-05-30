@@ -159,11 +159,6 @@
       position: fixed;
       z-index: 9999;
     }
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HM Harun | Portfolio</title>
   <style>
     /* Basic Styles */
@@ -275,6 +270,115 @@
       opacity: 1;
       transform: translateY(0);
     } 
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.center-text {
+  text-align: center;
+}
+.contact-section,
+.portfolio-section {
+  padding: 40px 20px;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.contact-info,
+.contact-form {
+  flex: 1 1 300px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.portfolio-filters {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.portfolio-filters button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.portfolio-item {
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.portfolio-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+.modal-content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.modal-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal-nav button {
+  margin: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
     r-radius: 4px;
   cursor: pointer;
 }
