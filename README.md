@@ -159,6 +159,122 @@
       position: fixed;
       z-index: 9999;
     }
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HM Harun | Portfolio</title>
+  <style>
+    /* Basic Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero-content {
+      padding: 100px 20px;
+      background: #f4f4f4;
+    }
+    .btn {
+      background: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .testimonial-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+    .testimonial {
+      background: #eee;
+      padding: 1rem;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .social-links a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px;
+      font-size: 20px;
+      display: none;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+   .cursor {
+      animation: blink 0.7s infinite;
+    }
+   @keyframes blink {
+      0%, 50% {
+        opacity: 1;
+      }
+      51%, 100% {
+        opacity: 0;
+      }
+    /* Fade In */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    } 
     r-radius: 4px;
   cursor: pointer;
 }
@@ -864,20 +980,37 @@ header {
   </div>
 </section>
 <style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-</nav>  <section id="hero" class="fade-in">
+  <section id="hero" class="fade-in">
     <div class="hero-content">
       <h1>Hi, I'm Harun</h1>
       <h2><span class="typed-text"></span><span class="cursor">|</span></h2>
       <a href="cv.pdf" class="btn" download>Download CV</a>
     </div>
-  </section>  <section id="about" class="fade-in">
+  </section>
+
+  <section id="about" class="fade-in">
     <h2>About Me</h2>
     <p>Your short bio goes here.</p>
-  </section>  <section id="projects" class="fade-in">
+  </section>
+
+  <section id="projects" class="fade-in">
     <h2>My Projects</h2>
     <p>Project samples go here.</p>
-  </section>  <section id="testimonials" class="fade-in">
+  </section>
+
+  <section id="testimonials" class="fade-in">
     <h2>Testimonials</h2>
     <div class="testimonial-container">
       <div class="testimonial">
@@ -889,7 +1022,9 @@ header {
         <h4>- Client B</h4>
       </div>
     </div>
-  </section>  <section id="contact" class="fade-in">
+  </section>
+
+  <section id="contact" class="fade-in">
     <h2>Contact Me</h2>
     <form>
       <input type="text" placeholder="Your Name" required />
@@ -897,20 +1032,27 @@ header {
       <textarea placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
-  </section>  <footer>
+  </section>
+
+  <footer>
     <p>© 2025 HM Harun. All rights reserved.</p>
     <div class="social-links">
       <a href="#">Facebook</a>
       <a href="#">LinkedIn</a>
       <a href="#">GitHub</a>
     </div>
-  </footer><button id="backToTop" title="Back to Top">↑</button>
+  </footer>
+
+  <button id="backToTop" title="Back to Top">↑</button>
 
   <script>
+    // Remove preloader
     window.addEventListener("load", function () {
-      document.getElementById("preloader").style.display = "none";
+      const preloader = document.getElementById("preloader");
+      if (preloader) preloader.style.display = "none";
     });
 
+    // Typing effect
     const texts = ["a Web Developer", "a Freelancer", "a Designer"];
     let count = 0;
     let index = 0;
@@ -932,6 +1074,7 @@ header {
       }
     })();
 
+    // Scroll fade-in
     const faders = document.querySelectorAll('.fade-in');
     const appearOptions = {
       threshold: 0.3,
@@ -948,15 +1091,17 @@ header {
       appearOnScroll.observe(fader);
     });
 
+    // Back to top button
     const topButton = document.getElementById("backToTop");
     window.onscroll = function () {
       topButton.style.display = window.scrollY > 200 ? "block" : "none";
     };
     topButton.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-  </script></body>
-</html>
   </script>
-  <body>
+</body>
+</html>
+
+      
     <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact-section">
   <h2>Contact Me</h2>
