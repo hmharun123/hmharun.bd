@@ -397,10 +397,6 @@ video {
     align-items: center;
   }
   </style>
-</head>
-  
-<body>
-
 <header>
   <!DOCTYPE html><html lang="en">
 <head>
@@ -532,13 +528,7 @@ video {
     sections.forEach(function(section) {
       section.style.display = "none";
     });
-    document.getElementById(id).style.display = "block";
-  }
-   function showSection(id) {
-      const sections = document.querySelectorAll(".section");
-      sections.forEach(sec => sec.style.display = "none");
-      document.getElementById(id).style.display = "block";
-    }
+    
   </script>
 
 <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
