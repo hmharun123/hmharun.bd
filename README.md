@@ -277,34 +277,6 @@ body {
 
 <button id="backToTop" onclick="scrollToTop()">↑</button>
 
-<script>
-  function toggleMenu() {
-    const menu = document.getElementById('menu');
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-  }
-
-  function showSection(id) {
-    document.querySelectorAll('.section').forEach(function (sec) {
-      sec.classList.remove('active');
-    });
-    document.getElementById(id).classList.add('active');
-    document.getElementById('menu').style.display = 'none';
-  }
-
-  const btn = document.getElementById('backToTop');
-  window.onscroll = () => {
-    if (window.scrollY > 300) {
-      btn.style.display = 'block';
-    } else {
-      btn.style.display = 'none';
-    }
-  };
-
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  
-    <header>HM Harun</header>
-
 <nav>
   <a href="#home">Home</a>
   <a href="#about">About</a>
@@ -407,11 +379,34 @@ body {
   <a href="#top">&uarr;</a>
 </div>
 
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
+
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(function (sec) {
+      sec.classList.remove('active');
+    });
+    document.getElementById(id).classList.add('active');
+    document.getElementById('menu').style.display = 'none';
+  }
+
+  const btn = document.getElementById('backToTop');
+  window.onscroll = () => {
+    if (window.scrollY > 300) {
+      btn.style.display = 'block';
+    } else {
+      btn.style.display = 'none';
+    }
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  
+    <header>HM Harun</header>
+
 </body>
 </html>
-<section class="section" id="home">
-  <h2>Hi, I'm Harun</h2>
-  <h3>I am a |</h3>
-  <form class="search-form">
-    <div class="gcse-search"></div>
-  </form>
+
