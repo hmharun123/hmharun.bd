@@ -146,6 +146,176 @@
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+ /* Navigation */
+nav {
+  background-color: #2c3e50;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #1abc9c;
+}
+.btn {
+  display: inline-block;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #16a085;
+}
+/* Section Styling */
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+.section p,
+.section li,
+.section blockquote {
+  margin-bottom: 15px;
+}
+/* Image Row */
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+.image-row img {
+  max-width: 150px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s;
+}
+.image-row img:hover {
+  transform: scale(1.05);
+}
+/* Project Links */
+.project-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+.project-links a {
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+}
+.project-links a:hover {
+  text-decoration: underline;
+}
+/* Contact Form */
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+form button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #16a085;
+}
+/* Testimonials */
+blockquote {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-left: 5px solid #1abc9c;
+  font-style: italic;
+  margin-top: 10px;
+}
+/* Video */
+video {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+/* Back to Top Button */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+}
+#backToTop:hover {
+  background-color: #16a085;
+}
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
+  margin-top: 30px;
+}
+.footer a {
+  color: #1abc9c;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+ .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+ .project-links {
+    align-items: center;
+  }
   </style>
 </head>
 <body>
