@@ -364,6 +364,28 @@ video {
   <a href="#" onclick="showSection('about')">About</a>
   <a href="#" onclick="showSection('settings')">Settings</a>
 </div>
+
+<!-- JavaScript -->
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.style.display = (menu.style.display === "block") ? "none" : "block";
+  }
+
+  window.onclick = function(event) {
+    if (!event.target.matches('.menu-button')) {
+      var dropdowns = document.getElementsByClassName("menu-content");
+      for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].style.display = "none";
+      }
+    }
+  }
 <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
 <div class="gcse-search"></div>
 <div id="profile" class="section active">
