@@ -433,8 +433,20 @@ h2 {
   <h2>Settings</h2>
   <p>Settings coming soon.</p>
 </div>
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
+ function showSection(id) {
+    document.querySelectorAll('.section').forEach(function(sec) {
+      sec.style.display = 'none';
+    });
+    document.getElementById(id).style.display = 'block';
+    <script>
 </style>
 </head>
+<body>
 <body onload="showSection('profile')">
 
 <header>
@@ -879,24 +891,13 @@ h2 {
     </div>
   </div>
 </div>
-<script>
-  function toggleMenu() {
-    var menu = document.getElementById('menu');
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-  }
- function showSection(id) {
-    document.querySelectorAll('.section').forEach(function(sec) {
-      sec.style.display = 'none';
-    });
-    document.getElementById(id).style.display = 'block';
-    <script>
+
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 <script>
   var mixer = mixitup('#portfolio-mix');
-
-  const projects = [
+ const projects = [
     {
       title: "Project 1",
       img: "assets/img/project1.jpg",
@@ -915,11 +916,8 @@ h2 {
       desc: "Description for project 3.",
       link: "https://example.com/project3"
     }
-  ];
-
   let currentIndex = 0;
-
-  function openModal(index) {
+ function openModal(index) {
     currentIndex = index;
     const project = projects[index];
     document.getElementById("modalImg").src = project.img;
@@ -928,17 +926,14 @@ h2 {
     document.getElementById("modalLink").href = project.link;
     document.getElementById("portfolioModal").style.display = "flex";
   }
-
-  function closeModal() {
+ function closeModal() {
     document.getElementById("portfolioModal").style.display = "none";
   }
-
-  function nextModal() {
+ function nextModal() {
     currentIndex = (currentIndex + 1) % projects.length;
     openModal(currentIndex);
   }
-
-  function prevModal() {
+ function prevModal() {
     currentIndex = (currentIndex - 1 + projects.length) % projects.length;
     openModal(currentIndex);
   }
