@@ -76,7 +76,7 @@
       margin: 10px 0;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    #backToTop {
+       #backToTop {
       display: none;
       position: fixed;
       bottom: 20px;
@@ -89,13 +89,6 @@
       font-size: 20px;
       cursor: pointer;
     }
-body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f0f0f0;
-    }
-    header {
       background-color: #333;
       color: white;
       padding: 15px;
