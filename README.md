@@ -113,15 +113,7 @@
       width: 200px;
       margin: 10px;
       border-radius: 8px;
-    }
-  <title>Media & Portfolio Section</title>
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    .media-section, .gallery-section, .portfolio-section, .youtube-section {
-      padding: 30px;
-      text-align: center;
-    }
+   }
     .image-row img, .gallery img {
       width: 150px;
       margin: 10px;
@@ -159,16 +151,7 @@
       position: fixed;
       z-index: 9999;
     }
-  <title>HM Harun | Portfolio</title>
-  <style>
-    /* Basic Styles */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      scroll-behavior: smooth;
-    }
-    nav {
+  nav {
       background: #333;
       color: #fff;
       padding: 1rem;
