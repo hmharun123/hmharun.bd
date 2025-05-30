@@ -114,6 +114,57 @@
       margin: 10px;
       border-radius: 8px;
     }
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media & Portfolio Section</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    .media-section, .gallery-section, .portfolio-section, .youtube-section {
+      padding: 30px;
+      text-align: center;
+    }
+    .image-row img, .gallery img {
+      width: 150px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .button {
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      display: inline-block;
+      margin: 10px;
+    }
+    #backToTop {
+      display: none;
+      position: fixed;
+      bottom: 40px;
+      right: 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    #preloader {
+      background: #fff url('preloader.gif') no-repeat center center;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: 9999;
+    }
+    
 r-radius: 4px;
   cursor: pointer;
 }
@@ -671,166 +722,89 @@ header {
     document.getElementById(id).style.display = 'block';
     document.getElementById('menu').style.display = 'none';
   }
-</script>
-
-</body>
-</html>
-</body>
-</html>
-
-</script>
-
-</body>
-</html>
- <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Md. Harun Or Rashid</title>
-  <link rel="stylesheet" href="style.css" />
+  </style>
 </head>
 <body>
 
-  <!-- Tab Navigation -->
-  <nav class="tab-bar">
-    <a href="index.html" class="tab">Home</a>
-    <a href="about.html" class="tab">About</a>
-    <a href="contact.html" class="tab">Contact</a>
- <a href="services.html" class="tab">Services</a>
-    <a href="portfolio.html" class="tab">Portfolio</a>
-  </nav>
+<div id="preloader"></div>
 
-  <!-- Your main content here -->
-  <div class="container">
- 
-</body>
-  <!-- Search Bar -->
-    <h2>Search My Website</h2>
-    <div class="gcse-search"></div>
-  </div>
-
-  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
-</body>
- <!-- Profile Photo -->
-    <img src="harun.jpg" alt="Harun's Photo" class="profile">
-  <h1>Md. Harun Or Rashid</h1>
-  <div class="navbar">
-    <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
-    <p><strong>Email:</strong> hmharun796@gmail.com</p>
-    <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
-    <p><strong>Profession:</strong> Freelancer</p>
-    <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-    <a href="mailto:hmharun123@gmail.com?subject=Hiring Request&body=Hello, I would like to hire you for a project." target="_blank" style="text-decoration: none;">
-  <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
-    Order Now
-  </button>
-<p><strong>Phone:</strong> +880 1648 131 500</p>
-<p><strong>Phone:</strong> +880 1316 888 404</p>
-<a href="https://wa.me/8801795815184?text=Hi%20Harun,%20I%20am%20interested%20in%20your%20services." target="_blank" style="text-decoration: none;">
-  <button style="background-color: #25D366; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
-    Order on WhatsApp
-  </button>
-</a>
-    <div class="buttons">
-      <a class="button fiverr" href="https://www.fiverr.com/s/dDlW3G3" target="_blank">Visit My Fiverr Profile</a>
-      <a class="button" href="https://www.facebook.com/share/r/1BcEg68nzy/" target="_blank">Visit My Facebook</a>
-      <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
-      <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
-      <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
-    </div>
-
-   <div class="certificate-section">
-      <h2>Certificate of Completion</h2>
-      <img src="certificate.jpg" alt="Certificate">
-    </div>
-
-<img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
-
-
-       <!-- Media Section -->
- <div class="media-section"><div data-aos="fade-up">
-  <!-- content here -->
-</div>
-   <div class="media-section" style="margin-top: 50px;">
+<!-- Media Section -->
+<div class="media-section" data-aos="fade-up">
   <h2>Payoneer Account Creation Tutorial</h2>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bWgg3zyC8PQ" title="Payoneer Account Creation Tutorial" frameborder="0" allowfullscreen></iframe>
-</div>
-   <div class="media-section" style="margin-top: 50px;">
-  <h2>My Photo & Video</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bWgg3zyC8PQ" frameborder="0" allowfullscreen></iframe>
   
-  <!-- My Photo -->
-  <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"><br><br>
-  
-  <!-- My Video -->
+  <h2 style="margin-top: 50px;">My Photo & Video</h2>
+  <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px;">
+  <br><br>
   <video controls width="400">
-    <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4"type="video/mp4">
+    <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Image Gallery -->
-    <div class="image-row">
-      <img src="data-antry.png" alt="Data Entry">
-      <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
-      <img src="312.jpg" alt="Certificate">
-      <img src="076ac6.jpg" alt="076ac6">
-      <img src="SAMPLE.jpeg" alt="Sample">
-      <img src="data.jpg" alt="Data">
-    </div>
- <!-- Gallery Section -->
-    <div class="gallery-section">
-      <h2>My Gallery</h2>
-      <div class="gallery">
-        <img src="076ac6.jpg" alt="Photo 1">
-        <img src="media/photo2.jpg" alt="Photo 2">
-        <img src="media/photo3.jpg" alt="Photo 3">
-        <img src="media/photo4.jpg" alt="Photo 4">
-        <body<div class="youtube-section" style="margin-top: 40px;">
+
+<!-- Image Row -->
+<div class="image-row">
+  <img src="data-antry.png" alt="Data Entry">
+  <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
+  <img src="312.jpg" alt="Certificate">
+  <img src="076ac6.jpg" alt="076ac6">
+  <img src="SAMPLE.jpeg" alt="Sample">
+  <img src="data.jpg" alt="Data">
+</div>
+
+<!-- Gallery Section -->
+<div class="gallery-section">
+  <h2>My Gallery</h2>
+  <div class="gallery">
+    <img src="076ac6.jpg" alt="Photo 1">
+    <img src="media/photo2.jpg" alt="Photo 2">
+    <img src="media/photo3.jpg" alt="Photo 3">
+    <img src="media/photo4.jpg" alt="Photo 4">
+  </div>
+</div>
+
+<!-- YouTube Section -->
+<div class="youtube-section">
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
-  <button style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
   <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-  </button>
+</div>
 
-  <div class="portfolio-section">
+<!-- Portfolio Section -->
+<div class="portfolio-section">
   <h2>My Portfolio</h2>
   <p>Here are some examples of the data entry work I've done:</p>
   <div class="buttons">
-    <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">
-      View Sample Data Entry Work
-  <div class="buttons">
+    <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">View Sample Data Entry Work</a>
     <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
- <script>
+</div>
+
+<!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">↑</button>
+
+<script>
+  // Back to Top Button
   const btn = document.getElementById('backToTop');
   window.onscroll = () => {
-    if (window.scrollY > 300) {
-      btn.style.display = 'block';
-    } else {
-      btn.style.display = 'none';
-    }
+    btn.style.display = (window.scrollY > 300) ? 'block' : 'none';
   };
   btn.onclick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-     window.addEventListener('load', () => {
+  };
+
+  // Preloader
+  window.addEventListener('load', () => {
     document.getElementById('preloader').style.display = 'none';
   });
-  
- <script>
-   <button class="dropbtn" onclick="toggleMenu()">⋮</button>
-    <script>
-    const btn = document.getElementById('backToTop');
-    window.onscroll = () => {
-      if (window.scrollY > 300) {
-        btn.style.display = 'block';
-      } else {
-        btn.style.display = 'none';
-      }
-    };
-    btn.onclick = () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
+</script>
+
+</body>
+</html>
+
+   
   <!-- ======= Hero Section ======= -->
 <section id="home" class="hero-section">
   <div class="hero-content">
