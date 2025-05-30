@@ -533,27 +533,6 @@ video {
   </ul>
 </section>
 
-<!-- Testimonials -->
-<section class="section">
-  <h2>Testimonials</h2>
-  <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
-  <blockquote>"A great developer to work with. Highly recommended!" - Client B</blockquote>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="section">
-  <h2>Contact Me</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required><br>
-    <input type="email" placeholder="Your Email" required><br>
-    <textarea placeholder="Your Message" required></textarea><br>
-    <button type="submit">Send Message</button>
-  </form>
-</section>
-
-<!-- Back to Top Button -->
-<button id="backToTop" onclick="scrollToTop()">↑</button>
-
 <section class="links">
   <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
     <i class="fa-brands fa-facebook-f"></i> Facebook
@@ -574,6 +553,27 @@ video {
   <img src="fiverr-logo.png" alt="Fiverr" class="icon"> Fiverr
 </a>
 </section>
+
+<section class="section">
+  <h2>Testimonials</h2>
+  <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
+  <blockquote>"A great developer to work with. Highly recommended!" - Client B</blockquote>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <textarea placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Back to Top Button -->
+<button id="backToTop" onclick="scrollToTop()">↑</button>
+
 <!-- Footer -->
 <footer class="footer">
   <p>© 2025 HM Harun. All rights reserved.</p>
