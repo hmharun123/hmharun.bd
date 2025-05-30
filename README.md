@@ -452,9 +452,18 @@ video {
       display: none;
       padding: 20px;
     }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Harun Or Rashid</title>
+  <link rel="stylesheet
   </style>
 </head>
-<body><header>
+<body>
+<header>
   Md. Harun Or Rashid
   <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
 </header><div class="menu-content" id="menu">
