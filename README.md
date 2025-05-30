@@ -433,21 +433,6 @@ h2 {
   <h2>Settings</h2>
   <p>Settings coming soon.</p>
 </div>
-
-<script>
-  function toggleMenu() {
-    var menu = document.getElementById('menu');
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-  }
-
-  function showSection(id) {
-    document.querySelectorAll('.section').forEach(function(sec) {
-      sec.style.display = 'none';
-    });
-    document.getElementById(id).style.display = 'block';
-    document.getElementById('menu').style.display = 'none';
-  }
-</script>
 </style>
 </head>
 <body onload="showSection('profile')">
@@ -894,7 +879,18 @@ h2 {
     </div>
   </div>
 </div>
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+  }
 
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(function(sec) {
+      sec.style.display = 'none';
+    });
+    document.getElementById(id).style.display = 'block';
+    <script>
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
