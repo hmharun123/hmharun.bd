@@ -396,8 +396,6 @@ video {
  .project-links {
     align-items: center;
   }
-  </style>
-<header>
   <!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -448,18 +446,9 @@ video {
       display: none;
       padding: 20px;
     }
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Md. Harun Or Rashid</title>
-  <link rel="stylesheet
   </style>
 </head>
-<body>
-<header>
+<body><header>
   Md. Harun Or Rashid
   <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
 </header><div class="menu-content" id="menu">
@@ -515,7 +504,7 @@ video {
     var menu = document.getElementById("menu");
     menu.style.display = (menu.style.display === "block") ? "none" : "block";
   }
-  window.onclick = function(event) {
+ window.onclick = function(event) {
     if (!event.target.matches('.menu-button')) {
       var dropdowns = document.getElementsByClassName("menu-content");
       for (var i = 0; i < dropdowns.length; i++) {
@@ -528,9 +517,13 @@ video {
     sections.forEach(function(section) {
       section.style.display = "none";
     });
-    
+    document.getElementById(id).style.display = "block";
+  }
+</script>
+</body>
+</html>
+  </style>
   </script>
-
 <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
 <div class="gcse-search"></div>
 <div id="profile" class="section active">
