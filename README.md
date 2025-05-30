@@ -283,4 +283,126 @@
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
 
+<head>
+  <meta charset="UTF-8">
+  <title>HM Harun Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+  <a href="assets/Harun_CV.pdf" class="btn" download>Download CV</a>
+</nav>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+  <h2>My Projects</h2>
+  <p>Here are some examples of the data entry work I've done:</p>
+  <div class="image-row">
+    <img src="data-antry.png" alt="Data Entry">
+    <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
+    <img src="312.jpg" alt="Certificate">
+    <img src="076ac6.jpg" alt="076ac6">
+    <img src="SAMPLE.jpeg" alt="Sample">
+    <img src="data.jpg" alt="Data">
+  </div>
+  <div class="project-links">
+    <a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a>
+    <a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
+    <a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
+    <a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>Your short bio goes here.</p>
+</section>
+
+<!-- Tutorial Section -->
+<section class="section">
+  <h2>Payoneer Account Creation Tutorial</h2>
+</section>
+
+<!-- Photo & Video Section -->
+<section class="section">
+  <h2>My Photo & Video</h2>
+  <p>My Photo</p>
+  <video controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+<!-- Gallery -->
+<section class="section">
+  <h2>My Gallery</h2>
+  <p>Photo 1 | Photo 2 | Photo 3 | Photo 4</p>
+</section>
+
+<!-- YouTube -->
+<section class="section">
+  <h2>My YouTube Channel</h2>
+  <p>Subscribe to my channel for tutorials, tips, and more!</p>
+  <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
+</section>
+
+<!-- Portfolio -->
+<section class="section">
+  <h2>My Portfolio</h2>
+  <ul>
+    <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk">Sample Data Entry Work</a></li>
+    <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view">Product Listing (Excel)</a></li>
+    <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view">Web Research Sample</a></li>
+    <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view">PDF to Excel Conversion</a></li>
+  </ul>
+</section>
+
+<!-- Testimonials -->
+<section class="section">
+  <h2>Testimonials</h2>
+  <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
+  <blockquote>"A great developer to work with. Highly recommended!" - Client B</blockquote>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <textarea placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Back to Top Button -->
+<button id="backToTop" onclick="scrollToTop()">↑</button>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 HM Harun. All rights reserved.</p>
+  <p>
+    <a href="#">Facebook</a> |
+    <a href="#">LinkedIn</a> |
+    <a href="#">GitHub</a>
+  </p>
+  <a href="#top">&uarr;</a>
+</footer>
+
+<!-- JavaScript -->
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>
 
