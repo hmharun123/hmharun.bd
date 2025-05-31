@@ -685,6 +685,7 @@ video {
   <img src="data.jpg" alt="Data">
 </div>
 
+<!-- Gallery Section -->
 <div class="gallery-section">
   <h2>My Gallery</h2>
   <div class="gallery">
@@ -692,9 +693,10 @@ video {
     <img src="media/photo2.jpg" alt="Photo 2">
     <img src="media/photo3.jpg" alt="Photo 3">
     <img src="media/photo4.jpg" alt="Photo 4">
+  </div>
+</div>
 
-   <body>
-   <!-- YouTube -->
+<!-- YouTube -->
 <section class="section">
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
@@ -705,10 +707,10 @@ video {
 <section class="section">
   <h2>My Portfolio</h2>
   <ul>
-    <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk">Sample Data Entry Work</a></li>
-    <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view">Product Listing (Excel)</a></li>
-    <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view">Web Research Sample</a></li>
-    <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view">PDF to Excel Conversion</a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
+    <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a></li>
+    <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
+    <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
   </ul>
 </section>
 
