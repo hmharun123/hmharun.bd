@@ -49,6 +49,10 @@
       width: 150px;
       border-radius: 50%;
     }
+    #contact {
+  display: block;
+  visibility: visible;
+}
     .button {
       display: inline-block;
       margin: 5px;
@@ -616,6 +620,7 @@ video {
   <p><strong>Profession:</strong> Freelancer</p>
   <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
 </div>
+<body
 <div id="contact" class="section">
   <h2>Contact</h2>
   <p><strong>Phone:</strong> +8801648131500</p>
