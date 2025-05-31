@@ -761,9 +761,37 @@ video {
   </p>
   <a href="#top">&uarr;</a>
 </footer>
+<style>
+  #backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+  }
+ #backToTop.show {
+    display: block;
+  }
+</style>
 
-<!-- JavaScript -->
 <script>
+  const backToTopButton = document.getElementById("backToTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      backToTopButton.classList.add("show");
+    } else {
+      backToTopButton.classList.remove("show");
+    }
+  });
+
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
