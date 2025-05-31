@@ -684,8 +684,7 @@ video {
     <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
     <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
   </ul>
-</section></body>
-</html>
+
 <section class="links">
   <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
     <i class="fa-brands fa-facebook-f"></i> Facebook
