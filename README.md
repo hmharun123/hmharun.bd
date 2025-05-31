@@ -610,9 +610,6 @@ video {
 </html>
   </style>
   </head>
-  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
-<div class="gcse-search"></div>
-
 <div id="profile" class="section active">
   <h2>My Profile</h2>
   <img src="harun.jpg" alt="Harun's Photo" class="profile" />
@@ -637,9 +634,7 @@ video {
     <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
     <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
     <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
-</div>
   </div>
- 
 </div><div id="about" class="section">
   <h2>About</h2>
   <p>I am a freelancer specialized in data entry and online tasks.</p>
