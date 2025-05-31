@@ -526,7 +526,8 @@ video {
     }
   </style>
 </head>
-<body><header>
+<body>
+  <header>
   Md. Harun Or Rashid
   <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
 </header><div class="menu-content" id="menu">
@@ -601,6 +602,9 @@ video {
 </body>
 </html>
   </style>
+  </head>
+  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
+<div class="gcse-search"></div>
 
 <div id="profile" class="section active">
   <h2>My Profile</h2>
@@ -612,12 +616,6 @@ video {
   <p><strong>Profession:</strong> Freelancer</p>
   <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
 </div>
-
-<div id="privacy" class="section">
-  <h2>Privacy Policy</h2>
-  <p>We do not share your personal information.</p>
-</div>
-
 <div id="contact" class="section">
   <h2>Contact</h2>
   <p><strong>Phone:</strong> +8801648131500</p>
