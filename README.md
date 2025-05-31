@@ -437,7 +437,6 @@ video {
     display: block;
     margin: 10px 0;
   }
-  <style>
   .menu-button {
     font-size: 24px;
     cursor: pointer;
@@ -478,7 +477,6 @@ video {
  .project-links {
     align-items: center;
   }
-  <style>
   .portfolio-section ul {
     list-style: none;
     padding: 0;
