@@ -662,52 +662,63 @@ video {
   <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate">
 </div>
 
-<div class="media-section">
-  <h2>Payoneer Account Creation Tutorial</h2>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bWgg3zyC8PQ" title="Payoneer Account Creation Tutorial" frameborder="0" allowfullscreen></iframe>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HM Harun - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div class="media-section">
-  <h2>My Photo & Video</h2>
-  <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
-  <video controls width="400">
-    <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<div class="image-row">
-  <img src="data-antry.png" alt="Data Entry">
-  <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
-  <img src="312.jpg" alt="Certificate">
-  <img src="076ac6.jpg" alt="076ac6">
-  <img src="SAMPLE.jpeg" alt="Sample">
-  <img src="data.jpg" alt="Data">
-</div>
-
-<div class="gallery-section">
-  <h2>My Gallery</h2>
-  <div class="gallery">
-    <img src="076ac6.jpg" alt="Photo 1">
-    <img src="media/photo2.jpg" alt="Photo 2">
-    <img src="media/photo3.jpg" alt="Photo 3">
-    <img src="media/photo4.jpg" alt="Photo 4">
+  <!-- Photo & Video Section -->
+  <div class="media-section">
+    <h2>My Photo & Video</h2>
+    <img src="media/myphoto.jpg" alt="My Photo" style="width: 300px;">
+    <video controls width="400">
+      <source src="media/Ami_Soia_Geleo_Soibena_Bidhata.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 
-<section class="section">
-  <h2>My YouTube Channel</h2>
-  <p>Subscribe to my channel for tutorials, tips, and more!</p>
-  <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
+  <!-- Image Row -->
+  <div class="image-row">
+    <img src="data-antry.png" alt="Data Entry">
+    <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
+    <img src="312.jpg" alt="Certificate">
+    <img src="076ac6.jpg" alt="076ac6">
+    <img src="SAMPLE.jpeg" alt="Sample">
+    <img src="data.jpg" alt="Data">
+  </div>
 
-<section class="section">
-  <h2>My Portfolio</h2>
-  <ul>
-    <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
-    <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a></li>
-    <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
-    <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
-  </ul>
-</section>
+  <!-- Gallery Section -->
+  <div class="gallery-section">
+    <h2>My Gallery</h2>
+    <div class="gallery">
+      <img src="076ac6.jpg" alt="Photo 1">
+      <img src="media/photo2.jpg" alt="Photo 2">
+      <img src="media/photo3.jpg" alt="Photo 3">
+      <img src="media/photo4.jpg" alt="Photo 4">
+    </div>
+  </div>
+
+  <!-- YouTube -->
+  <section class="section">
+    <h2>My YouTube Channel</h2>
+    <p>Subscribe to my channel for tutorials, tips, and more!</p>
+    <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="section">
+    <h2>My Portfolio</h2>
+    <ul>
+      <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
+      <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a></li>
+      <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
+      <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
+    </ul>
+  </section>
 
 <section class="links">
   <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
