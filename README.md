@@ -737,7 +737,39 @@ video {
   </p>
   <a href="#top">&uarr;</a>
 </footer>
-<style>
+<style> 
+  }
+  .portfolio-section ul {
+    list-style: none;
+    padding: 0;
+  }
+ .portfolio-section li {
+    margin: 10px 0;
+  }
+ .portfolio-section a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+.portfolio-section a:nth-child(1) {
+    background-color: #e74c3c; 
+  }
+.portfolio-section a:nth-child(2) {
+    background-color: #3498db; 
+  }
+.portfolio-section a:nth-child(3) {
+    background-color: #27ae60;
+  }
+ .portfolio-section a:nth-child(4) {
+    background-color: #f1c40f; 
+    color: black;
+  }
+.portfolio-section a:hover {
+    opacity: 0.8;
   #backToTop {
     position: fixed;
     bottom: 20px;
