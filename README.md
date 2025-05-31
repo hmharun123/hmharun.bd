@@ -692,8 +692,10 @@ video {
     <img src="media/photo2.jpg" alt="Photo 2">
     <img src="media/photo3.jpg" alt="Photo 3">
     <img src="media/photo4.jpg" alt="Photo 4">
-
-<!-- YouTube -->
+</div>
+  
+  <body>
+   <!-- YouTube -->
 <section class="section">
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
@@ -748,7 +750,8 @@ video {
     <button type="submit">Send Message</button>
   </form>
 </section>
-
+<body>
+  
 <!-- Back to Top Button -->
 <button id="backToTop" onclick="scrollToTop()">↑</button>
 
