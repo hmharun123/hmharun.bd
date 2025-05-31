@@ -692,8 +692,6 @@ video {
     <img src="media/photo2.jpg" alt="Photo 2">
     <img src="media/photo3.jpg" alt="Photo 3">
     <img src="media/photo4.jpg" alt="Photo 4">
-  </div>
-</div>
 
 <!-- YouTube -->
 <section class="section">
