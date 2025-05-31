@@ -11,6 +11,84 @@
       margin: 0;
       padding: 0;
     }
+     header {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      font-size: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .menu-button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .menu-content {
+      display: none;
+      background: #f0f0f0;
+      padding: 10px;
+    }
+    .menu-content a {
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      color: #333;
+    }
+    .section {
+      display: none;
+      padding: 20px;
+    }
+    .section.active {
+      display: block;
+    }
+    .profile {
+      width: 150px;
+      border-radius: 50%;
+    }
+    .button {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .button.fiverr {
+      background-color: #1dbf73;
+    }
+    .image-row img {
+      width: 100px;
+      margin: 5px;
+      border-radius: 5px;
+    }
+    .gallery img {
+      width: 120px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .certificate-section img {
+      width: 300px;
+      margin: 10px 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    #backToTop {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #333;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 50%;
+      font-size: 20px;
+      cursor: pointer;
+    }
     header {
       background-color: #333;
       color: white;
@@ -523,16 +601,7 @@ video {
 </body>
 </html>
   </style>
-  <!-- Navigation -->
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-  <a href="assets/Harun_CV.pdf" class="btn" download>Download CV</a>
-</nav>
-  </script>
-<script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
-<div class="gcse-search"></div>
+
 <div id="profile" class="section active">
   <h2>My Profile</h2>
   <img src="harun.jpg" alt="Harun's Photo" class="profile" />
@@ -542,6 +611,11 @@ video {
   <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
   <p><strong>Profession:</strong> Freelancer</p>
   <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
+</div>
+
+<div id="privacy" class="section">
+  <h2>Privacy Policy</h2>
+  <p>We do not share your personal information.</p>
 </div>
 
 <div id="contact" class="section">
@@ -564,6 +638,17 @@ video {
     <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
     <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
   </div>
+</div>
+
+<div id="about" class="section">
+  <h2>About</h2>
+  <p>I am a freelancer specialized in data entry and online tasks.</p>
+</div>
+
+<div id="settings" class="section">
+  <h2>Settings</h2>
+  <p>Settings coming soon.</p>
+</div>
 
 <div class="certificate-section">
   <h2>Certificate of Completion</h2>
@@ -603,93 +688,6 @@ video {
     <img src="media/photo4.jpg" alt="Photo 4">
   </div>
 </div>
-
-<a id="projects" class="section">
-  <h2>My Projects</h2>
-  <p>Here are some examples of the data entry work I've done:</p>
-  <div class="image-row">
-    <img src="data-antry.png" alt="Data Entry">
-    <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
-    <img src="312.jpg" alt="Certificate">
-    <img src="076ac6.jpg" alt="076ac6">
-    <img src="SAMPLE.jpeg" alt="Sample">
-    <img src="data.jpg" alt="Data">
-  <div class="project-links">
-    <a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a>
-    <a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
-    <a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
-    <a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
-  
-<div class="youtube-section">
-  <h2>My YouTube Channel</h2>
-  <p>Subscribe to my channel for tutorials, tips, and more!</p>
-  <a class="button" href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-</div>
-
-<div class="portfolio-section">
-  <h2>My Portfolio</h2>
-  <p>Here are some examples of the data entry work I've done:</p>
-  <div class="buttons">
-    <a class="button" href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a>
-    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
-    <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
-    <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
-  </div>
-
-<head>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <meta charset="UTF-8">
-  <title>HM Harun Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<!-- Projects Section -->
-<section id="projects" class="section">
-  <h2>My Projects</h2>
-  <p>Here are some examples of the data entry work I've done:</p>
-  <div class="image-row">
-    <img src="data-antry.png" alt="Data Entry">
-    <img src="file_00000000875861f990b4e5fffbcbb32e.png" alt="Certificate">
-    <img src="312.jpg" alt="Certificate">
-    <img src="076ac6.jpg" alt="076ac6">
-    <img src="SAMPLE.jpeg" alt="Sample">
-    <img src="data.jpg" alt="Data">
-  </div>
-  <div class="project-links">
-    <a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a>
-    <a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
-    <a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
-    <a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
-  </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="section">
-  <h2>About Me</h2>
-  <p>Your short bio goes here.</p>
-</section>
-
-<!-- Tutorial Section -->
-<section class="section">
-  <h2>Payoneer Account Creation Tutorial</h2>
-</section>
-
-<!-- Photo & Video Section -->
-<section class="section">
-  <h2>My Photo & Video</h2>
-  <p>My Photo</p>
-  <video controls>
-    <source src="video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</section>
-
-<!-- Gallery -->
-<section class="section">
-  <h2>My Gallery</h2>
-  <p>Photo 1 | Photo 2 | Photo 3 | Photo 4</p>
-</section>
 
 <!-- YouTube -->
 <section class="section">
