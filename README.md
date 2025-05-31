@@ -613,7 +613,7 @@ video {
   <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
 <div class="gcse-search"></div>
 
-<body><div class="gcse-search"></div><div id="profile" class="section active">
+<div id="profile" class="section active">
   <h2>My Profile</h2>
   <img src="harun.jpg" alt="Harun's Photo" class="profile" />
   <p><strong>Name:</strong> Md. Harun Or Rashid</p>
