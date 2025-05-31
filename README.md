@@ -523,6 +523,13 @@ video {
 </body>
 </html>
   </style>
+  <!-- Navigation -->
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+  <a href="assets/Harun_CV.pdf" class="btn" download>Download CV</a>
+</nav>
   </script>
 <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee"></script>
 <div class="gcse-search"></div>
@@ -535,11 +542,6 @@ video {
   <p><strong>Education:</strong> SSC, Lemubari Binoda Sundori High School</p>
   <p><strong>Profession:</strong> Freelancer</p>
   <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
-</div>
-
-<div id="privacy" class="section">
-  <h2>Privacy Policy</h2>
-  <p>We do not share your personal information.</p>
 </div>
 
 <div id="contact" class="section">
@@ -562,17 +564,6 @@ video {
     <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
     <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
   </div>
-</div>
-
-<div id="about" class="section">
-  <h2>About</h2>
-  <p>I am a freelancer specialized in data entry and online tasks.</p>
-</div>
-
-<div id="settings" class="section">
-  <h2>Settings</h2>
-  <p>Settings coming soon.</p>
-</div>
 
 <div class="certificate-section">
   <h2>Certificate of Completion</h2>
@@ -652,15 +643,6 @@ video {
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<!-- Navigation -->
-<nav>
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-  <a href="assets/Harun_CV.pdf" class="btn" download>Download CV</a>
-</nav>
 
 <!-- Projects Section -->
 <section id="projects" class="section">
