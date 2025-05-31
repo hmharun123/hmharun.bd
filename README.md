@@ -685,8 +685,7 @@ video {
   <img src="data.jpg" alt="Data">
 </div>
 
-<!-- Gallery Section -->
-<div class="gallery-section">
+<!-- Gallery Section --><div class="gallery-section">
   <h2>My Gallery</h2>
   <div class="gallery">
     <img src="076ac6.jpg" alt="Photo 1">
@@ -694,17 +693,11 @@ video {
     <img src="media/photo3.jpg" alt="Photo 3">
     <img src="media/photo4.jpg" alt="Photo 4">
   </div>
-</div>
-
-<!-- YouTube -->
-<section class="section">
+</div><!-- YouTube --><section class="section">
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
   <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-</section>
-
-<!-- Portfolio -->
-<section class="section">
+</section><!-- Portfolio --><section class="section">
   <h2>My Portfolio</h2>
   <ul>
     <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
