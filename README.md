@@ -671,7 +671,8 @@ video {
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
   <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-</section><!-- Portfolio --><section class="section">
+  <!-- Portfolio -->
+<section class="section portfolio-section">
   <h2>My Portfolio</h2>
   <ul>
     <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
@@ -679,6 +680,7 @@ video {
     <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
     <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
   </ul>
+</section>
 
 <section class="links">
   <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
