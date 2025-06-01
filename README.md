@@ -585,7 +585,18 @@ video {
     Your browser does not support the video tag.
   </video>
   <p><a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube Channel</a></p>
-</div><script>
+</div>
+  <body>
+  <div class="container">
+
+    <!-- Search Bar -->
+    <h2>Search My Website</h2>
+    <div class="gcse-search"></div>
+  </div>
+
+  <script async src="https://cse.google.com/cse.js?cx=e3423b1d95f9043ee">
+</body>
+  <script>
   function toggleMenu() {
     var menu = document.getElementById("menu");
     menu.style.display = (menu.style.display === "block") ? "none" : "block";
