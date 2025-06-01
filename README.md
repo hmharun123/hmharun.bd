@@ -422,6 +422,15 @@ img {
 </style>
 
 <script>
+ // Optional: Track YouTube link click
+document.addEventListener("DOMContentLoaded", function () {
+  const ytLink = document.querySelector('a[href*="youtube.com/@"]');
+  if (ytLink) {
+    ytLink.addEventListener("click", function () {
+      console.log("User clicked on YouTube channel link.");
+    });
+  }
+});
   const backToTopButton = document.getElementById("backToTop");
 
   window.addEventListener("scroll", () => {
