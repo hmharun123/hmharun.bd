@@ -226,8 +226,7 @@ img {
     Md. Harun Or Rashid
     <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
   </header>
-
-  <div class="menu-content" id="menu">
+ <div class="menu-content" id="menu">
     <a href="#" onclick="showSection('profile')">Profile</a>
     <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
     <a href="#" onclick="showSection('contact')">Contact</a>
@@ -319,7 +318,7 @@ img {
     <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
     <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
-<div id="contact" class="section">
+<div class="contact" class="section">
     <h2>Contact</h2>
     <p><strong>Phone:</strong> +8801648131500</p>
     <p><strong>Phone:</strong> +8801316888404</p>
@@ -327,7 +326,7 @@ img {
     <a href="mailto:hmharun123@gmail.com?subject=Hiring%20Request&body=Hello,%20I%20would%20like%20to%20hire%20you%20for%20a%20project." target="_blank">
       <button class="button">Order Now</button>
     </a>
-    <a href="https://wa.me/8801795815184?text=Hi%20Harun,%20I%20am%20interested%20in%20your%20services." target="_blank">
+    <a href="https://wa.me/8801648131500?text=Hi%20Harun,%20I%20am%20interested%20in%20your%20services." target="_blank">
       <button class="button" style="background-color: #25D366;">Order on WhatsApp</button>
     </a>
     <div class="buttons">
