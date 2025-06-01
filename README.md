@@ -11,7 +11,171 @@
       margin: 0;
       padding: 0;
     }  
-    
+    /* Reset & Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+h2 {
+  color: #222;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.section {
+  padding: 20px;
+  display: none;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.section.active {
+  display: block;
+}
+/* Header */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 22px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.menu-button {
+  float: right;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* Menu */
+.menu-content {
+  display: none;
+  background-color: #333;
+  padding: 10px;
+}
+.menu-content a {
+  display: block;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #444;
+  border-radius: 5px;
+}
+.menu-content a:hover {
+  background-color: #555;
+}
+/* Buttons */
+.button, .btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px 5px 10px 0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover, .btn:hover {
+  opacity: 0.9;
+}
+/* Different Color Buttons */
+.btn.blue { background-color: #3b5998; }
+.btn.red { background-color: #ff0000; }
+.btn.darkgreen { background-color: #25D366; }
+.btn.purple { background-color: #833AB4; }
+.btn.pink { background-color: #E1306C; }
+.btn.green { background-color: #1dbf73; }
+.button.fiverr {
+  background-color: #1dbf73;
+}
+.button.facebook {
+  background-color: #1877f2;
+}
+.button.instagram {
+  background-color: #e1306c;
+}
+.button.tiktok {
+  background-color: #000000;
+}
+.button.whatsapp {
+  background-color: #25D366;
+}
+/* Contact Form */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #005fa3;
+}
+/* Image, Video & Gallery */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.image-row, .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.gallery img {
+  width: 150px;
+  height: auto;
+}
+/* Back to Top */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+}
+#backToTop.show {
+  display: block;
+}
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+.footer a {
+  color: #ccc;
+  margin: 0 5px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
 </head>
   <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
