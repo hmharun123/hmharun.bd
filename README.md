@@ -367,7 +367,13 @@ img {
     <img src="SAMPLE.jpeg" alt="Sample" />
     <img src="data.jpg" alt="Data" />
   </div>
-
+<!-- YouTube Section -->
+<section id="media" class="section">
+  <h2>My YouTube Channel</h2>
+  <p>Subscribe to my channel for tutorials, tips, and more!</p>
+  <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
+</div>
+</section>
   <!-- Gallery Section -->
   <div class="gallery-section">
     <h2>My Gallery</h2>
@@ -378,14 +384,6 @@ img {
       <img src="media/photo4.jpg" alt="Photo 4" />
     </div>
   </div>
-
-<!-- YouTube Section -->
-<section id="media" class="section">
-  <h2>My YouTube Channel</h2>
-  <p>Subscribe to my channel for tutorials, tips, and more!</p>
-  <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-</div>
-</section>
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="section">
@@ -429,14 +427,16 @@ img {
 <!-- Contact Section -->
 <section id="contact" class="section">
   <h2>Contact Me</h2>
- 
+ </section>
   <form>
     <input type="text" placeholder="Your Name" required><br>
     <input type="email" placeholder="Your Email" required><br>
     <textarea placeholder="Your Message" required></textarea><br>
     <button type="submit">Send Message</button>
   </form>
-</section><body><!-- Back to Top Button --><button id="backToTop" onclick="scrollToTop()">↑</button>
+</section>
+<body>
+ <!-- Back to Top Button --><button id="backToTop" onclick="scrollToTop()">↑</button>
 
 <!-- Footer --><footer class="footer">
   <p>© 2025 HM Harun. All rights reserved.</p>
