@@ -311,8 +311,7 @@ img {
       <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
     </div>
   </header>
-
-  <div id="contact" class="section">
+<div id="contact" class="section">
     <h2>Contact</h2>
     <p><strong>Phone:</strong> +8801648131500</p>
     <p><strong>Phone:</strong> +8801316888404</p>
@@ -331,13 +330,11 @@ img {
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
     </div>
   </div>
-
-  <div id="about" class="section">
+ <div id="about" class="section">
     <h2>About</h2>
     <p>I am a freelancer specialized in data entry and online tasks.</p>
   </div>
-
-  <div id="settings" class="section">
+<div id="settings" class="section">
     <h2>Settings</h2>
     <p>Settings coming soon.</p>
   </div>
@@ -367,25 +364,14 @@ img {
     <img src="SAMPLE.jpeg" alt="Sample" />
     <img src="data.jpg" alt="Data" />
   </div>
-<!-- YouTube Section -->
+
 <section id="media" class="section">
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
   <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
 </div>
 </section>
-  <!-- Gallery Section -->
-  <div class="gallery-section">
-    <h2>My Gallery</h2>
-    <div class="gallery">
-      <img src="076ac6.jpg" alt="Photo 1" />
-      <img src="media/photo2.jpg" alt="Photo 2" />
-      <img src="media/photo3.jpg" alt="Photo 3" />
-      <img src="media/photo4.jpg" alt="Photo 4" />
-    </div>
-  </div>
 
-<!-- Portfolio Section -->
 <section id="portfolio" class="section">
   <h2>My Portfolio</h2>
   <ul>
@@ -397,7 +383,18 @@ img {
 </div>
   </section>
   
-  <section class="links">
+  <!-- Gallery Section -->
+  <div class="gallery-section">
+    <h2>My Gallery</h2>
+    <div class="gallery">
+      <img src="076ac6.jpg" alt="Photo 1" />
+      <img src="media/photo2.jpg" alt="Photo 2" />
+      <img src="media/photo3.jpg" alt="Photo 3" />
+      <img src="media/photo4.jpg" alt="Photo 4" />
+    </div>
+  </div>
+
+ <section class="links">
     <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
       <i class="fa-brands fa-facebook-f"></i> Facebook
     </a>
@@ -417,12 +414,6 @@ img {
       <img src="fiverr-logo.png" alt="Fiverr" class="icon" /> Fiverr
     </a>
   </section>
-
-   </section><section class="section">
-  <h2>Testimonials</h2>
-  <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
-  <blockquote>"A great developer to work with. Highly recommended!" - Client B</blockquote>
-</section>
 
 <!-- Contact Section -->
 <section id="contact" class="section">
