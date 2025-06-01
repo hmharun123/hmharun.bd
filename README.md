@@ -176,7 +176,7 @@ img {
 .footer a:hover {
   text-decoration: underline;
 }
-</head>
+</style>
   <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
