@@ -7,14 +7,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    /* Reset & Base Styles */
-body {
-  font-family: Arial, sans-serif;
+ font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
@@ -220,6 +213,8 @@ img {
   text-decoration: underline;
 }
  </style>
+  <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
  <header>
@@ -298,8 +293,7 @@ img {
     <div class="gcse-search"></div>
   </div>
 
-  <header>
-    <div id="profile" class="section active">
+  <div class="profile" class="section active">
       <h2>My Profile</h2>
       <img src="harun.jpg" alt="Harun's Photo" class="profile" />
       <p><strong>Name:</strong> Md. Harun Or Rashid</p>
@@ -310,14 +304,6 @@ img {
       <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
     </div>
    
-   <div class="portfolio-section">
-  <h2>My Portfolio</h2>
-  <p>Here are some examples of the data entry work I've done:</p>
-  <div class="buttons">
-    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
-    <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
-    <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
-  </div>
 <div class="contact" class="section">
     <h2>Contact</h2>
     <p><strong>Phone:</strong> +8801648131500</p>
@@ -337,16 +323,8 @@ img {
       <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
     </div>
   </div>
- <div id="about" class="section">
-    <h2>About</h2>
-    <p>I am a freelancer specialized in data entry and online tasks.</p>
-  </div>
-<div id="settings" class="section">
-    <h2>Settings</h2>
-    <p>Settings coming soon.</p>
-  </div>
-
-  <div class="certificate-section">
+ 
+<div class="certificate-section">
     <h2>Certificate of Completion</h2>
     <img src="certificate.jpg" alt="Certificate" />
     <img src="file_000000004bd461f89c7906893d08c772.png" alt="Certificate" />
@@ -372,14 +350,14 @@ img {
     <img src="data.jpg" alt="Data" />
   </div>
 
-<section id="media" class="section">
+<section class="media" class="section">
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
   <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
 </div>
 </section>
 
-<section id="portfolio" class="section">
+<section class="portfolio" class="section">
   <h2>My Portfolio</h2>
   <ul>
     <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
@@ -604,6 +582,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <p><strong>Profession:</strong> Freelancer</p>
   <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
 </div>
+    
 <div id="contact" class="section">
   <h2>Contact</h2>
   <p><strong>Phone:</strong> +8801648131500</p>
@@ -621,6 +600,14 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="button" href="https://www.instagram.com/p/DIeAfFXT_oO/" target="_blank">View My Instagram</a>
     <a class="button" href="https://www.tiktok.com/@user6071584366187" target="_blank">TikTok</a>
     <a class="button" href="https://wa.me/8801648131500?text=Hi,%20I%20want%20to%20contact%20you" target="_blank">WhatsApp</a>
+  </div>
+  <div class="portfolio-section">
+  <h2>My Portfolio</h2>
+  <p>Here are some examples of the data entry work I've done:</p>
+  <div class="buttons">
+    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
+    <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
+    <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
   </div>
 </div>
 <div id="about" class="section">
