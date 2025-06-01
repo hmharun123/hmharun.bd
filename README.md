@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -310,6 +310,7 @@ img {
       <p><strong>Profession:</strong> Freelancer</p>
       <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
     </div>
+   
    <div class="portfolio-section">
   <h2>My Portfolio</h2>
   <p>Here are some examples of the data entry work I've done:</p>
