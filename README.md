@@ -52,57 +52,7 @@
     #contact {
   display: block;
   visibility: visible;
-}
-    .button {
-      display: inline-block;
-      margin: 5px;
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
     }
-    .button.fiverr {
-      background-color: #1dbf73;
-    }
-    .image-row img {
-      width: 100px;
-      margin: 5px;
-      border-radius: 5px;
-    }
-    .gallery img {
-      width: 120px;
-      margin: 10px;
-      border-radius: 8px;
-    }
-    .certificate-section img {
-      width: 300px;
-      margin: 10px 0;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    #backToTop {
-      display: none;
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #333;
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 50%;
-      font-size: 20px;
-      cursor: pointer;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 10px 20px;
-      font-size: 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    <style>
   .menu-button {
     font-size: 24px;
     cursor: pointer;
@@ -130,15 +80,6 @@
  .menu-content a:hover {
     background-color: #f2f2f2;
   }
-    .menu-content {
-      display: none;
-      background: #f0f0f0;
-      padding: 10px;
-    }
-    .section {
-      display: none;
-      padding: 20px;
-    }
     .section.active {
       display: block;
     }
@@ -207,11 +148,6 @@
       border-radius: 5px;
       text-decoration: none;
     }
-    .certificate-section img {
-      width: 200px;
-      margin: 10px;
-      border-radius: 8px;
-    }
     .footer {
       text-align: center;
       background: #333;
@@ -230,16 +166,6 @@
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-}
- /* Navigation */
 nav {
   background-color: #2c3e50;
   padding: 15px;
@@ -268,7 +194,6 @@ nav a:hover {
 .btn:hover {
   background-color: #16a085;
 }
-/* Section Styling */
 .section {
   padding: 50px 20px;
   max-width: 1000px;
@@ -287,7 +212,6 @@ nav a:hover {
 .section blockquote {
   margin-bottom: 15px;
 }
-/* Image Row */
 .image-row {
   display: flex;
   flex-wrap: wrap;
@@ -304,7 +228,6 @@ nav a:hover {
 .image-row img:hover {
   transform: scale(1.05);
 }
-/* Project Links */
 .project-links {
   display: flex;
   flex-direction: column;
@@ -319,9 +242,6 @@ nav a:hover {
 .project-links a:hover {
   text-decoration: underline;
 }
-/* Contact Form */
-form input,
-form textarea,
 form button {
   width: 100%;
   padding: 10px;
@@ -339,7 +259,6 @@ form button {
 form button:hover {
   background-color: #16a085;
 }
-/* Testimonials */
 blockquote {
   background-color: #ecf0f1;
   padding: 15px;
@@ -347,7 +266,6 @@ blockquote {
   font-style: italic;
   margin-top: 10px;
 }
-/* Video */
 video {
   width: 100%;
   max-width: 600px;
@@ -394,9 +312,6 @@ video {
 .pink { background-color: #ff0050; }
 .links .btn:hover {
   transform: scale(1.05);
-}
-.links .btn i {
-  font-size: 18px;
 }
     #backToTop {
   position: fixed;
@@ -467,29 +382,11 @@ video {
     text-decoration: none;
     border-radius: 5px;
   }
-  .menu-content a:hover {
-    background-color: #f0f0f0;
-  }
  .image-row {
     flex-direction: column;
     align-items: center;
   }
-  .links .btn i {
-  font-size: 18px;
-}
-</style>
-  <!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Md. Harun Or Rashid</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
+   header {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -504,16 +401,6 @@ video {
       border: none;
       cursor: pointer;
       color: white;
-    }
-    .menu-content {
-      display: none;
-      position: absolute;
-      top: 50px;
-      right: 20px;
-      background: #f1f1f1;
-      border: 1px solid #ccc;
-      padding: 10px;
-      z-index: 1000;
     }
     .menu-content a {
       display: block;
