@@ -384,6 +384,7 @@ img {
   <h2>My YouTube Channel</h2>
   <p>Subscribe to my channel for tutorials, tips, and more!</p>
   <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
+</div>
 </section>
 
 <!-- Portfolio Section -->
@@ -395,7 +396,8 @@ img {
     <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
     <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
   </ul>
-</section>
+</div>
+  </section>
   
   <section class="links">
     <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
@@ -422,8 +424,12 @@ img {
   <h2>Testimonials</h2>
   <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
   <blockquote>"A great developer to work with. Highly recommended!" - Client B</blockquote>
-</section><!-- Contact Section --><section id="contact" class="section">
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
   <h2>Contact Me</h2>
+ 
   <form>
     <input type="text" placeholder="Your Name" required><br>
     <input type="email" placeholder="Your Email" required><br>
