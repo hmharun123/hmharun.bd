@@ -608,8 +608,7 @@ video {
 </script>
 </body>
 </html>
-  </style>
-  </head>
+  <header>
   <div id="profile" class="section active">
   <h2>My Profile</h2>
   <img src="harun.jpg" alt="Harun's Photo" class="profile" />
