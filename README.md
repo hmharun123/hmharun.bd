@@ -337,23 +337,24 @@ img {
     </div>
   </div>
 
-  <!-- YouTube -->
-  <section class="section">
-    <h2>My YouTube Channel</h2>
-    <p>Subscribe to my channel for tutorials, tips, and more!</p>
-    <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-<!-- Portfolio -->
-    <section class="section portfolio-section">
-      <h2>My Portfolio</h2>
-      <ul>
-        <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
-        <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a></li>
-        <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
-        <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
-      </ul>
-    </section>
-  </section>
+<!-- YouTube Section -->
+<section id="media" class="section">
+  <h2>My YouTube Channel</h2>
+  <p>Subscribe to my channel for tutorials, tips, and more!</p>
+  <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
+</section>
 
+<!-- Portfolio Section -->
+<section id="portfolio" class="section">
+  <h2>My Portfolio</h2>
+  <ul>
+    <li><a href="https://docs.google.com/spreadsheets/d/1FSV3CzDlRSDJHaumYrCcvKFcBKGedUhFU9qPDY6viW4/edit?usp=drivesdk" target="_blank">Sample Data Entry Work</a></li>
+    <li><a href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a></li>
+    <li><a href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a></li>
+    <li><a href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a></li>
+  </ul>
+</section>
+  
   <section class="links">
     <a href="https://www.facebook.com/share/r/1BcEg68nzy/" class="btn blue" target="_blank">
       <i class="fa-brands fa-facebook-f"></i> Facebook
