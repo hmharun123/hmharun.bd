@@ -303,7 +303,6 @@ video {
   transition: 0.3s ease;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-/* Individual Button Colors */
 .green { background-color: #1dbf73; }
 .blue { background-color: #1877f2; }
 .red { background-color: #ff0000; }
@@ -330,7 +329,6 @@ video {
 #backToTop:hover {
   background-color: #16a085;
 }
-/* Footer */
 .footer {
   text-align: center;
   padding: 20px;
@@ -346,7 +344,6 @@ video {
 .footer a:hover {
   text-decoration: underline;
 }
-/* Responsive Design */
 @media (max-width: 600px) {
   nav a {
     display: block;
