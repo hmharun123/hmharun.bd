@@ -401,7 +401,7 @@ img {
   </section>
 
 <!-- Contact Section -->
-<section id="contact" class="section">
+<section class="contact" class="section">
   <h2>Contact Me</h2>
  </section>
   <form>
