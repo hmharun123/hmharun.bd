@@ -429,6 +429,16 @@ document.addEventListener("DOMContentLoaded", function () {
     ytLink.addEventListener("click", function () {
       console.log("User clicked on YouTube channel link.");
     });
+   // Optional: Portfolio link click effect
+document.addEventListener("DOMContentLoaded", function () {
+  const portfolioLinks = document.querySelectorAll(".portfolio-section a");
+
+  portfolioLinks.forEach(link => {
+    link.addEventListener("click", function () {
+      console.log("Portfolio link clicked:", this.href);
+    });
+  });
+});
   }
 });
   const backToTopButton = document.getElementById("backToTop");
