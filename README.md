@@ -310,7 +310,14 @@ img {
       <p><strong>Profession:</strong> Freelancer</p>
       <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
     </div>
-  </header>
+   <div class="portfolio-section">
+  <h2>My Portfolio</h2>
+  <p>Here are some examples of the data entry work I've done:</p>
+  <div class="buttons">
+    <a class="button" href="https://drive.google.com/file/d/1xA2EXAMPLE123/view" target="_blank">Product Listing (Excel)</a>
+    <a class="button" href="https://drive.google.com/file/d/1yB3EXAMPLE456/view" target="_blank">Web Research Sample</a>
+    <a class="button" href="https://drive.google.com/file/d/1zC4EXAMPLE789/view" target="_blank">PDF to Excel Conversion</a>
+  </div>
 <div id="contact" class="section">
     <h2>Contact</h2>
     <p><strong>Phone:</strong> +8801648131500</p>
