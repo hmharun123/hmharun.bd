@@ -74,6 +74,48 @@ header {
 .menu-content a:hover {
   background-color: #555;
 }
+   /* সাধারণ বাটন ডিজাইন */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 6px 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+/* YouTube Button (Red) */
+.button.youtube {
+  background-color: #ff0000;
+}
+.button.youtube:hover {
+  background-color: #cc0000;
+}
+/* Portfolio Button (Blue) */
+.button.portfolio {
+  background-color: #007bff;
+}
+.button.portfolio:hover {
+  background-color: #0056b3;
+}
+/* Web Research Button (Teal) */
+.button.web-research {
+  background-color: #20c997;
+}
+.button.web-research:hover {
+  background-color: #169c77;
+}
+/* Data Entry Button (Orange) */
+.button.data-entry {
+  background-color: #fd7e14;
+}
+.button.data-entry:hover {
+  background-color: #e8590c;
+}
 /* Buttons */
 .button, .btn {
   display: inline-block;
