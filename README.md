@@ -270,9 +270,7 @@ img {
     <a href="assets/Harun_CV.pdf" download>Download CV</a>
     <a href="mailto:hmharun796@gmail.com?subject=Hello&body=I want to connect with you.">Send Email</a>
   </div>
-
-  <!-- Sections -->
-  <div id="profile" class="section active">
+ <div id="profile" class="section active">
     <h2>Profile</h2>
     <p>I am Md. Harun Or Rashid, a skilled and dedicated professional...</p>
   </div>
@@ -314,8 +312,7 @@ img {
     </video>
     <p><a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube Channel</a></p>
   </div>
-
-  <script>
+<script>
     function toggleMenu() {
       const menu = document.getElementById('menu');
       menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
