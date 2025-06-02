@@ -455,27 +455,6 @@ img {
   <a href="#top">&uarr;</a>
 </footer>
 
-<style> 
-  }
-  #backToTop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    font-size: 20px;
-    border: none;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-    z-index: 1000;
-  }
- #backToTop.show {
-    display: block;
-  }
-</style>
-
 <script>
  // Optional: Track YouTube link click
 document.addEventListener("DOMContentLoaded", function () {
@@ -509,6 +488,27 @@ document.addEventListener("DOMContentLoaded", function () {
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    }
+    function showSection(id) {
+      document.getElementById('menu').style.display = 'none';
+
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => section.classList.remove('active'));
+
+      const target = document.getElementById(id);
+      if (target) {
+        target.classList.add('active');
+      }
+    window.addEventListener('click', function(e) {
+      if (!e.target.matches('.menu-button')) {
+        document.getElementById('menu').style.display = 'none';
+      }
+    });
+    
 </script>
 
 </body>
