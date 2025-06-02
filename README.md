@@ -233,3 +233,32 @@
     <h2>Testimonials</h2>
     <blockquote>"Harun is very talented and delivers high quality work!" - Client A</blockquote>
     <blockquote>"A great developer to work with.
+
+   <script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.style.display = (menu.style.display === "block") ? "none" : "block";
+  }
+
+  function showSection(id) {
+    var sections = document.querySelectorAll(".section");
+    sections.forEach(function (section) {
+      section.style.display = "none";
+    });
+
+    var selectedSection = document.getElementById(id);
+    if (selectedSection) {
+      selectedSection.style.display = "block";
+    }
+
+    // Hide menu after selecting
+    document.getElementById("menu").style.display = "none";
+  }
+
+  // Optional: Hide menu when clicking outside
+  window.addEventListener("click", function (e) {
+    if (!e.target.matches('.menu-button')) {
+      document.getElementById("menu").style.display = "none";
+    }
+  });
+</script>
