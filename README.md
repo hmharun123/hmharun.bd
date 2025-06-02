@@ -142,8 +142,7 @@ form button { background: #444; color: white; padding: 10px 20px; border: none; 
       <p><strong>Profession:</strong> Freelancer</p>
       <p><strong>Skills:</strong> Data Entry, E-commEntry, Web Research, Data Research, Web Scraping, Data Scraping, Copy-Paste, and more.</p>
     </div>
-  </header>
-
+ 
   <div id="contact" class="section">
     <h2>Contact</h2>
     <p><strong>Phone:</strong> +8801648131500</p>
@@ -211,13 +210,10 @@ form button { background: #444; color: white; padding: 10px 20px; border: none; 
     </div>
   </div>
 
-  <!-- YouTube -->
   <section class="section">
     <h2>My YouTube Channel</h2>
     <p>Subscribe to my channel for tutorials, tips, and more!</p>
     <a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube</a>
-
-    <!-- Portfolio -->
     <section class="section portfolio-section">
       <h2>My Portfolio</h2>
       <ul>
