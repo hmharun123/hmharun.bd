@@ -261,7 +261,8 @@ img {
     <header>
   Md. Harun Or Rashid
   <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
-  <div class="menu-content" id="menu">
+ 
+   <div class="menu-content" id="menu">
     <a href="#" onclick="showSection('profile')">Profile</a>
     <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
     <a href="#" onclick="showSection('contact')">Contact</a>
