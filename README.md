@@ -241,7 +241,6 @@ img {
     <header>
   Md. Harun Or Rashid
   <button class="menu-button" onclick="toggleMenu()">&#8942;</button>
- </header>
   <div class="menu-content" id="menu">
     <a href="#" onclick="showSection('profile')">Profile</a>
     <a href="#" onclick="showSection('privacy')">Privacy Policy</a>
@@ -253,8 +252,10 @@ img {
     <a href="assets/Harun_CV.pdf" download>Download CV</a>
     <a href="mailto:hmharun796@gmail.com?subject=Hello&body=I want to connect with you.">Send Email</a>
   </div>
+      
  <div id="profile" class="section active">
     <h2>Profile</h2>
+   <img src="harun.jpg" alt="Harun's Photo" class="profile" />
     <p>I am Md. Harun Or Rashid, a skilled and dedicated professional...</p>
   </div>
 
