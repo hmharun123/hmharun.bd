@@ -30,49 +30,27 @@
       display: block;
     }
     /* General Reset and Layout */ body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
-    
-.section { padding: 30px; display: none; }
-
+    .section { padding: 30px; display: none; }
 .section.active { display: block; }
-
 h2 { color: #444; margin-bottom: 20px; }
-
 /* Profile Image */ .profile { width: 150px; height: auto; border-radius: 50%; margin-bottom: 20px; }
-
 /* Buttons */ .button, .btn { display: inline-block; padding: 10px 20px; margin: 5px; border: none; border-radius: 5px; color: #fff; font-weight: bold; text-decoration: none; cursor: pointer; transition: background 0.3s ease; }
-
 /* Social Media Buttons */ .btn.blue { background: #1877F2; } .btn.red { background: #FF0000; } .btn.darkgreen { background: #25D366; } .btn.purple { background: #8a3ab9; } .btn.pink { background: #FF69B4; } .btn.green { background: #1DBF73; }
-
 /* Hover effects */ .button:hover, .btn:hover { opacity: 0.9; }
-
 /* Contact Buttons */ .buttons .button { display: block; margin: 10px auto; max-width: 300px; text-align: center; }
-
 /* Image and Gallery Sections */ .image-row img, .gallery img { width: 150px; margin: 5px; border-radius: 10px; object-fit: cover; }
-
 .gallery { display: flex; flex-wrap: wrap; }
-
 /* Contact Form */ form input, form textarea { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
-
 form button { background: #444; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
-
 /* Back to Top Button */ #backToTop { position: fixed; bottom: 20px; right: 20px; padding: 10px 15px; font-size: 18px; background: #333; color: #fff; border: none; border-radius: 50%; cursor: pointer; z-index: 999; transition: background 0.3s ease; }
-
 #backToTop:hover { background: #555; }
-
 /* Footer */ .footer { background: #222; color: white; text-align: center; padding: 20px 10px; }
-
 .footer a { color: #0af; margin: 0 10px; text-decoration: none; }
-
 .footer a:hover { text-decoration: underline; }
-
 /* Responsive */ @media (max-width: 768px) { .buttons .button { width: 90%; }
-
 .gallery { justify-content: center; } }
-
 /* Fiverr Icon Style */ .icon { height: 16px; vertical-align: middle; margin-right: 5px; }
-
-
-  </style>
+</style>
 </head>
 <body>
 
