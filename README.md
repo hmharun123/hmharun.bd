@@ -30,8 +30,7 @@ a {
 }
 .section.active {
   display: block;
-}
-/* Header */
+  }
 header {
   background-color: #0077cc;
   color: white;
@@ -50,7 +49,6 @@ header {
   color: white;
   cursor: pointer;
 }
-/* Menu */
 .menu-content {
   display: none;
   background-color: #333;
@@ -67,7 +65,6 @@ header {
 .menu-content a:hover {
   background-color: #555;
 }
-   /* সাধারণ বাটন ডিজাইন */
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -81,35 +78,30 @@ header {
   cursor: pointer;
   transition: background 0.3s ease;
 }
-/* YouTube Button (Red) */
 .button.youtube {
   background-color: #ff0000;
 }
 .button.youtube:hover {
   background-color: #cc0000;
 }
-/* Portfolio Button (Blue) */
 .button.portfolio {
   background-color: #007bff;
 }
 .button.portfolio:hover {
   background-color: #0056b3;
 }
-/* Web Research Button (Teal) */
 .button.web-research {
   background-color: #20c997;
 }
 .button.web-research:hover {
   background-color: #169c77;
 }
-/* Data Entry Button (Orange) */
 .button.data-entry {
   background-color: #fd7e14;
 }
 .button.data-entry:hover {
   background-color: #e8590c;
 }
-/* Buttons */
 .button, .btn {
   display: inline-block;
   padding: 10px 15px;
@@ -122,7 +114,6 @@ header {
 .button:hover, .btn:hover {
   opacity: 0.9;
 }
-/* Different Color Buttons */
 .btn.blue { background-color: #3b5998; }
 .btn.red { background-color: #ff0000; }
 .btn.darkgreen { background-color: #25D366; }
@@ -144,7 +135,6 @@ header {
 .button.whatsapp {
   background-color: #25D366;
 }
-/* Contact Form */
 form input, form textarea {
   width: 100%;
   padding: 10px;
@@ -163,7 +153,6 @@ form button {
 form button:hover {
   background-color: #005fa3;
 }
-/* Image, Video & Gallery */
 img {
   max-width: 100%;
   height: auto;
@@ -179,7 +168,6 @@ img {
   width: 150px;
   height: auto;
 }
-/* Back to Top */
 #backToTop {
   position: fixed;
   bottom: 20px;
@@ -197,7 +185,6 @@ img {
 #backToTop.show {
   display: block;
 }
-/* Footer */
 .footer {
   background-color: #222;
   color: #ddd;
@@ -212,9 +199,6 @@ img {
 .footer a:hover {
   text-decoration: underline;
 }
-  <title>Three Dot Menu</title>
-  <style>
-    /* Styling for the 3-dot menu button */
     .menu-button {
       font-size: 24px;
       background: none;
@@ -222,7 +206,6 @@ img {
       cursor: pointer;
       padding: 10px;
     }
- /* Dropdown menu styling */
     .menu-content {
       display: none;
       position: absolute;
@@ -241,7 +224,6 @@ img {
   .menu-content a:hover {
       background-color: #ddd;
     }
-/* Section styling (for demo) */
     .section {
       display: none;
       padding: 20px;
