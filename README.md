@@ -315,29 +315,21 @@ img {
     <p><a href="https://youtube.com/@mdharun-n6j" target="_blank">Visit My YouTube Channel</a></p>
   </div>
 
-  <!-- JavaScript -->
   <script>
     function toggleMenu() {
       const menu = document.getElementById('menu');
       menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
     }
-
     function showSection(id) {
-      // Hide menu
       document.getElementById('menu').style.display = 'none';
 
-      // Hide all sections
       const sections = document.querySelectorAll('.section');
       sections.forEach(section => section.classList.remove('active'));
 
-      // Show selected section
       const target = document.getElementById(id);
       if (target) {
         target.classList.add('active');
       }
-    }
-
-    // Optional: Click outside to close menu
     window.addEventListener('click', function(e) {
       if (!e.target.matches('.menu-button')) {
         document.getElementById('menu').style.display = 'none';
