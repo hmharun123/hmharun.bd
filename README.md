@@ -41,6 +41,26 @@ header {
   top: 0;
   z-index: 1000;
 }
+    .menu-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  min-width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+.menu-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.menu-content a:hover {
+  background-color: #f0f0f0;
+}
 .menu-button {
   float: right;
   font-size: 24px;
