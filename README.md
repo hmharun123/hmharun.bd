@@ -25,8 +25,7 @@
       display: none;
       z-index: 1000;
     }
-
-    /* Gallery styles */
+  /* Gallery styles */
     #gallery {
       background: #f7f7f7;
       padding: 20px 15px 50px 15px;
@@ -138,31 +137,30 @@
     <p><strong>Skills:</strong> Data Entry, Web Scraping, Copy Paste, Research</p>
     <p><strong>Languages:</strong> Bengali, English, Hindi</p>
     <a href="your-cv-file.pdf" download class="cv-button">Download My CV</a>
-
+    
     <h3>Short Introduction</h3>
-    <p>
-      I am Md. Harun or Rosid, a dedicated and skilled freelancer with expertise
+    <p>I am Md. Harun or Rosid, a dedicated and skilled freelancer with expertise
       in data entry, web research, and related fields. I have successfully
       completed a professional data entry course and have practical experience
       working on Fiverr and other platforms. My aim is to provide accurate and
       timely services to clients worldwide.
     </p>
 
-    <h3>My Certificate</h3>
+   <h3>My Certificate</h3>
     <img
       src="file-Y6wKbf9DgL1qnw3VQN2rwa"
       alt="Certificate"
       style="max-width: 100%; height: auto; border: 2px solid #ddd; padding: 5px; border-radius: 10px;"
     />
 
-    <h3>My Design Sample</h3>
+   <h3>My Design Sample</h3>
     <img
       src="file-FXHorjMhUvr7PhcKJmH4dU"
       alt="Poster Design"
       style="max-width: 100%; height: auto; border: 2px solid #ddd; padding: 5px; border-radius: 10px; margin-bottom: 10px;"
     />
 
-    <h3>Social Media Profiles</h3>
+   <h3>Social Media Profiles</h3>
     <div class="buttons">
       <a
         class="button fiverr"
@@ -201,7 +199,7 @@
       >
     </div>
 
-    <h3>Order Now</h3>
+   <h3>Order Now</h3>
     <div class="buttons">
       <a
         class="button"
@@ -239,8 +237,8 @@
       <img src="gallery/image6.jpg" alt="Gallery Image 6" loading="lazy" />
     </div>
 
-    <!-- Fullscreen Image Overlay -->
-    <div id="overlay">
+<!-- Fullscreen Image Overlay -->
+   <div id="overlay">
       <span id="closeBtn" onclick="closeOverlay()">×</span>
       <img id="fullImage" src="" alt="Full Size Image" />
     </div>
@@ -287,31 +285,4 @@
     }
 
     // Gallery overlay functionality
-    const overlay = document.getElementById('overlay');
-    const fullImage = document.getElementById('fullImage');
 
-    document.querySelectorAll('.gallery-grid img').forEach((img) => {
-      img.addEventListener('click', () => {
-        fullImage.src = img.src;
-        overlay.style.display = 'flex';
-      });
-    });
-
-    function closeOverlay() {
-      overlay.style.display = 'none';
-      fullImage.src = '';
-    }
-
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) {
-        closeOverlay();
-      }
-    });
-
-    // Dummy toggleMenu function (you can customize)
-    function toggleMenu() {
-      alert('Menu toggled!');
-    }
-  </script>
-</body>
-</html>
