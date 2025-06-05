@@ -512,7 +512,7 @@ body {
     <a href="#" onclick="showSection('settings')">Settings</a>
     <a href="#" onclick="showSection('certificate')">Certificates</a>
     <a href="#" onclick="showSection('media')">Tutorial</a>
-    <a href="assets/Harun_CV.pdf" download>Download CV</a>
+    <a href="assets/Md_Harun_Or_Rashid_CV_Image.pdf " download>Download CV</a>
     <a href="mailto:hmharun796@gmail.com?subject=Hello&body=I want to connect with you.">Send Email</a>
   </div>
 
