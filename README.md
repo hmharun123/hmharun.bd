@@ -579,11 +579,8 @@ body {
       document.getElementById(id).style.display = "block";
     }
   </script>
-
-</body>
-</html>
-
-    <div>
+  
+   <div>
       <p><strong>Name:</strong> Md. Harun Or Rashid</p>
       <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
       <p><strong>Email:</strong> <a href="mailto:hmharun796@gmail.com">hmharun796@gmail.com</a></p>
