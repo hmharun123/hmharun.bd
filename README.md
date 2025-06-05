@@ -715,4 +715,4 @@ function scrollToTop() {
 </body>
 </html>
 
-<a href="assets/Md_Harun_CV_New.pdf" download>Download CV</a>
+<a href="assets/Md_Harun_Or_Rashid_CV_Image.pdf" download>Download CV</a>
