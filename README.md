@@ -942,8 +942,6 @@ function scrollToTop() {
       <a href="#">LinkedIn</a>
       <a href="#">GitHub</a>
     </div>
-  </footer><button id="backToTop" title="Back to Top">↑</button>
-
   <script>
     window.addEventListener("load", function () {
       document.getElementById("preloader").style.display = "none";
@@ -985,12 +983,6 @@ function scrollToTop() {
     faders.forEach(fader => {
       appearOnScroll.observe(fader);
     });
-
-    const topButton = document.getElementById("backToTop");
-    window.onscroll = function () {
-      topButton.style.display = window.scrollY > 200 ? "block" : "none";
-    };
-    topButton.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   </script>
   </body>
 </html>
