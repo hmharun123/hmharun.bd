@@ -125,49 +125,6 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-    /* Three dot menu */
-    .menu-toggle {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      cursor: pointer;
-      font-size: 24px;
-      padding: 10px;
-    }
-
-    .menu-content {
-      display: none;
-      position: absolute;
-      top: 60px;
-      right: 20px;
-      background-color: #f9f9f9;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      z-index: 1000;
-      min-width: 180px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    .menu-content a {
-      display: block;
-      padding: 10px;
-      color: #333;
-      text-decoration: none;
-    }
-
-    .menu-content a:hover {
-      background-color: #eee;
-    }
-
-    .section {
-      padding: 20px;
-    }
-
-    /* Google search bar style */
-    .gcse-search {
-      margin: 20px auto;
-      max-width: 600px;
-    }
     .section {
   padding: 20px;
   background-color: #f4f8fb;
@@ -481,6 +438,7 @@ body {
   background-color: #218838; 
   transform: scale(1.05);
 }
+
 
     <div>
       <p><strong>Name:</strong> Md. Harun Or Rashid</p>
