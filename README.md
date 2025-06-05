@@ -579,7 +579,15 @@ body {
       document.getElementById(id).style.display = "block";
     }
   </script>
-  
+
+  <header>
+    <h1>Md. Harun Or Rashid</h1>
+    <p>Freelancer | Data Entry Specialist</p>
+  </header>
+
+  <div class="container">
+    <img src="harun.jpg" alt="Harun's Photo" class="profile">
+    
    <div>
       <p><strong>Name:</strong> Md. Harun Or Rashid</p>
       <p><strong>Address:</strong> Manikganj, Dhaka, Bangladesh</p>
